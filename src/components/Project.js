@@ -19,7 +19,7 @@ const Project = () => {
   return (
     <section className="projectContent py-[80px] bg-white">
       <div className="container mx-auto">
-        <div class="grid gap-20 grid-cols-2 justify-center items-center">
+        <div className="grid gap-20 grid-cols-2 justify-center items-center">
           <div className="thumbnail flex justify-center items-center">
             <Image src={ProjectThumb} className="aspect-w-16 aspect-h-9" />
           </div>

@@ -34,10 +34,10 @@ const Header = () => {
         <div className="flex w-full items-center justify-center">
         <ul className="flex items-center justify-evenly w-full">
           <li>
-            <Link href="/" className={`text-white font-monsterratB text-fs18 ${pathname === "" ? 'border-b-2 border-white-500' : ''}`}>Home</Link>
+            <Link href="/" className={`text-white font-monsterratB text-fs18 ${pathname === "/" ? 'border-b-2 border-white-500' : ''}`}>Home</Link>
           </li>
           <li>
-            <Link href="/about" className={`text-white font-monsterratB text-fs18 ${pathname === "" ? 'border-b-2 border-white-500' : ''}`}>About</Link>
+            <Link href="/about" className={`text-white font-monsterratB text-fs18 ${pathname === "/about" ? 'border-b-2 border-white-500' : ''}`}>About</Link>
           </li>
         </ul>
         <Link href="/">
@@ -45,10 +45,10 @@ const Header = () => {
         </Link>
         <ul className="flex items-center justify-evenly w-full">
           <li>
-            <Link href="/services" className={`text-white font-monsterratB text-fs18 ${pathname === "" ? 'border-b-2 border-white-500' : ''}`}>Services</Link>
+            <Link href="/services" className={`text-white font-monsterratB text-fs18 ${pathname === "/services" ? 'border-b-2 border-white-500' : ''}`}>Services</Link>
           </li>
           <li>
-            <Link href="/contact" className={`text-white font-monsterratB text-fs18 ${pathname === "" ? 'border-b-2 border-white-500' : ''}`}>Contact</Link>
+            <Link href="/contact" className={`text-white font-monsterratB text-fs18 ${pathname === "/contact" ? 'border-b-2 border-white-500' : ''}`}>Contact</Link>
           </li>
         </ul>
         </div>

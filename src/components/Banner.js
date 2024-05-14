@@ -5,7 +5,7 @@ import ScrollArrowDown from './ScrollArrowDown';
 const Banner = () => {
   return (
     <div className="bannerContent h-auto relative">
-        <Image src={BannerImg}/>
+        <Image src={BannerImg} alt=""/>
         <ScrollArrowDown/>
     </div>
   )

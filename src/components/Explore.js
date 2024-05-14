@@ -21,8 +21,8 @@ const Explore = () => {
   return (
     <section className="bg-white py-[80px]">
         <div className="container mx-auto">
-            <div class="grid gap-20 grid-cols-2">
-                <div class="tabContentLeft">
+            <div className="grid gap-20 grid-cols-2">
+                <div className="tabContentLeft">
                     <div className={`content ${getActiveClass(1, "active-content" )}`}>
                         <Image src={ExploreThumb} className="aspect-w-16 aspect-h-9" />
                     </div>
@@ -34,7 +34,7 @@ const Explore = () => {
                     </div>
                     
                 </div>
-                <div class="tabContentRight">
+                <div className="tabContentRight">
                     <div className="sliderTabs relative">
                         <ul className="tab-list mb-[50px]  rounded-[50px] bg-primaryDark overflow-hidden ">
                             <li className={`tabs px-[30px] py-[20px] grow font-monsterratB  text-fs16 text-white overflow-hidden ${getActiveClass( 1, "active-tabs !bg-lightgray !text-primaryDark border border-lightgray " )}`} onClick={()=> toggleTab(1)}

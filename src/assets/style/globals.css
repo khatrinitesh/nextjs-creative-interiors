@@ -1,0 +1,188 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: 'MontserratR';
+  src: url('../fonts/montserrat-regular.eot');
+  src: url('../fonts/montserrat-regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/montserrat-regular.woff2') format('woff2'),
+      url('../fonts/montserrat-regular.woff') format('woff'),
+      url('../fonts/montserrat-regular.ttf') format('truetype'),
+      url('../fonts/montserrat-regular.svg#montserrat-regular') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MontserratM';
+  src: url('../fonts/montserrat-medium.eot');
+  src: url('../fonts/montserrat-medium.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/montserrat-medium.woff2') format('woff2'),
+      url('../fonts/montserrat-medium.woff') format('woff'),
+      url('../fonts/montserrat-medium.ttf') format('truetype'),
+      url('../fonts/montserrat-medium.svg#montserrat-medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MontserratSB';
+  src: url('../fonts/montserrat-semibold.eot');
+  src: url('../fonts/montserrat-semibold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/montserrat-semibold.woff2') format('woff2'),
+      url('../fonts/montserrat-semibold.woff') format('woff'),
+      url('../fonts/montserrat-semibold.ttf') format('truetype'),
+      url('../fonts/montserrat-semibold.svg#montserrat-semibold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MontserratB';
+  src: url('../fonts/montserrat-bold.eot');
+  src: url('../fonts/montserrat-bold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/montserrat-bold.woff2') format('woff2'),
+      url('../fonts/montserrat-bold.woff') format('woff'),
+      url('../fonts/montserrat-bold.ttf') format('truetype'),
+      url('../fonts/montserrat-bold.svg#montserrat-bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root{
+  /* color theme */
+  --whitecolor:#ffffff;
+  --blackcolor:#000000;
+  --primarycolor:#2c2c2c;
+  /* font size */
+  --fontBase:2vh;
+  --font8: 0.85vh;
+  --font10: 1.06vh;
+  --font12: 1.27vh;
+  --font14: 1.48vh;
+  --font16: 1.69vh;
+  --font18: 1.90vh;
+  --font20: 2.11vh;
+  --font22: 2.32vh;
+  --font24: 2.54vh;
+  --font26: 2.75vh;
+  --font28: 2.97vh;
+  --font30: 3.17vh;
+  --font32: 3.39vh;
+  --font34: 3.60vh;
+  --font36: 3.81vh;
+  --font38: 4.02vh;
+  --font40: 4.23vh;
+  --font42: 4.44vh;
+  --font44: 4.66vh;
+  --font46: 4.87vh;
+  --font48: 5.08vh;
+  --font50: 5.29vh;
+
+  /* font family */
+  --monsterratR:'MontserratR';
+  --monsterratM:'MontserratM';
+  --monsterratSB:'MontserratSB';
+  --monsterratB:'MontserratB';
+}
+
+body{
+  font-family: var(--monsterratR);
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 100%;
+}
+
+.dark .logoBlack{
+  filter:initial;
+  -webkit-filter:initial;
+  -moz-filter:initial;
+}
+
+.logoBlack{
+  filter: invert(100%) sepia(6%) saturate(26%) hue-rotate(224deg) brightness(97%) contrast(107%);
+  -webkit-filter: invert(100%) sepia(6%) saturate(26%) hue-rotate(224deg) brightness(97%) contrast(107%);
+  -moz-filter: invert(100%) sepia(6%) saturate(26%) hue-rotate(224deg) brightness(97%) contrast(107%);
+}
+
+.footer .boxFoot:not(:last-child):after{
+  background-color:var(--primarycolor);
+  content:"";
+  position: absolute;
+  top:50%;
+  transform: translateY(-50%);
+  right:-30px;
+  height: 80%;
+  width: 1px;
+}
+
+.dark .footer .boxFoot:not(:last-child):after{
+  background-color:var(--whitecolor);
+}
+
+.tab-list {
+  height: 50px;
+  display: flex;
+  list-style: none;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.content {
+    display: none;
+}
+
+.active-content {
+    display: flex;
+}
+
+.tab-pane.active {
+  display: block;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-10px);
+  }
+
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+.arrow-icon {
+  animation: bounce 1.5s infinite;
+  
+}
+
+.bannerContent:after{
+  content:"";
+  position: absolute;
+  inset:0;
+  background: url('../img/bggradient.png') no-repeat center/cover;
+}

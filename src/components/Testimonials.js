@@ -1,8 +1,11 @@
-import React from 'react'
+
+import TestimonialsData from './TestimonialsData'
 
 const Testimonials = () => {
   return (
-    <div>Testimonials</div>
+    <section className="py-[30px] lg:py-[80px] dark:bg-primaryDarkGradient bg-secondaryDarkGradient overflow-hidden">
+      <TestimonialsData/>
+    </section>
   )
 }
 

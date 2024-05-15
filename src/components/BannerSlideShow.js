@@ -21,28 +21,28 @@ const BannerSlideShow = () => {
       onSwiper={(swiper) => console.log(swiper)}
     >
       <SwiperSlide>
-        <Image src={BannerImg}/>
+        <Image src={BannerImg} className="aspect-w-16 aspect-h-9 w-full"/>
       </SwiperSlide>
       <SwiperSlide>
-        <Image src={BannerImg}/>
+        <Image src={BannerImg} className="aspect-w-16 aspect-h-9 w-full"/>
       </SwiperSlide>
       <SwiperSlide>
-        <Image src={BannerImg}/>
+        <Image src={BannerImg} className="aspect-w-16 aspect-h-9 w-full"/>
       </SwiperSlide>
       <SwiperSlide>
-        <Image src={BannerImg}/>
+        <Image src={BannerImg} className="aspect-w-16 aspect-h-9 w-full"/>
       </SwiperSlide>
       <SwiperSlide>
-        <Image src={BannerImg}/>
+        <Image src={BannerImg} className="aspect-w-16 aspect-h-9 w-full"/>
       </SwiperSlide>
       <SwiperSlide>
-        <Image src={BannerImg}/>
+        <Image src={BannerImg} className="aspect-w-16 aspect-h-9 w-full"/>
       </SwiperSlide>
       <SwiperSlide>
-        <Image src={BannerImg}/>
+        <Image src={BannerImg} className="aspect-w-16 aspect-h-9 w-full"/>
       </SwiperSlide>
       <SwiperSlide>
-        <Image src={BannerImg}/>
+        <Image src={BannerImg} className="aspect-w-16 aspect-h-9 w-full"/>
       </SwiperSlide>
     </Swiper>
     </div>

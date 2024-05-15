@@ -15,9 +15,9 @@ const Subscribe = () => {
   }
   return (
     <>
-    <div className="subscribeBlock dark:bg-white bg-lightgray h-[60px] max-w-full w-full rounded-[8px] mb-[60px] relative">
+    <div className="subscribeBlock dark:bg-white bg-lightgray h-[50px] md:h-[60px] max-w-full w-full rounded-[8px] mb-[40px] md:mb-[60px] relative">
         <InputField onChange={handleChange} inputValue={inputValue} inputStyle="!bg-white"/>
-        <Cta text="get started" onClick={handleClick} btnStyle="absolute top-[10px] right-[10px]"/>
+        <Cta text="get started" onClick={handleClick} btnStyle="absolute top-[5px] md:top-[10px] right-[10px]"/>
     </div>
     </>
   )

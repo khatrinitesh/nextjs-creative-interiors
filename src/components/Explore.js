@@ -1,6 +1,8 @@
 "use client";
 import { useState } from "react";
 import ExploreThumb from "../assets/img/explore.png"
+import ExploreThumb2 from "../assets/img/explore2.jpg"
+import ExploreThumb3 from "../assets/img/explore3.jpg"
 import Image from "next/image";
 import Cta from "./Cta";
 
@@ -14,20 +16,19 @@ const Explore = () => {
   const getActiveClass = (tabIndex, defaultClass) => {
     return activeTab === tabIndex ? defaultClass : '';
   };
-
   return (
-    <section className="bg-white py-[80px]">
+    <section className="tabbedContent bg-white py-[30px] lg:py-[80px]">
         <div className="container mx-auto">
-            <div className="grid gap-20 lg:grid-cols-2">
+            <div className="grid gap-20 xl:grid-cols-2">
                 <div className="tabContentLeft">
                     <div className={`content ${getActiveClass(1, "active-content" )}`}>
-                        <Image src={ExploreThumb} className="aspect-w-16 aspect-h-9" />
+                        <Image src={ExploreThumb} className="aspect-w-16 aspect-h-9 mx-auto block" />
                     </div>
                     <div className={`content ${getActiveClass(2, "active-content" )}`}>
-                        <Image src={ExploreThumb} className="aspect-w-16 aspect-h-9" />
+                        <Image src={ExploreThumb2} className="aspect-w-16 aspect-h-9 mx-auto block" />
                     </div>
                     <div className={`content ${getActiveClass(3, "active-content" )}`}>
-                        <Image src={ExploreThumb} className="aspect-w-16 aspect-h-9" />
+                        <Image src={ExploreThumb3} className="aspect-w-16 aspect-h-9 mx-auto block" />
                     </div>
                     
                 </div>

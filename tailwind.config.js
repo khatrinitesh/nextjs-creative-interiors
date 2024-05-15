@@ -16,6 +16,7 @@ module.exports = {
         'lightgray':'#F8F8F8',
         'txtPlaceholder':'rgba(27, 27, 27, .4)',
         "txtgray":'#8A8A8A',
+        'rating':'#fca600'
      },
      // Define custom gradients in the 'gradientColorStops' theme key
      backgroundImage: theme => ({

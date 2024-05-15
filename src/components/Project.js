@@ -19,7 +19,7 @@ const Project = () => {
   return (
     <section className="projectContent py-[30px] lg:py-[80px] bg-white">
       <div className="container mx-auto">
-        <div className="grid gap-20 lg:grid-cols-2 justify-center items-center">
+        <div className="grid gap-10 md:gap-20 lg:grid-cols-2 justify-center items-center">
           <div className="thumbnail flex justify-center items-center">
             <Image src={ProjectThumb} className="aspect-w-16 aspect-h-9" />
           </div>
@@ -32,7 +32,7 @@ const Project = () => {
                 {projectData.description}
               </p>
             </div>
-            <div className="subscribeBlock bg-lightgray h-[60px] max-w-full w-full rounded-[8px] mb-[60px] relative">
+            <div className="subscribeBlock bg-lightgray h-[50px] md:h-[60px] max-w-full w-full rounded-[8px] mb-[60px] relative">
               <InputField
                 onChange={handleChange}
                 inputValue={inputValue}
@@ -41,7 +41,7 @@ const Project = () => {
               <Cta
                 text="get started"
                 onClick={handleClick}
-                btnStyle="absolute top-[8px] right-[10px]"
+                btnStyle="absolute top-[5px] md:top-[8px] right-[10px]"
               />
             </div>
           </div>

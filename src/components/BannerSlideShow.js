@@ -1,0 +1,53 @@
+"use client"
+// Import Swiper React components
+import Image from 'next/image';
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';// import required modules
+import { Navigation } from 'swiper/modules';
+import BannerImg from "../assets/img/banner.jpg"
+
+const BannerSlideShow = () => {
+    
+  return (
+    <>
+    <div className="slideShowBlock overflow-hidden">
+    <Swiper navigation={true} modules={[Navigation]} className="mySwiper"
+      spaceBetween={50}
+      slidesPerView={1}
+      onSlideChange={() => console.log('slide change')}
+      onSwiper={(swiper) => console.log(swiper)}
+    >
+      <SwiperSlide>
+        <Image src={BannerImg}/>
+      </SwiperSlide>
+      <SwiperSlide>
+        <Image src={BannerImg}/>
+      </SwiperSlide>
+      <SwiperSlide>
+        <Image src={BannerImg}/>
+      </SwiperSlide>
+      <SwiperSlide>
+        <Image src={BannerImg}/>
+      </SwiperSlide>
+      <SwiperSlide>
+        <Image src={BannerImg}/>
+      </SwiperSlide>
+      <SwiperSlide>
+        <Image src={BannerImg}/>
+      </SwiperSlide>
+      <SwiperSlide>
+        <Image src={BannerImg}/>
+      </SwiperSlide>
+      <SwiperSlide>
+        <Image src={BannerImg}/>
+      </SwiperSlide>
+    </Swiper>
+    </div>
+    </>
+  )
+}
+
+export default BannerSlideShow

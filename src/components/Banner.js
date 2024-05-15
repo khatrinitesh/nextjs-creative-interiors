@@ -1,11 +1,11 @@
-import Image from 'next/image'
-import BannerImg from "../assets/img/banner.jpg";
+
 import ScrollArrowDown from './ScrollArrowDown';
+import BannerSlideShow from './BannerSlideShow';
 
 const Banner = () => {
   return (
     <div className="bannerContent h-auto relative">
-        <Image src={BannerImg} alt=""/>
+        <BannerSlideShow/>
         <ScrollArrowDown/>
     </div>
   )

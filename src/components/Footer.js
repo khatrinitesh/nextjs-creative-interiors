@@ -16,15 +16,15 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="footer dark:bg-primaryDark bg-lightgray py-[50px]">
+    <footer className="footer dark:bg-primaryDark bg-lightgray py-[30px] lg:py-[50px]">
       <div className="container mx-auto">
         <div className="footerRowOne mb-[30px]">
-          <div className="grid md:grid-cols-3 gap-10">
+          <div className="grid lg:grid-cols-3 gap-10">
             <div className="boxFoot text-center px-[30px] relative dark:text-white text-black">
               <div className="logoBlock flex justify-center items-center mb-[15px]">
                 <Image className="filter logoBlack" src={Logo} />
               </div>
-              <p className="desc text-fs16 dark:text-secondaryDark font-monsterratM text-secondaryLight">We believe in transforming spaces into captivating environments that reflect your unique lifestyle and personality. With our passion for design and dedication to quality, we strive to exceed expectations and create lasting impressions. Let's collaborate to turn your vision into reality.</p>
+              <p className="desc text-fs14 lg:text-fs16 dark:text-secondaryDark font-monsterratM text-secondaryLight">We believe in transforming spaces into captivating environments that reflect your unique lifestyle and personality. With our passion for design and dedication to quality, we strive to exceed expectations and create lasting impressions. Let's collaborate to turn your vision into reality.</p>
               <SocialMedia/>
             </div>
             <div className="boxFoot justify-center items-center flex  text-center relative px-[30px]">
@@ -32,7 +32,7 @@ const Footer = () => {
                 {footerNavLinks.map((nav,index) => {
                   return(
                     <li key={index} className={`${index !== footerNavLinks.length - 1 ? 'mb-2' : ''}`}>
-                      <Link href={nav.url} className={`dark:text-secondaryDark text-secondaryLight font-monsterratB text-fs16`}>{nav.text}</Link>
+                      <Link href={nav.url} className={`dark:text-secondaryDark text-secondaryLight font-monsterratB text-fs14 lg:text-fs16`}>{nav.text}</Link>
                     </li>
                   )
                 })}
@@ -44,7 +44,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="copyRight flex items-center justify-center py-[30px]">
+        <div className="copyRight flex items-center justify-center py-[10px] lg:py-[30px]">
           <span className="font-monsterratR text-fs12 dark:text-white text-black">All Rights Reserved <Link className="font-bold" href="https://creativeinteriors.in/" target="_blank">CREATIVE INTERIORS</Link></span>
         </div>
       </div>

@@ -1,8 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-
 @font-face {
   font-family: 'MontserratR';
   src: url('../fonts/montserrat-regular.eot');
@@ -15,7 +13,6 @@
   font-style: normal;
   font-display: swap;
 }
-
 @font-face {
   font-family: 'MontserratM';
   src: url('../fonts/montserrat-medium.eot');
@@ -28,7 +25,6 @@
   font-style: normal;
   font-display: swap;
 }
-
 @font-face {
   font-family: 'MontserratSB';
   src: url('../fonts/montserrat-semibold.eot');
@@ -41,7 +37,6 @@
   font-style: normal;
   font-display: swap;
 }
-
 @font-face {
   font-family: 'MontserratB';
   src: url('../fonts/montserrat-bold.eot');
@@ -54,7 +49,6 @@
   font-style: normal;
   font-display: swap;
 }
-
 :root{
   /* color theme */
   --whitecolor:#ffffff;
@@ -84,18 +78,15 @@
   --font46: 4.87vh;
   --font48: 5.08vh;
   --font50: 5.29vh;
-
   /* font family */
   --monsterratR:'MontserratR';
   --monsterratM:'MontserratM';
   --monsterratSB:'MontserratSB';
   --monsterratB:'MontserratB';
 }
-
 body{
   font-family: var(--monsterratR);
 }
-
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -103,40 +94,41 @@ body{
   padding-right: 1rem;
   width: 100%;
 }
-
 .dark .logoBlack{
   filter:initial;
   -webkit-filter:initial;
   -moz-filter:initial;
 }
-
+.logoDefaultBlack{
+  filter: invert(100%) sepia(6%) saturate(26%) hue-rotate(224deg) brightness(97%) contrast(107%);
+  -webkit-filter: invert(100%) sepia(6%) saturate(26%) hue-rotate(224deg) brightness(97%) contrast(107%);
+  -moz-filter: invert(100%) sepia(6%) saturate(26%) hue-rotate(224deg) brightness(97%) contrast(107%);
+}
 .logoBlack{
   filter: invert(100%) sepia(6%) saturate(26%) hue-rotate(224deg) brightness(97%) contrast(107%);
   -webkit-filter: invert(100%) sepia(6%) saturate(26%) hue-rotate(224deg) brightness(97%) contrast(107%);
   -moz-filter: invert(100%) sepia(6%) saturate(26%) hue-rotate(224deg) brightness(97%) contrast(107%);
 }
-
-.footer .boxFoot:not(:last-child):after{
-  background-color:var(--primarycolor);
-  content:"";
-  position: absolute;
-  top:50%;
-  transform: translateY(-50%);
-  right:-30px;
-  height: 80%;
-  width: 1px;
+@media (min-width:992px){
+  .footer .boxFoot:not(:last-child):after{
+    background-color:var(--primarycolor);
+    content:"";
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    right:-30px;
+    height: 80%;
+    width: 1px;
+  }
+  .dark .footer .boxFoot:not(:last-child):after{
+    background-color:var(--whitecolor);
+  }
 }
-
-.dark .footer .boxFoot:not(:last-child):after{
-  background-color:var(--whitecolor);
-}
-
 .tab-list {
   height: 50px;
   display: flex;
   list-style: none;
 }
-
 .tabs {
   display: flex;
   justify-content: center;
@@ -144,19 +136,15 @@ body{
   position: relative;
   cursor: pointer;
 }
-
 .content {
     display: none;
 }
-
 .active-content {
     display: flex;
 }
-
 .tab-pane.active {
   display: block;
 }
-
 @keyframes bounce {
   0%,
   20%,
@@ -165,24 +153,44 @@ body{
   100% {
     transform: translateY(0);
   }
-
   40% {
     transform: translateY(-10px);
   }
-
   60% {
     transform: translateY(-5px);
   }
 }
-
 .arrow-icon {
   animation: bounce 1.5s infinite;
-  
 }
-
 .bannerContent:after{
   content:"";
   position: absolute;
   inset:0;
   background: url('../img/bggradient.png') no-repeat center/cover;
+}
+.slideShowBlock .swiper-button-prev,
+.slideShowBlock .swiper-button-next{
+  width: 50px;
+  height: 50px;
+}
+.slideShowBlock .swiper-button-prev{
+  left: 3%;
+}
+.slideShowBlock .swiper-button-next{
+  right: 3%;
+}
+.slideShowBlock .swiper-button-prev:after, 
+.slideShowBlock .swiper-button-next:after{
+  width:100%;
+  height: 100%;
+  content:"";
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.slideShowBlock  .swiper-button-prev:after{
+  background-image:url("../img/iconslideleft.svg")
+}
+.slideShowBlock  .swiper-button-next:after{
+  background-image:url("../img/iconslideright.svg")
 }

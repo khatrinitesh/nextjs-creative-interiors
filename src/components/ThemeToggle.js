@@ -28,7 +28,7 @@ const ThemeToggle = () => {
 
   return (
     <button
-      className={`bg-[#e11d48] border-black ${darkMode ? '' : ''} p-0 flex items-center justify-center w-[40px] h-[40px] border-4  rounded cursor-pointer focus:outline-none fixed top-[50%] md:top-[100px] right-[10px] z-[9999] translate-y-[-50%]`}
+      className={`bg-[#e11d48] border-black ${darkMode ? '' : ''} p-0 flex items-center justify-center w-[40px] h-[40px] border-4  rounded cursor-pointer focus:outline-none fixed top-[50%] md:top-[20%] right-[10px] z-[9999] translate-y-[-50%]`}
       type="button"
       onClick={toggleTheme}
     >

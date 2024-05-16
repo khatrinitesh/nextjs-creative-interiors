@@ -54,7 +54,7 @@ const TestimonialsData = () => {
     <div className="testimonialsSlider slider-container">
       <Slider {...settings}>
       {testimonials.map((val,index) => (
-        <div key={index} className="flex items-center justify-start bg-white p-[10px] xl:p-[30px]">
+        <div key={index} className="flex items-center justify-start bg-white p-[10px] xl:p-[30px] rounded-[10px]">
           <div className="sectionTitle mb-[15px]">
             <h3 className="headTitle text-fs28 font-monsterratB text-primaryDark mb-[15px]">{val.title}</h3>
             <p className="desc text-primaryDark font-monsterratR text-fs18">{val.desc}</p>

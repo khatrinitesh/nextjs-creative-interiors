@@ -41,15 +41,17 @@ const Header = () => {
   return (
     <>
     {/* MOBILE + TABLET */}
-      <header className={`relative block lg:hidden top-0 left-0 w-full z-[999] p-2 transition-all duration-500 ${
-            !isHomePage ? "bg-white" : "bg-transparent fixed"} ${isHomePage || isSticky
-            ? "!bg-[rgba(0,0,0,0.5)] fixed !py-[5px] shadow backdrop-blur top-0 w-full left-0"
+      <header className={`fixed block shadow lg:hidden top-0 left-0 w-full z-[999] py-[15px] transition-all duration-500 ${
+            !isHomePage ? "bg-white" : "!bg-priamryDark fixed"} ${isHomePage || isSticky
+            ? "bg-[rgba(0,0,0,0.5)] !py-[5px] shadow backdrop-blur top-0 w-full left-0"
             : ""
         }`}>
         <div className="container mx-auto">
-          <Image src={Logo} className={` w-[50px] md:w-[80px]  mx-auto   ${
-                    isHomePage ? "logoDefaultWhite" : "logoDefaultBlack"
-                  }`}/>
+          <Link href="/">
+          <Image src={Logo} className={` w-[40px] md:w-[80px]  mx-auto   ${
+                    isHomePage ? "logoDefaultWhite" : ""
+                  } ${isHomePage || isSticky ? 'logoDefaultWhite' : 'logoDefaultBlack'}`}/>
+                  </Link>
           <Sidebar/>
         </div>
       </header>

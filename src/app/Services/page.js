@@ -2,8 +2,9 @@ import React from "react";
 
 const Services = () => {
   return (
-    <div>
-      <h2 className="text-fs32">Services</h2>
+<div className="customContent">
+      <div className="container mx-auto">
+      <h2 className="text-fs32 font-monsterratB text-primaryDark">Services</h2>
       <p>
         Aliqua consequat culpa cupidatat veniam veniam excepteur do ullamco
         aliqua culpa do sit. Nulla magna quis culpa aliqua culpa consequat
@@ -50,6 +51,7 @@ const Services = () => {
         proident excepteur commodo amet culpa incididunt ad cupidatat in. Esse
         occaecat proident ex consequat consequat duis laborum excepteur dolor.
       </p>
+      </div>
     </div>
   );
 };

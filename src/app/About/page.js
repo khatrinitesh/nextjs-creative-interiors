@@ -2,8 +2,9 @@ import React from "react";
 
 const About = () => {
   return (
-    <div>
-      <h2 className="text-fs32">About</h2>
+    <div className="customContent">
+      <div className="container mx-auto">
+      <h2 className="text-fs32 font-monsterratB text-primaryDark">About</h2>
       <p>
         Cupidatat exercitation laborum sint enim commodo consequat fugiat
         excepteur velit eu adipisicing consectetur est reprehenderit. Dolor amet
@@ -61,6 +62,7 @@ const About = () => {
         eiusmod nisi ullamco in aliquip. Culpa pariatur culpa deserunt deserunt
         exercitation ipsum magna pariatur.
       </p>
+      </div>
     </div>
   );
 };

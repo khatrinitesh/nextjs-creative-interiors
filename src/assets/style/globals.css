@@ -110,7 +110,7 @@ body{
   -webkit-filter: invert(100%) sepia(6%) saturate(26%) hue-rotate(224deg) brightness(97%) contrast(107%);
   -moz-filter: invert(100%) sepia(6%) saturate(26%) hue-rotate(224deg) brightness(97%) contrast(107%);
 }
-@media (min-width:992px){
+@media (min-width:1023px){
   .footer .boxFoot:not(:last-child):after{
     background-color:var(--primarycolor);
     content:"";
@@ -220,12 +220,12 @@ body{
 }
 .btnHamburger.active .line:nth-child(1){
   transform: translateY(12px) rotate(-45deg);
-  transform-origin: 6px -1px;
+  transform-origin: 5px -1px;
 }
 .btnHamburger.active .line:nth-child(2){
   opacity: 0;
 }
 .btnHamburger.active .line:nth-child(3){
   transform: translateY(-12px) rotate(45deg);
-  transform-origin: 7px 2px;
+  transform-origin: 4px 3px;
 }

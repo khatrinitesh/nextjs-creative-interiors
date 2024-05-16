@@ -14,7 +14,11 @@ export default function RootLayout({ children }) {
   const pathname = usePathname();
   console.log(pathname);
 
+  // other pages 
   const validRoutes = ["/", "/about", "/services", "/contact"];
+
+  // only home page
+  const isHomePage = pathname === '/';
 
   return (
     <html lang="en">
@@ -26,7 +30,7 @@ export default function RootLayout({ children }) {
           {/* E > HEADER */}
 
             {/* S > MAIN CONTENT */}
-            <div className="mainContent grow">
+            <div className={`mainContent grow  ${isHomePage ? '' : 'py-[50px] mt-[75px] md:mt-[114px] lg:mt-0'}`}>
               {children}
             </div>
             {/* E > MAIN CONTENT */}

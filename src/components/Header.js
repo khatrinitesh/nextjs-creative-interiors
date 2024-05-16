@@ -11,7 +11,7 @@ import { usePathname } from "next/navigation";
 import Sidebar from "./Sidebar";
 
 const Header = () => {
-  // pathname
+  // pathname 
   const pathname = usePathname();
 
   const isHomePage = pathname === "/"; // home

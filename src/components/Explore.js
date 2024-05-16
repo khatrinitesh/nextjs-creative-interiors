@@ -35,15 +35,15 @@ const Explore = () => {
                 <div className="tabContentRight">
                     <div className="sliderTabs relative">
                         <ul className="tab-list mb-[50px]  rounded-[50px] bg-primaryDark overflow-hidden ">
-                            <li className={`tabs px-[10px] text-center m-[2px] lg:text-start lg:px-[30px] py-[20px] grow font-monsterratB text-fs14 lg:text-fs16 text-white overflow-hidden ${getActiveClass( 1, "active-tabs !bg-lightgray !text-primaryDark border border-lightgray rounded-[50px]" )}`} onClick={()=> toggleTab(1)}
+                            <li className={`tabs px-[10px] outline-none transition-all duration-500 text-center m-[2px] lg:text-start lg:px-[30px] py-[20px] grow font-monsterratB text-fs14 lg:text-fs16 text-white overflow-hidden ${getActiveClass( 1, "active-tabs !bg-lightgray !text-primaryDark border border-lightgray rounded-[50px]" )}`} onClick={()=> toggleTab(1)}
                                 >
                                 Residential design
                             </li>
-                            <li className={`tabs px-[10px] text-center m-[2px] lg:text-start lg:px-[30px] py-[20px] grow font-monsterratB text-fs14 lg:text-fs16 text-white overflow-hidden ${getActiveClass( 2, "active-tabs !bg-lightgray rounded-[50px] !text-primaryDark " )}`} onClick={()=> toggleTab(2)}
+                            <li className={`tabs px-[10px] outline-none transition-all duration-500  text-center m-[2px] lg:text-start lg:px-[30px] py-[20px] grow font-monsterratB text-fs14 lg:text-fs16 text-white overflow-hidden ${getActiveClass( 2, "active-tabs !bg-lightgray rounded-[50px] !text-primaryDark " )}`} onClick={()=> toggleTab(2)}
                                 >
                                 Office design
                             </li>
-                            <li className={`tabs px-[10px] text-center relative left-[1px] m-[2px] lg:text-start lg:px-[30px] py-[20px] grow font-monsterratB  text-fs14 lg:text-fs16 text-white overflow-hidden ${getActiveClass( 3, "active-tabs !bg-lightgray rounded-[50px] !text-primaryDark" )}`} onClick={()=> toggleTab(3)}
+                            <li className={`tabs px-[10px] outline-none transition-all duration-500  text-center relative left-[1px] m-[2px] lg:text-start lg:px-[30px] py-[20px] grow font-monsterratB  text-fs14 lg:text-fs16 text-white overflow-hidden ${getActiveClass( 3, "active-tabs !bg-lightgray rounded-[50px] !text-primaryDark" )}`} onClick={()=> toggleTab(3)}
                                 >
                                 2d & 3d Floor design
                             </li>

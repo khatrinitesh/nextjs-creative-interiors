@@ -54,18 +54,18 @@ const TestimonialsData = () => {
     <div className="testimonialsSlider slider-container">
       <Slider {...settings}>
       {testimonials.map((val,index) => (
-        <div key={index} className="flex items-center justify-start bg-white p-[10px] xl:p-[30px] rounded-[10px]">
-          <div className="sectionTitle mb-[15px]">
-            <h3 className="headTitle text-fs28 font-monsterratB text-primaryDark mb-[15px]">{val.title}</h3>
+        <div key={index} className="!flex flex-col  min-h-[280px] items-center justify-between bg-white p-[10px] xl:p-[30px] rounded-[10px]">
+          <div className="sectionTitle mb-[20px]">
+            <h3 className="headTitle text-fs22 md:text-fs28 font-monsterratB text-primaryDark mb-[10px]">{val.title}</h3>
             <p className="desc text-primaryDark font-monsterratR text-fs18">{val.desc}</p>
           </div>
-          <div className="detail flex-col md:flex-row flex  items-center">
+          <div className="detail flex-col md:flex-row flex  items-center w-full">
             <div className="leftDetail mb-[10px] sm:mb-[0] w-full sm:w-[60%] flex items-center">
               <div className="thumbnail w-[20%] me-2">
                 <Image src={val.avatar} className="aspect-w-16 aspect-h-9 block mx-auto rounded-[50%]"/>
               </div>
               <div className="caption w-[calc(100%-20%)]">
-                <h4 className="subtitle font-monsterratB text-primaryDark test-fs16">{val.subtitle}</h4>
+                <h4 className="subtitle font-monsterratB text-primaryDark  text-fs16">{val.subtitle}</h4>
                 <p className="flex items-center">
                   <span className="iconMap me-2">
                     <Image src={val.icon} className="aspect-w-16 aspect-h-9 block mx-auto"/>

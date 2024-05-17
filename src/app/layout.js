@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Meta/>
-      <body>
+      <body className="overflow-x-hidden">
         <div className="flex flex-col min-h-screen">
           {/* S > HEADER */}
           {validRoutes.includes(pathname) && <Header />}

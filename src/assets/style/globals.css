@@ -136,6 +136,8 @@ body{
   align-items: center;
   position: relative;
   cursor: pointer;
+  border-radius: 50px;
+
 }
 .content {
     display: none;
@@ -175,15 +177,21 @@ body{
   width: 50px;
   height: 50px;
   @media (max-width:767px){
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
   }
 }
 .slideShowBlock .swiper-button-prev{
   left: 3%;
+  @media (max-width:1023px){
+    left: 10%;
+  }
 }
 .slideShowBlock .swiper-button-next{
   right: 3%;
+  @media (max-width:1023px){
+    right: 10%;
+  }
 }
 .slideShowBlock .swiper-button-prev:after, 
 .slideShowBlock .swiper-button-next:after{
@@ -206,8 +214,8 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.testimonialsSlider .slick-slide:hover{
+} 
+.testimonialsSlider .slick-slide.slick-current.slick-active{
   transform:scale(1);
   -webkit-transform:scale(1);
   -moz-transform:scale(1);
@@ -227,5 +235,5 @@ body{
 }
 .btnHamburger.active .line:nth-child(3){
   transform: translateY(-12px) rotate(45deg);
-  transform-origin: 4px 3px;
+  transform-origin: 3px 4px;
 }

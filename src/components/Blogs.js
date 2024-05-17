@@ -3,22 +3,17 @@ import Image from "next/image";
 import BlogsThumb from "../assets/img/blogs.png";
 import { blogsData } from "@/constants/constants";
 import Cta from "./Cta";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import {useEffect} from 'react';
+
 
 const Blogs = () => {
-  useEffect(() => {
-    AOS.init();
-  }, [])
   return (
     <section className="blogsContent py-[30px] lg:py-[80px] bg-white">
       <div className="container mx-auto">
         <div className="grid gap-10 lg:grid-cols-2 justify-center items-center">
-          <div className="thumbnail flex justify-center items-center" data-aos="flip-up" data-aos-duration="1500">
+          <div className="thumbnail flex justify-center items-center" >
             <Image src={BlogsThumb} className="aspect-w-16 aspect-h-9"  />
           </div>
-          <div className="projectRightContent" data-aos="fade-up" data-aos-duration="1500">
+          <div className="projectRightContent">
             <div className="flex mb-[20px]">
                 <span className="txt me-[20px] font-monsterratB text-fs12 text-primaryDark">Getting Started</span>
                 <span className="txtRead font-monsterratB text-fs12 text-txtgray">. 6 Min Read</span>

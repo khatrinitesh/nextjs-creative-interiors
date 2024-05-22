@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';// import required modules
-import { Navigation } from 'swiper/modules';
+import { Navigation ,EffectFade} from 'swiper/modules';
 import BannerImg from "../assets/img/banner.jpg"
 
 const BannerSlideShow = () => {
@@ -14,11 +14,12 @@ const BannerSlideShow = () => {
   return (
     <>
     <div className="slideShowBlock overflow-hidden">
-    <Swiper navigation={true} modules={[Navigation]} className="mySwiper"
+    <Swiper navigation={true} modules={[Navigation,EffectFade]} className="mySwiper"
       spaceBetween={50}
       slidesPerView={1}
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
+
     >
       <SwiperSlide>
         <Image src={BannerImg} className="aspect-w-16 aspect-h-9 w-full"/>

@@ -42,7 +42,7 @@ const Header = () => {
     <>
     {/* MOBILE + TABLET */}
       <header className={`fixed block shadow lg:hidden top-0 left-0 w-full z-[999] py-[15px] transition-all duration-500 ${
-            !isHomePage ? "bg-white" : "!bg-priamryDark fixed"} ${isHomePage || isSticky
+            !isHomePage ? "" : "bg-priamryDark fixed"} ${isHomePage || isSticky
             ? "!bg-[rgba(0,0,0,0.5)] !py-[5px] shadow backdrop-blur top-0 w-full left-0"
             : ""
         }`}>

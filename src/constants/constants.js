@@ -12,6 +12,53 @@ import Experience1 from "../assets/img/experience1.png";
 import Experience2 from "../assets/img/experience2.png";
 import Experience3 from "../assets/img/experience3.png";
 import Avatar from "../assets/img/avatar.png";
+import Story from "../assets/img/about/ourstory.png";
+import Approach from "../assets/img/about/ourapproach.png";
+import Philosophy from "../assets/img/about/ourphiliosphy.png";
+import IconExpertise from "../assets/img/about/icon-expertise.svg";
+import IconAttention from "../assets/img/about/icon-attention.svg";
+import IconCustomer from "../assets/img/about/icon-customer.svg";
+
+export const dataChoose = [
+  {
+    icon:IconExpertise,
+    title:"EXPERTISE",
+    desc:"With years of experience in the industry, our team of skilled designers possesses the expertise and knowledge to bring your vision to life."
+  },
+  {
+    icon:IconAttention,
+    title:"ATTENTION TO DETAIL",
+    desc:"We believe that it's the little details that make a big difference. From handpicked fabrics to custom-made furniture, we pay meticulous attention to every aspect of the design process."
+  },
+  {
+    icon:IconCustomer,
+    title:"CUSTOMER SATISFACTION",
+    desc:"Our commitment to customer satisfaction is unwavering. We strive to exceed expectations with every project, ensuring a seamless and enjoyable experience for our clients."
+  },
+]
+
+// ABOUT FEATURE 
+export const aboutStoryApproach = [
+  {
+    title: "Our Story",
+    desc: "Founded with a vision to redefine interior design through the lens of Indian heritage. What began as a humble endeavor to celebrate the beauty of Indian craftsmanship has blossomed into a trusted name synonymous with creativity, quality, and unparalleled design expertise.",
+    thumbnail: Story
+  },
+  {
+    title: "Our Approach",
+    desc: "Every project we undertake at CREATIVE INTERIORS is a testament to our dedication to excellence. Our collaborative approach ensures that each design is tailor-made to reflect the unique personality and lifestyle of our clients.",
+    thumbnail: Approach
+  },
+];
+
+export const aboutPilosophy = [
+  {
+  title: "Our Philosophy",
+  desc: "At the heart of our philosophy lies a deep reverence for tradition, coupled with an unwavering commitment to innovation. We believe in honoring the heritage of Indian design while embracing the possibilities of modernity, resulting in spaces that are both timeless and contemporary.",
+  thumbnail: Philosophy
+}
+]
+
 
 // MENU Sidebar
 export const menuSidebar = [
@@ -125,10 +172,16 @@ export const blogsData = {
   description: "Welcome to the world of interior design, where creativity meets functionality to transform ordinary spaces into extraordinary ones. In this blog, we'll delve into the essential aspects of interior design and explore how it can elevate your living environment.",
 }
 
+// GET IN TOUCH DATA 
+export const getTouchData = {
+  title: "GET IN TOUCH",
+  description: "Whether you're looking to revitalize your home, office, or commercial space, we're here to help.",
+}
+
 // PROJECT DATA 
 export const projectData = {
   title: "LET'S TALK ABOUT YOUR PROJECT? ",
-  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore ",
+  description: "Whether you're looking to revitalize your home, office, or commercial space, we're here to help.",
 }
 
 // FOOTER CONTACT INFORMATION DATA

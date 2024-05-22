@@ -237,3 +237,6 @@ body{
   transform: translateY(-12px) rotate(45deg);
   transform-origin: 3px 4px;
 }
+.mb-marginB{
+  margin-bottom: 24px;
+}

@@ -12,7 +12,7 @@ const AboutFeature = () => {
       animate={{ opacity: 1 }}
       transition={{ duration: 1,delay: 1  }}
 >
-      <div className="grid xl:grid-cols-2 gap-[20px] h-full flex ">
+      <div className="grid xl:grid-cols-2 gap-[20px] h-full">
         <div className="leftContent flex flex-col h-full flex-grow justify-between">
           {aboutStoryApproach.map((val,index) => (
             <div key={index} className={`overflow-hidden mb-${index !== aboutStoryApproach.length - 1 ? 'marginB' : '0'}`}>

@@ -5,7 +5,6 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ThemeToggle from '@/components/ThemeToggle';
 import { usePathname } from "next/navigation";
-import Meta from '@/components/Meta';
 
 // STYLE
 import '../assets/style/globals.css';
@@ -22,7 +21,9 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
-      <Meta/>
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+      </head>
       <body className="overflow-x-hidden">
         <div className="flex flex-col min-h-screen">
           {/* S > HEADER */}

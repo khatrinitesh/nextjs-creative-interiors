@@ -17,7 +17,7 @@ const AboutBanner = () => {
         <div className="container mx-auto">
             <div className="sectionTitle mb-[30px] lg:mb-[40px] text-center">
                 <h2 className="font-monsterratB text-fs24 lg:text-fs36 text-primaryDark uppercase mb-[20px] lg:mb-[30px]">WE WORK FOR YOUR BEST, FULL HOME INTERIOR </h2>
-                <p className="font-monsterratM text-fs18 text-primaryDark">Our key line of operation is full home interiors. Our leading interior designers take a brief and understand your requirements and vision for your house. Basis those requirements we work on the designs and once the designs are locked, we get into execution. We are a one-stop solution provider when it comes to full home interior designing and particular room interior for partial home interior designing.</p>
+                <p className="font-monsterratM text-fs16 lg:text-fs18 text-primaryDark">Our key line of operation is full home interiors. Our leading interior designers take a brief and understand your requirements and vision for your house. Basis those requirements we work on the designs and once the designs are locked, we get into execution. We are a one-stop solution provider when it comes to full home interior designing and particular room interior for partial home interior designing.</p>
             </div>
             <Image src={Banner} className="aspect-w-16 aspect-h-9 block mx-auto"/>
             <Counter/>

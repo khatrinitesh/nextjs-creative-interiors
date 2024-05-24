@@ -186,8 +186,8 @@ export const projectData = {
 
 // FOOTER CONTACT INFORMATION DATA
 export const contactInfo = [
-  { link:'tel:+919999999999',value: "+91 9999999999", icon: IconPhone },
-  { link:'https://www.creativeinteriors.in/',value: "www.creativeinteriors.in", icon: IconSite },
+  { link:'tel:+919967408087',value: "+91-9967408087", icon: IconPhone },
+  { link:'mailto:creativeinteriors.06@gmail.com',value: "creativeinteriors.06@gmail.com", icon: IconSite },
   { link:'https://maps.app.goo.gl/9yhQbrcufZGGrkb49',value: "Cello Triumph, B wing, unit.406, IB Patel road, Goregaon, Mumbai", icon: IconAddress },
 ];
 

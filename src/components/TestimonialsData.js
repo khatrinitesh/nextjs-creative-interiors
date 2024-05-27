@@ -6,6 +6,7 @@ import Slider from "react-slick";
 import Image from 'next/image'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Link from 'next/link';
 
 const TestimonialsData = () => {
 
@@ -15,10 +16,11 @@ const TestimonialsData = () => {
     infinite: true,
     centerPadding: "60px",
     slidesToShow: 4,
-    speed: 500,
+    speed: 3000,
     focusOnSelect: true,
-    cssEase: 'linear',
     touchMove: true,
+    autoplay:true,
+    autoplaySpeed:2000,
     responsive: [
       {
         breakpoint: 1280,
@@ -54,10 +56,11 @@ const TestimonialsData = () => {
     <div className="testimonialsSlider slider-container">
       <Slider {...settings}>
       {testimonials.map((val,index) => (
-        <div key={index} className="!flex flex-col  min-h-[280px] items-center justify-between bg-white p-[10px] xl:p-[30px] rounded-[10px]">
+        <Link href="https://maps.app.goo.gl/gh2HUsw6SfWnYWMh6" target="_blank">
+        <div key={index} className="!flex flex-col items-center justify-between bg-white p-[10px] xl:p-[30px] rounded-[10px]">
           <div className="sectionTitle mb-[20px]">
             <h3 className="headTitle text-fs22 md:text-fs28 font-monsterratB text-primaryDark mb-[10px]">{val.title}</h3>
-            <p className="desc text-primaryDark font-monsterratR text-fs18">{val.desc}</p>
+            <p className="desc text-primaryDark font-monsterratR text-fs18 line-clamp-3">{val.desc}</p>
           </div>
           <div className="detail flex-col md:flex-row flex  items-center w-full">
             <div className="leftDetail mb-[10px] sm:mb-[0] w-full sm:w-[60%] flex items-center">
@@ -66,12 +69,12 @@ const TestimonialsData = () => {
               </div>
               <div className="caption w-[calc(100%-20%)]">
                 <h4 className="subtitle font-monsterratB text-primaryDark  text-fs16">{val.subtitle}</h4>
-                <p className="flex items-center">
+                {/* <p className="flex items-center">
                   <span className="iconMap me-2">
                     <Image src={val.icon} className="aspect-w-16 aspect-h-9 block mx-auto"/>
                   </span>
                   <span className="txtLoc text-fs14 lg:text-fs16 font-monsterratR text-primaryDark">{val.location}</span>
-                </p>
+                </p> */}
               </div>
             </div>
             <div className="rightDetail w-full sm:w-[calc(100%-60%)]">
@@ -81,6 +84,7 @@ const TestimonialsData = () => {
             </div>
           </div>
         </div>
+        </Link>
       ))}
       </Slider>
     </div>

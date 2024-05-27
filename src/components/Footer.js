@@ -12,8 +12,6 @@ import { footerNavLinks } from "@/constants/constants";
 // ROUTER 
 import Link from "next/link";
 
-
-
 const Footer = () => {
   return (
     <footer className="footer dark:bg-primaryDark bg-lightgray py-[30px] lg:py-[50px]">
@@ -22,7 +20,7 @@ const Footer = () => {
           <div className="grid lg:grid-cols-3 gap-8 md:gap-10">
             <div className="boxFoot text-center px-[30px] relative dark:text-white text-black">
               <div className="logoBlock flex justify-center items-center mb-[15px]">
-                <Image className="logoBlack" src={Logo} />
+                <Image className="logoBlack max-w-[150px] aspect-w-16 aspect-h-16" src={Logo} />
               </div>
               <p className="desc text-fs14 lg:text-fs16 dark:text-secondaryDark font-monsterratM text-secondaryLight">We believe in transforming spaces into captivating environments that reflect your unique lifestyle and personality. With our passion for design and dedication to quality, we strive to exceed expectations and create lasting impressions. Let's collaborate to turn your vision into reality.</p>
               <SocialMedia/>

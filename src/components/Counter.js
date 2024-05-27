@@ -8,7 +8,7 @@ const Counter = () => {
     <div className="grid grid-cols-3 gap-[20px] max-w-[540px] w-full mt-[20px]">
         <div className="boxCount flex flex-col relative">
             <CounterFormat from={0}
-            to={15}
+            to={8}
             speed={2000}
             refreshInterval={50}
             decimals={0}
@@ -18,7 +18,7 @@ const Counter = () => {
         </div>
         <div className="boxCount flex flex-col relative">
             <CounterFormat from={0}
-            to={150}
+            to={70}
             speed={2000}
             refreshInterval={50}
             decimals={0}

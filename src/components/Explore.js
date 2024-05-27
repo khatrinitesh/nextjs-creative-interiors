@@ -1,8 +1,8 @@
 "use client";
 import { useState } from "react";
 import ExploreThumb from "../assets/img/explore.png"
-import ExploreThumb2 from "../assets/img/explore2.jpg"
-import ExploreThumb3 from "../assets/img/explore3.jpg"
+import ExploreThumb2 from "../assets/img/explore2.png"
+import ExploreThumb3 from "../assets/img/explore3.png"
 import Image from "next/image";
 import Cta from "./Cta";
 
@@ -22,13 +22,13 @@ const Explore = () => {
             <div className="grid gap-20 xl:grid-cols-2">
                 <div className="tabContentLeft">
                     <div className={`content ${getActiveClass(1, "active-content" )}`}>
-                        <Image src={ExploreThumb} className="aspect-w-16 aspect-h-9 mx-auto block" />
+                        <Image src={ExploreThumb} className="aspect-w-16 aspect-h-9 mx-auto block h-[300px] lg:h-[480px] xl:h-[580px] object-scale-down w-full" />
                     </div>
                     <div className={`content ${getActiveClass(2, "active-content" )}`}>
-                        <Image src={ExploreThumb2} className="aspect-w-16 aspect-h-9 mx-auto block" />
+                        <Image src={ExploreThumb2} className="aspect-w-16 aspect-h-9 mx-auto block h-[300px] lg:h-[480px] xl:h-[580px] object-scale-down w-full" />
                     </div>
                     <div className={`content ${getActiveClass(3, "active-content" )}`}>
-                        <Image src={ExploreThumb3} className="aspect-w-16 aspect-h-9 mx-auto block" />
+                        <Image src={ExploreThumb3} className="aspect-w-16 aspect-h-9 mx-auto block h-[300px] lg:h-[480px] xl:h-[580px] object-scale-down w-full" />
                     </div>
                     
                 </div>
@@ -45,7 +45,7 @@ const Explore = () => {
                             </li>
                             <li className={`border-0 tabs px-[10px] outline-none transition-all duration-50  text-center relative left-[1px] m-[2px] lg:text-start lg:px-[30px] py-[20px] grow font-monsterratB  text-fs14 lg:text-fs16 text-white overflow-hidden ${getActiveClass( 3, "active-tabs !bg-lightgray rounded-[50px] !text-primaryDark" )}`} onClick={()=> toggleTab(3)}
                                 >
-                                2d & 3d Floor design
+                                Commercial space
                             </li>
                         </ul>
                     </div>

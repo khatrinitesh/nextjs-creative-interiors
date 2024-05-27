@@ -1,10 +1,11 @@
 "use client"
+import { usePathname } from "next/navigation";
 
 // COMPONENTS
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ThemeToggle from '@/components/ThemeToggle';
-import { usePathname } from "next/navigation";
+import WhatsappIcon from '@/components/WhatsappIcon';
 
 // STYLE
 import '../assets/style/globals.css';
@@ -40,6 +41,7 @@ export default function RootLayout({ children }) {
           {validRoutes.includes(pathname) && <Footer />}
           {/* E > FOOTER */}
           <ThemeToggle />
+          <WhatsappIcon/>
         </div>
         </body>
     </html>

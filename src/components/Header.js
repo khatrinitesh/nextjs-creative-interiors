@@ -43,12 +43,12 @@ const Header = () => {
     {/* MOBILE + TABLET */}
       <header className={`fixed block shadow lg:hidden top-0 left-0 w-full z-[999] py-[15px] transition-all duration-500 ${
             !isHomePage ? "" : "bg-priamryDark fixed"} ${isHomePage || isSticky
-            ? "!bg-[rgba(0,0,0,0.5)] !py-[5px] shadow backdrop-blur top-0 w-full left-0"
+            ? "!bg-[rgba(0,0,0,0.5)] !py-[15px] shadow backdrop-blur top-0 w-full left-0"
             : ""
         }`}>
         <div className="container mx-auto">
           <Link href="/">
-          <Image src={Logo} className={` w-[40px] md:w-[80px]  mx-auto   ${
+          <Image src={Logo} className={` w-[50px] md:w-[80px]  mx-auto   ${
                     isHomePage ? "logoDefaultWhite" : ""
                   } ${isHomePage || isSticky ? 'logoDefaultWhite' : 'logoDefaultBlack'}`}/>
                   </Link>
@@ -62,7 +62,7 @@ const Header = () => {
             !isHomePage ? "bg-white" : "bg-transparent fixed"
           } ${
             isHomePage && isSticky
-              ? "!bg-[rgba(0,0,0,0.5)] sticky !py-[5px] shadow backdrop-blur"
+              ? "!bg-[rgba(0,0,0,0.5)] sticky !py-[10px] shadow backdrop-blur"
               : ""
           }`}
         >
@@ -99,7 +99,7 @@ const Header = () => {
                 <Image
                   src={Logo}
                   alt="Logo"
-                  className={` w-[130px] ${
+                  className={` w-[200px] ${
                     isHomePage ? "logoDefaultWhite" : "logoDefaultBlack"
                   } aspect-w-16 aspect-h-9 `}
                 />

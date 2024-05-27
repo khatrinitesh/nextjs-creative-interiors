@@ -6,7 +6,7 @@ const ChooseData = () => {
   return (
     <div className="grid md:grid-cols-3 gap-[20px]">
     {dataChoose.map((val, index) => (
-        <div key={index} className="bg-black p-[30px]">
+        <div key={index} className="bg-primaryDark p-[30px]">
           <div className="icon">
             <Image src={val.icon} className={`logoDefaultWhite  mb-2`} width={38} height={38} alt={val.title} /> {/* Assuming width and height */}
           </div>

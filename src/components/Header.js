@@ -72,7 +72,7 @@ const Header = () => {
                 <li>
                   <Link
                     href="/"
-                    className={`font-monsterratB text-fs14 lg:text-fs18 ${
+                    className={`font-monsterratR text-fs14 lg:text-fs18 ${
                       isHomePage ? "text-[#fff]" : "text-black"
                     } ${
                       pathname === "/" ? "border-b-2 border-white-500" : ""
@@ -84,7 +84,7 @@ const Header = () => {
                 <li>
                   <Link
                     href="/about"
-                    className={`font-monsterratB text-fs14 lg:text-fs18 ${
+                    className={`font-monsterratR text-fs14 lg:text-fs18 ${
                       !otherPages ? "!text-white" : "text-black"
                     } ${isAboutPage ? "border-b-2 border-black" : ""} ${
                       isHomePage && isSticky ? "text-white border-b-white" : ""
@@ -109,7 +109,7 @@ const Header = () => {
                 <li>
                   <Link
                     href="/services"
-                    className={`font-monsterratB text-fs14 lg:text-fs18 ${
+                    className={`font-monsterratR text-fs14 lg:text-fs18 ${
                       !otherPages ? "!text-white" : "text-black"
                     } ${isServicesPage ? "border-b-2 border-black" : ""}  ${
                       isHomePage && isSticky ? "text-white border-b-white" : ""
@@ -121,7 +121,7 @@ const Header = () => {
                 <li>
                   <Link
                     href="/contact"
-                    className={`font-monsterratB text-fs14 lg:text-fs18 ${
+                    className={`font-monsterratR text-fs14 lg:text-fs18 ${
                       !otherPages ? "!text-white" : "text-black"
                     } ${isContactPage ? "border-b-2 border-black" : ""} ${
                       isHomePage && isSticky ? "text-white border-b-white" : ""

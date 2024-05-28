@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
   console.log(pathname);
 
   // other pages 
-  const validRoutes = ["/", "/about", "/services", "/contact"];
+  const validRoutes = ["/", "/about", "/portfolio", "/contact"];
 
   // only home page
   const isHomePage = pathname === '/';

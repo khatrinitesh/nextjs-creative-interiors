@@ -16,12 +16,12 @@ const Header = () => {
 
   const isHomePage = pathname === "/"; // home
   const isAboutPage = pathname === "/about"; // about
-  const isServicesPage = pathname === "/services"; // services
+  const isPortfolioPage = pathname === "/portfolio"; // portfolio
   const isContactPage = pathname === "/contact"; // contact
 
-  // all pages > home page | about page | services page | contact page
+  // all pages > home page | about page | portfolio page | contact page
   const otherPages =
-    !isHomePage && (isAboutPage || isServicesPage || isContactPage);
+    !isHomePage && (isAboutPage || isPortfolioPage || isContactPage);
 
   const [isSticky, setIsSticky] = useState(false);
 
@@ -108,14 +108,14 @@ const Header = () => {
               <ul className="flex items-center justify-evenly w-full">
                 <li>
                   <Link
-                    href="/services"
+                    href="/portfolio"
                     className={`font-monsterratR text-fs14 lg:text-fs18 ${
                       !otherPages ? "!text-white" : "text-black"
-                    } ${isServicesPage ? "border-b-2 border-black" : ""}  ${
+                    } ${isPortfolioPage ? "border-b-2 border-black" : ""}  ${
                       isHomePage && isSticky ? "text-white border-b-white" : ""
                     }`}
                   >
-                    Services
+                    Portfolio
                   </Link>
                 </li>
                 <li>

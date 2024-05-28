@@ -36,6 +36,33 @@ import IconPrachi from "../assets/img/review/icon-prachi.png"; // 11
 import IconFaisal from "../assets/img/review/icon-faisal.png"; // 12
 import IconBharat from "../assets/img/review/icon-bharat.png"; // 13
 
+// OUR TEAM
+import MP from "../assets/img/team/mahendra.png";
+import NP from "../assets/img/team/nitesh.png";
+import MC from "../assets/img/team/madan.png";
+
+// OUR TEAM
+export const teamData = [
+  {
+    avatar:MP,
+    title:'CEO & Founder',
+    name:'Mahendra Parmar',
+    subtitle:'Interior Designer'
+  },
+  {
+    avatar:NP,
+    title:'COO & Founder',
+    name:'Nitesh Parmar',
+    subtitle:'Interior Designer'
+  },
+  {
+    avatar:MC,
+    title:'Project Manager',
+    name:'Madan Chouhan',
+    subtitle:'Supervisor'
+  },
+]
+
 
 // TESTIMONIALS DATA 
 export const testimonials = [
@@ -192,7 +219,7 @@ export const aboutPilosophy = [
 export const menuSidebar = [
   { id: 1, href: '/',color:'text-white', text: 'Home' },
   { id: 2, href: '/about',color:'text-white', text: 'About' },
-  { id: 3, href: '/services',color:'text-white', text: 'Services' },
+  { id: 3, href: '/portfolio',color:'text-white', text: 'Portfolio' },
   { id: 4, href: '/contact',color:'text-white', text: 'Contact' }
 ];
 
@@ -265,9 +292,8 @@ export const contactInfo = [
 export const footerNavLinks = [
   { text: "Home", url: "/" },
   { text: "About", url: "/about" },
-  { text: "Services", url: "/services" },
-  { text: "Contact", url: "/contact" },
   { text: "Portfolio", url: "/portfolio" },
+  { text: "Contact", url: "/contact" },
   { text: "Blog", url: "/blog" },
 ];
 

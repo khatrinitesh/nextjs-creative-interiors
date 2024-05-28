@@ -2,6 +2,7 @@
 import { useState, useEffect } from "react";
 import { menuSidebar } from "../constants/constants";
 import { usePathname } from "next/navigation";
+import Link from "next/link";
 
 const Sidebar = () => {
   const [btnToggle, setBtnToggle] = useState(false);
@@ -48,14 +49,14 @@ const Sidebar = () => {
           <ul className="w-full flex-col flex justify-center items-center ">
             {menuSidebar.map((section) => (
               <li key={section.id} className="group pl-6">
-                <a
+                <Link
                   activeclassname="active"
                   className={`font-raleway text-fs16 font-semibold uppercase cursor-pointer py-[5px] block ${section.color}`}
                   href={section.href} onClick={handleNavClick}
                 >
                   <span className="pt-0.5 dark:text-white text-primaryDark ">{section.text}</span>
                   <span className="block h-0.5 w-full bg-transparent group-hover:bg-hovergreen bg-defaultgreen"></span>
-                </a>
+                </Link>
               </li>
             ))}
           </ul>

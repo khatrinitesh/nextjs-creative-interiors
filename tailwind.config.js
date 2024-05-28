@@ -57,7 +57,7 @@ module.exports = {
         'fs40': '4.23vh',
         'fs42': '4.44vh',
         'fs44': '4.66vh',
-        'fs46': '4.87vh',
+          'fs46': '4.87vh',
         'fs48': '5.08vh',
         'fs50': '5.29vh',
       },
@@ -66,5 +66,15 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      addUtilities({
+        '.nth-not-last': {
+          '&:not(:last-child)': {
+            marginBottom: '1.75rem', // example style, adjust as needed
+          },
+        },
+      });
+    },
+  ],
 };

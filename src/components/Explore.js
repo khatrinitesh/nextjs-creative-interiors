@@ -34,16 +34,16 @@ const Explore = () => {
                 </div>
                 <div className="tabContentRight">
                     <div className="sliderTabs relative">
-                        <ul className="tab-list mb-[50px]  rounded-[50px] bg-primaryDark overflow-hidden ">
-                            <li className={`border-0 tabs px-[10px] outline-none transition-all duration-50 text-center m-[2px] lg:text-start lg:px-[30px] py-[20px] grow font-monsterratB text-fs14 lg:text-fs16 text-white overflow-hidden ${getActiveClass( 1, "active-tabs !bg-lightgray !text-primaryDark border border-lightgray rounded-[50px]" )}`} onClick={()=> toggleTab(1)}
+                        <ul className="tab-list mb-[30px] lg:mb-[50px]  rounded-[50px] bg-primaryDark overflow-hidden ">
+                            <li className={`border-0 tabs px-[10px] outline-none transition-all duration-50 text-center m-[2px] lg:text-start lg:px-[30px] py-[5px] lg:py-[20px] grow font-monsterratB text-fs14 lg:text-fs16 text-white overflow-hidden ${getActiveClass( 1, "active-tabs !bg-lightgray !text-primaryDark border border-lightgray rounded-[50px]" )}`} onClick={()=> toggleTab(1)}
                                 >
                                 Residential design
                             </li>
-                            <li className={`border-0 tabs px-[10px] outline-none transition-all duration-50  text-center m-[2px] lg:text-start lg:px-[30px] py-[20px] grow font-monsterratB text-fs14 lg:text-fs16 text-white overflow-hidden ${getActiveClass( 2, "active-tabs !bg-lightgray rounded-[50px] !text-primaryDark " )}`} onClick={()=> toggleTab(2)}
+                            <li className={`border-0 tabs px-[10px] outline-none transition-all duration-50  text-center m-[2px] lg:text-start lg:px-[30px] py-[5px] lg:py-[20px] grow font-monsterratB text-fs14 lg:text-fs16 text-white overflow-hidden ${getActiveClass( 2, "active-tabs !bg-lightgray rounded-[50px] !text-primaryDark " )}`} onClick={()=> toggleTab(2)}
                                 >
                                 Office design
                             </li>
-                            <li className={`border-0 tabs px-[10px] outline-none transition-all duration-50  text-center relative left-[1px] m-[2px] lg:text-start lg:px-[30px] py-[20px] grow font-monsterratB  text-fs14 lg:text-fs16 text-white overflow-hidden ${getActiveClass( 3, "active-tabs !bg-lightgray rounded-[50px] !text-primaryDark" )}`} onClick={()=> toggleTab(3)}
+                            <li className={`border-0 tabs px-[10px] outline-none transition-all duration-50  text-center relative left-[1px] m-[2px] lg:text-start lg:px-[30px] py-[5px] lg:py-[20px] grow font-monsterratB  text-fs14 lg:text-fs16 text-white overflow-hidden ${getActiveClass( 3, "active-tabs !bg-lightgray rounded-[50px] !text-primaryDark" )}`} onClick={()=> toggleTab(3)}
                                 >
                                 Commercial space
                             </li>
@@ -52,7 +52,7 @@ const Explore = () => {
                     <div className={`content ${getActiveClass(1, "active-content" )}`}>
                         <div className="sectionTitle">
                             <h2 className="mb-[10px] font-monsterratB text-fs24 lg:text-fs36 text-primaryDark">Your Home Redefined</h2>
-                            <p className="mb-[20px] font-monsterratR text-fs16 lg:text-fs18 text-primaryDark">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                            <p className="mb-[20px] font-monsterratR text-fs16 lg:text-fs18 text-primaryDark">Our residential interior designs are crafted with meticulous attention to detail, reflecting a passion for creating spaces that inspire and rejuvenate.</p>
                             <Cta text="Explore" btnStyle="px-[50px]"/>
                         </div>
                     </div>

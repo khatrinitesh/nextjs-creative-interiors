@@ -22,28 +22,28 @@ const BannerSlideShow = () => {
 
     >
       <SwiperSlide>
-        <Image src={BannerImg} className="aspect-w-16 aspect-h-9 w-full"/>
+        <Image alt="Banner" src={BannerImg} className="aspect-w-16 aspect-h-9 w-full"/>
       </SwiperSlide>
       <SwiperSlide>
-        <Image src={BannerImg} className="aspect-w-16 aspect-h-9 w-full"/>
+        <Image alt="Banner" src={BannerImg} className="aspect-w-16 aspect-h-9 w-full"/>
       </SwiperSlide>
       <SwiperSlide>
-        <Image src={BannerImg} className="aspect-w-16 aspect-h-9 w-full"/>
+        <Image alt="Banner" src={BannerImg} className="aspect-w-16 aspect-h-9 w-full"/>
       </SwiperSlide>
       <SwiperSlide>
-        <Image src={BannerImg} className="aspect-w-16 aspect-h-9 w-full"/>
+        <Image alt="Banner" src={BannerImg} className="aspect-w-16 aspect-h-9 w-full"/>
       </SwiperSlide>
       <SwiperSlide>
-        <Image src={BannerImg} className="aspect-w-16 aspect-h-9 w-full"/>
+        <Image alt="Banner" src={BannerImg} className="aspect-w-16 aspect-h-9 w-full"/>
       </SwiperSlide>
       <SwiperSlide>
-        <Image src={BannerImg} className="aspect-w-16 aspect-h-9 w-full"/>
+        <Image alt="Banner" src={BannerImg} className="aspect-w-16 aspect-h-9 w-full"/>
       </SwiperSlide>
       <SwiperSlide>
-        <Image src={BannerImg} className="aspect-w-16 aspect-h-9 w-full"/>
+        <Image alt="Banner" src={BannerImg} className="aspect-w-16 aspect-h-9 w-full"/>
       </SwiperSlide>
       <SwiperSlide>
-        <Image src={BannerImg} className="aspect-w-16 aspect-h-9 w-full"/>
+        <Image alt="Banner" src={BannerImg} className="aspect-w-16 aspect-h-9 w-full"/>
       </SwiperSlide>
     </Swiper>
     </div>

@@ -4,7 +4,7 @@ const Services = () => {
   return (
 <div className="customContent">
       <div className="container mx-auto">
-      <h2 className="text-fs32 font-monsterratB text-primaryDark">Services</h2>
+      <h2 className="text-fs32 font-monsterratB text-primaryDark">Portfolio</h2>
       <p>
         Aliqua consequat culpa cupidatat veniam veniam excepteur do ullamco
         aliqua culpa do sit. Nulla magna quis culpa aliqua culpa consequat

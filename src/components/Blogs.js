@@ -11,7 +11,7 @@ const Blogs = () => {
       <div className="container mx-auto">
         <div className="grid gap-10 lg:grid-cols-2 justify-center items-center">
           <div className="thumbnail flex justify-center items-center" >
-            <Image src={BlogsThumb} className="aspect-w-16 aspect-h-9"  />
+            <Image alt="BlogsThumb" src={BlogsThumb} className="aspect-w-16 aspect-h-9"  />
           </div>
           <div className="projectRightContent">
             <div className="flex mb-[20px]">

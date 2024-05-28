@@ -240,3 +240,6 @@ body{
 .mb-marginB{
   margin-bottom: 24px;
 }
+.boxTeam:hover .imgTeam{
+  filter: grayscale(0);
+}

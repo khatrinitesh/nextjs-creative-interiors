@@ -5,6 +5,7 @@ import Experience from "@/components/Experience";
 import Explore from "@/components/Explore";
 import Offer from "@/components/Offer";
 import Project from "@/components/Project";
+import Team from "@/components/TeamData";
 import Testimonials from "@/components/Testimonials";
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <Offer/>
       <Blogs/>
       <Testimonials/>
+      <Team/>
       <Project/>
     </div>
   );

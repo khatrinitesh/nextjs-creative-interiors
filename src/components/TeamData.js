@@ -13,16 +13,16 @@ const Team = () => {
           {teamData.map((val, index) => (
             <div
               key={index}
-              className={`overflow-hidden md:flex grow items-center cursor-pointer justify-center boxTeam transition-all duration-150 delay-150 hover:scale-110 md:hover:scale-125 nth-not-last md:!mb-0`}
+              className={`overflow-hidden md:flex  items-center cursor-pointer justify-center boxTeam transition-all duration-150 delay-150 hover:scale-110 md:hover:scale-125 nth-not-last md:!mb-0`}
             >
               <div className="thumbnail w-full md:w-[30%] me-[15px] md:me-[10px]">
                 <Image
                   src={val.avatar}
                   alt={val.name}
-                  className="grayscale mb-[10px] md:mb-0 mx-auto block imgTeam transition-all duration-500 delay-500 aspect-w-16 aspect-h-9 w-[100px] h-[100px] md:w-[50px] md:h-[50px] xl:w-[100px] object-cover xl:h-[100px] rounded-full"
+                  className="grayscale mx-auto block imgTeam transition-all duration-500 delay-500 imgTeam object-cover rounded-full"
                 />
               </div>
-              <div className="text-center md:text-start caption w-full">
+              <div className="text-center md:text-start caption md:w-[calc(100%-30%)]">
                 <span className="font-monsterratM text-fs12 text-[#7d7d7d]">
                   {val.title}
                 </span>

@@ -58,15 +58,15 @@ const Explore = () => {
                     </div>
                     <div className={`content ${getActiveClass(2, "active-content" )}`}>
                     <div className="sectionTitle">
-                            <h2 className="mb-[10px] font-monsterratB text-fs24 lg:text-fs36 text-primaryDark">Office Design</h2>
-                            <p className="mb-[20px] font-monsterratR text-fs16 lg:text-fs18 text-primaryDark">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                            <h2 className="mb-[10px] font-monsterratB text-fs24 lg:text-fs36 text-primaryDark">Designing the Perfect Office</h2>
+                            <p className="mb-[20px] font-monsterratR text-fs16 lg:text-fs18 text-primaryDark">Office design plays a crucial role in enhancing productivity, creativity, and employee well-being. A well-designed office not only fosters a positive work environment but also reflects the company’s culture and values.</p>
                             <Cta text="Explore" btnStyle="px-[50px]"/>
                         </div>
                     </div>
                     <div className={`content ${getActiveClass(3, "active-content" )}`}>
                     <div className="sectionTitle">
-                            <h2 className="mb-[10px] font-monsterratB text-fs24 lg:text-fs36 text-primaryDark">Floor Design</h2>
-                            <p className="mb-[20px] font-monsterratR text-fs16 lg:text-fs18 text-primaryDark">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                            <h2 className="mb-[10px] font-monsterratB text-fs24 lg:text-fs36 text-primaryDark">Commercial Spaces Reimagined</h2>
+                            <p className="mb-[20px] font-monsterratR text-fs16 lg:text-fs18 text-primaryDark">Commercial interior design is essential for creating spaces that are not only functional but also aesthetically pleasing. The design of a commercial space can significantly impact customer experience, employee productivity, and overall business success.</p>
                             <Cta text="Explore" btnStyle="px-[50px]"/>
                         </div>
                     </div>

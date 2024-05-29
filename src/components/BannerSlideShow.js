@@ -1,54 +1,59 @@
-"use client"
+"use client";
 // Import Swiper React components
-import Image from 'next/image';
+import Image from "next/image";
 // Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/navigation';// import required modules
-import { Navigation ,EffectFade} from 'swiper/modules';
-import BannerImg from "../assets/img/banner.jpg"
+import "swiper/css";
+import "swiper/css/navigation"; // import required modules
+import { Navigation, EffectFade } from "swiper/modules";
+import BannerImg from "../assets/img/banner.png";
+import BannerSection from "./BannerSection";
 
 const BannerSlideShow = () => {
-    
   return (
     <>
-    <div className="slideShowBlock overflow-hidden">
-    <Swiper navigation={true} modules={[Navigation,EffectFade]} className="mySwiper"
-      spaceBetween={50}
-      slidesPerView={1}
-      onSlideChange={() => console.log('slide change')}
-      onSwiper={(swiper) => console.log(swiper)}
-
-    >
-      <SwiperSlide>
-        <Image alt="Banner" src={BannerImg} className="aspect-w-16 aspect-h-9 w-full"/>
-      </SwiperSlide>
-      <SwiperSlide>
-        <Image alt="Banner" src={BannerImg} className="aspect-w-16 aspect-h-9 w-full"/>
-      </SwiperSlide>
-      <SwiperSlide>
-        <Image alt="Banner" src={BannerImg} className="aspect-w-16 aspect-h-9 w-full"/>
-      </SwiperSlide>
-      <SwiperSlide>
-        <Image alt="Banner" src={BannerImg} className="aspect-w-16 aspect-h-9 w-full"/>
-      </SwiperSlide>
-      <SwiperSlide>
-        <Image alt="Banner" src={BannerImg} className="aspect-w-16 aspect-h-9 w-full"/>
-      </SwiperSlide>
-      <SwiperSlide>
-        <Image alt="Banner" src={BannerImg} className="aspect-w-16 aspect-h-9 w-full"/>
-      </SwiperSlide>
-      <SwiperSlide>
-        <Image alt="Banner" src={BannerImg} className="aspect-w-16 aspect-h-9 w-full"/>
-      </SwiperSlide>
-      <SwiperSlide>
-        <Image alt="Banner" src={BannerImg} className="aspect-w-16 aspect-h-9 w-full"/>
-      </SwiperSlide>
-    </Swiper>
-    </div>
+      <div className="slideShowBlock overflow-hidden relative z-[2]">
+        <Swiper
+          navigation={true}
+          modules={[Navigation, EffectFade]}
+          className="mySwiper"
+          spaceBetween={50}
+          slidesPerView={1}
+          onSlideChange={() => console.log("slide change")}
+          onSwiper={(swiper) => console.log(swiper)}
+        >
+          {/* 1 */}
+          <SwiperSlide>
+            <Image
+              alt="Banner"
+              src={BannerImg}
+              className="aspect-w-16 aspect-h-9 w-full"
+            />
+            <BannerSection title="The Ultimate Guide to Home Interior Design" />
+          </SwiperSlide>
+          {/* 2 */}
+          <SwiperSlide>
+            <Image
+              alt="Banner"
+              src={BannerImg}
+              className="aspect-w-16 aspect-h-9 w-full"
+            />
+            <BannerSection title="The Ultimate Guide to Home Interior Design 2" />
+          </SwiperSlide>
+          {/* 3 */}
+          <SwiperSlide>
+            <Image
+              alt="Banner"
+              src={BannerImg}
+              className="aspect-w-16 aspect-h-9 w-full"
+            />
+            <BannerSection title="The Ultimate Guide to Home Interior Design 3" />
+          </SwiperSlide>
+        </Swiper>
+      </div>
     </>
-  )
-}
+  );
+};
 
-export default BannerSlideShow
+export default BannerSlideShow;

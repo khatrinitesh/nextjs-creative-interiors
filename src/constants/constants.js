@@ -41,6 +41,50 @@ import MP from "../assets/img/team/mahendra.png";
 import NP from "../assets/img/team/nitesh.png";
 import MC from "../assets/img/team/madan.png";
 
+// PORTFOLIO GALLERY
+import ResidentalOne from "../assets/img/portfolio/categories-residental/residental-1.png";
+import ResidentalTwo from "../assets/img/portfolio/categories-residental/residental-2.png";
+import ResidentalThree from "../assets/img/portfolio/categories-residental/residental-3.png";
+import ResidentalFour from "../assets/img/portfolio/categories-residental/residental-4.png";
+import ResidentalFive from "../assets/img/portfolio/categories-residental/residental-5.png";
+import ResidentalSix from "../assets/img/portfolio/categories-residental/residental-6.png";
+import ResidentalSeven from "../assets/img/portfolio/categories-residental/residental-7.png";
+import ResidentalEight from "../assets/img/portfolio/categories-residental/residental-8.png";
+import ResidentalNine from "../assets/img/portfolio/categories-residental/residental-9.png";
+import ResidentalTen from "../assets/img/portfolio/categories-residental/residental-10.png";
+import ResidentalEleven from "../assets/img/portfolio/categories-residental/residental-11.png";
+
+import OfficeOne from "../assets/img/portfolio/categories-office/office-1.jpg";
+import OfficeTwo from "../assets/img/portfolio/categories-office/office-2.jpg";
+import CommercialOne from "../assets/img/portfolio/categories-commercial/commercial-1.jpg";
+import CommercialTwo from "../assets/img/portfolio/categories-commercial/commercial-2.jpg";
+
+export const portfoliolist = [
+  {
+    id: 1,
+    number: "1",
+    category: "Residential design",
+    images: [ResidentalOne, ResidentalTwo, ResidentalThree, ResidentalFour, ResidentalFive, ResidentalSix, ResidentalSeven, ResidentalEight, ResidentalNine, ResidentalTen, ResidentalEleven]
+  },
+  {
+    id: 2,
+    number: "2",
+    category: "Office design",
+    images: [OfficeOne,OfficeTwo,OfficeTwo,OfficeTwo]
+  },
+  {
+    id: 3,
+    number: "3",
+    category: "Commercial design",
+    images: [CommercialOne,CommercialTwo,CommercialTwo,CommercialTwo,CommercialTwo]
+  },
+];
+export const categorylist = [
+  { id: 1, category: "Residential design"},
+  { id: 2, category: "Office design"},
+  { id: 3, category: "Commercial design"},
+];
+
 // OUR TEAM
 export const teamData = [
   {

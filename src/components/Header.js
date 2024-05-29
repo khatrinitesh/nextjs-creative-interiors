@@ -41,13 +41,13 @@ const Header = () => {
   return (
     <>
     {/* MOBILE + TABLET */}
-      <header className={`fixed block shadow lg:hidden top-0 left-0 w-full z-[999] py-[15px] transition-all duration-500 ${
+      <header className={`fixed bannerContent block shadow lg:hidden top-0 left-0 w-full z-[999] py-[15px] transition-all duration-500 ${
             !isHomePage ? "" : "bg-priamryDark fixed"} ${isHomePage || isSticky
             ? "!bg-[rgba(0,0,0,0.5)] !py-[15px] shadow backdrop-blur top-0 w-full left-0"
             : ""
         }`}>
         <div className="container mx-auto">
-          <Link href="/">
+          <Link href="/"> 
           <Image src={Logo} className={` w-[50px] md:w-[80px]  mx-auto   ${
                     isHomePage ? "logoDefaultWhite" : ""
                   } ${isHomePage || isSticky ? 'logoDefaultWhite' : 'logoDefaultBlack'}`}/>

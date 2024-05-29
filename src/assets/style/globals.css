@@ -166,11 +166,8 @@ body{
 .arrow-icon {
   animation: bounce 1.5s infinite;
 }
-.bannerContent:after{
-  content:"";
-  position: absolute;
-  inset:0;
-  background: url('../img/bggradient.png') no-repeat center/cover;
+.bannerSection .headTitle{
+  text-shadow: -1px 8px 5px rgba(0,0,0,0.29);
 }
 .slideShowBlock .swiper-button-prev,
 .slideShowBlock .swiper-button-next{
@@ -242,4 +239,7 @@ body{
 }
 .boxTeam:hover .imgTeam{
   filter: grayscale(0);
+}
+.boxTeam{
+  width: calc(100% / 3);
 }

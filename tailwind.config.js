@@ -57,12 +57,14 @@ module.exports = {
         'fs40': '4.23vh',
         'fs42': '4.44vh',
         'fs44': '4.66vh',
-          'fs46': '4.87vh',
+        'fs46': '4.87vh',
         'fs48': '5.08vh',
         'fs50': '5.29vh',
+        'fs64': '6.77vh',
       },
       boxShadow: {
         'btnPrimary': '0px 5px 19px rgba(0,0,0,.4)',
+        'btnBannerShadow':'-1px 6px 17px 0px rgba(0, 0, 0, 0.44)'
       },
     },
   },

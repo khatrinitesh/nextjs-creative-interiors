@@ -4,18 +4,42 @@ import ProjectThumb from "../assets/img/project.png";
 import { projectData } from "@/constants/constants";
 import InputField from "./InputField";
 import Cta from "./Cta";
-import { useState } from "react";
+import { useState,useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 const Project = () => {
     const [inputValue, setInputValue] = useState('');
+    const [errorMessage, setErrorMessage] = useState('');
+    const form = useRef();
 
     const handleChange =(e) => {
       setInputValue(e.target.value)
+      if (e.target.value) {
+        setErrorMessage(''); // Clear error message when input is not empty
+      }
     }
   
-    const handleClick = () => {
-        console.log('Subscribed')
-    }
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      if (inputValue === '') {
+        setErrorMessage('This field is required.');
+        return;
+      }
+      emailjs
+        .sendForm('service_60pxdoy', 'template_52khocw', form.current, {
+          publicKey: 'a1u_zKxDNiJ_YgFY0',
+  
+        })
+        .then(
+          () => {
+            console.log('SUCCESS!');
+          },
+          (error) => {
+            console.log('FAILED...', error.text);
+          },
+        );
+    };
   return (
     <section className="projectContent  py-[30px] lg:py-[80px] bg-white">
       <div className="container mx-auto">
@@ -32,18 +56,20 @@ const Project = () => {
                 {projectData.description}
               </p>
             </div>
+            <form className="h-full" ref={form} onSubmit={sendEmail}>
             <div className="subscribeBlock bg-lightgray h-[50px] md:h-[60px] max-w-full w-full rounded-[8px] mb-[60px] relative">
-              <InputField
+              <InputField name="message"
                 onChange={handleChange}
                 inputValue={inputValue}
                 inputStyle="!bg-lightgray"
               />
               <Cta
                 text="get started"
-                onClick={handleClick}
+                onClick={sendEmail} 
                 btnStyle="absolute top-[5px] md:top-[8px] right-[10px]"
               />
             </div>
+            </form>
           </div>
         </div>
       </div>

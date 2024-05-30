@@ -129,7 +129,11 @@ body{
   height: 50px;
   display: flex;
   list-style: none;
+  @media (max-width:992px){
+    height: 40px;
+  }
 }
+
 .tabs {
   display: flex;
   justify-content: center;
@@ -199,10 +203,10 @@ body{
   background-repeat: no-repeat;
 }
 .slideShowBlock  .swiper-button-prev:after{
-  background-image:url("../img/iconslideleft.svg")
+  background-image:url("../img/icons/iconslideleft.svg")
 }
 .slideShowBlock  .swiper-button-next:after{
-  background-image:url("../img/iconslideright.svg")
+  background-image:url("../img/icons/iconslideright.svg")
 }
 .testimonialsSlider .slick-list{
   overflow:inherit;
@@ -242,4 +246,60 @@ body{
 }
 .boxTeam{
   width: calc(100% / 3);
+}
+.portfolioFiltering:before,
+.portfolioFiltering:after{
+  content:"";
+  position:absolute;
+  top:30px;
+  width:30%;
+  height: 1px;
+  background-color: #1b1b1b;
+  z-index:1;  
+}
+.portfolioFiltering:before{
+  left:-30px;
+}
+.portfolioFiltering:after{
+  right:-30px;
+}
+@media (max-width: 1200px) {
+  .portfolioFiltering:before,
+  .portfolioFiltering:after {
+    width: 20%;
+  }
+}
+@media (max-width: 992px) {
+  .portfolioFiltering:before,
+  .portfolioFiltering:after {
+    width: 10%;
+  }
+}
+@media (max-width: 767px) {
+  .portfolioFiltering:before,
+  .portfolioFiltering:after {
+    display:none;
+  }
+}
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.my-masonry-grid {
+  display: -webkit-box; /* Not needed if autoprefixing */
+  display: -ms-flexbox; /* Not needed if autoprefixing */
+  display: flex;
+  margin-left: -30px; /* gutter size offset */
+  width: auto;
+}
+.my-masonry-grid_column {
+  padding-left: 30px; /* gutter size */
+  background-clip: padding-box;
+}
+
+/* Style your items */
+.my-masonry-grid_column > div { /* change div to reference your elements you put in <Masonry> */
+  background: grey;
+  margin-bottom: 30px;
 }

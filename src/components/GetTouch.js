@@ -1,21 +1,45 @@
 "use client"
 import Image from "next/image";
-import TouchThumb from "../assets/img/touch.png";
+import TouchThumb from "../assets/img/about/touch.png";
 import { getTouchData } from "@/constants/constants";
 import InputField from "./InputField";
 import Cta from "./Cta";
-import { useState } from "react";
+import { useState,useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 const GetTouch = () => {
-    const [inputValue, setInputValue] = useState('');
+  const [inputValue, setInputValue] = useState('');
+  const [errorMessage, setErrorMessage] = useState('');
+  const form = useRef();
 
-    const handleChange =(e) => {
-      setInputValue(e.target.value)
+  const handleChange =(e) => {
+    setInputValue(e.target.value)
+    if (e.target.value) {
+      setErrorMessage(''); // Clear error message when input is not empty
     }
-  
-    const handleClick = () => {
-        console.log('Subscribed')
+  }
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    if (inputValue === '') {
+      setErrorMessage('This field is required.');
+      return;
     }
+    emailjs
+      .sendForm('service_60pxdoy', 'template_i5spdsn', form.current, {
+        publicKey: 'a1u_zKxDNiJ_YgFY0',
+
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+  };
   return (
     <section className="touchContent  bg-lightgray py-[30px] lg:py-[80px]">
       <div className="container mx-auto">
@@ -33,16 +57,16 @@ const GetTouch = () => {
               </p>
             </div>
             <div className="subscribeBlock bg-lightgray h-[50px] md:h-[60px] max-w-full w-full rounded-[8px] mb-[60px] relative">
-              <InputField
+            <form className="h-full" ref={form} onSubmit={sendEmail}>
+              <InputField name="message"
                 onChange={handleChange}
                 inputValue={inputValue}
                 inputStyle="!bg-white"
               />
-              <Cta
-                text="get started"
-                onClick={handleClick}
-                btnStyle="absolute top-[5px] md:top-[8px] right-[10px]"
-              />
+              <Cta text="get started"
+                onClick={sendEmail} btnStyle="absolute top-[5px] md:top-[8px] right-[10px]"/>
+               {errorMessage && <p className="text-red-600 font-monsterratB text-fs12">This field is required</p>}
+            </form>
             </div>
           </div>
         </div>

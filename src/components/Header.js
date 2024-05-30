@@ -1,7 +1,7 @@
 "use client";
 // image
 import Image from "next/image";
-import Logo from "../assets/img/logo.svg";
+import Logo from "../assets/img/icons/logo.svg";
 // router
 import Link from "next/link";
 // hooks

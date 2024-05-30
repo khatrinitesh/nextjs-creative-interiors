@@ -1,5 +1,5 @@
 import React from "react";
-import WhatsAppIconGreen from "../assets/img/iconwhatsappgreen.svg";
+import WhatsAppIconGreen from "../assets/img/icons/iconwhatsappgreen.svg";
 import Link from "next/link";
 import Image from "next/image";
 

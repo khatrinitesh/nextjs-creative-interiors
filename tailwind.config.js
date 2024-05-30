@@ -64,7 +64,8 @@ module.exports = {
       },
       boxShadow: {
         'btnPrimary': '0px 5px 19px rgba(0,0,0,.4)',
-        'btnBannerShadow':'-1px 6px 17px 0px rgba(0, 0, 0, 0.44)'
+        'btnBannerShadow':'-1px 6px 17px 0px rgba(0, 0, 0, 0.44)',
+        'btnLoading':'rgba(0, 0, 0, 0.35) 0px 5px 15px'
       },
     },
   },

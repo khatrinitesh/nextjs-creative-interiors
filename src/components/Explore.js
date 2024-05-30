@@ -1,8 +1,8 @@
 "use client";
 import { useState } from "react";
-import ExploreThumb from "../assets/img/explore.png"
-import ExploreThumb2 from "../assets/img/explore2.png"
-import ExploreThumb3 from "../assets/img/explore3.png"
+import ExploreThumb from "../assets/img/home/explore1.png"
+import ExploreThumb2 from "../assets/img/home/explore2.png"
+import ExploreThumb3 from "../assets/img/home/explore3.png"
 import Image from "next/image";
 import Cta from "./Cta";
 

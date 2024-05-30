@@ -1,6 +1,6 @@
 "use client"
 import Image from "next/image";
-import IconArrowDown from "../assets/img/iconarrowdown.svg";
+import IconArrowDown from "../assets/img/icons/iconarrowdown.svg";
 import { Link } from "react-scroll";
 
 const ScrollArrowDown = () => {

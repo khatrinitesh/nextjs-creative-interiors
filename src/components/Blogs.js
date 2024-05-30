@@ -1,6 +1,6 @@
 "use client"
 import Image from "next/image";
-import BlogsThumb from "../assets/img/blogs.png";
+import BlogsThumb from "../assets/img/home/blogs.png";
 import { blogsData } from "@/constants/constants";
 import Cta from "./Cta";
 

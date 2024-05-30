@@ -1,6 +1,6 @@
 "use client"
 import Image from "next/image";
-import OfferThumb from "../assets/img/offer.png"
+import OfferThumb from "../assets/img/home/offer.png"
 import OfferData from "./OfferData";
 import Link from "next/link";
 

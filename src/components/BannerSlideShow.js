@@ -7,7 +7,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation"; // import required modules
 import { Navigation, EffectFade } from "swiper/modules";
-import BannerImg from "../assets/img/banner.png";
+import BannerImg from "../assets/img/home/banner.png";
 import BannerSection from "./BannerSection";
 
 const BannerSlideShow = () => {

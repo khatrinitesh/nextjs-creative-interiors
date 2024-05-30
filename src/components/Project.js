@@ -1,6 +1,6 @@
 "use client"
 import Image from "next/image";
-import ProjectThumb from "../assets/img/project.png";
+import ProjectThumb from "../assets/img/home/project.png";
 import { projectData } from "@/constants/constants";
 import InputField from "./InputField";
 import Cta from "./Cta";
@@ -27,7 +27,7 @@ const Project = () => {
         return;
       }
       emailjs
-        .sendForm('service_60pxdoy', 'template_52khocw', form.current, {
+        .sendForm('service_60pxdoy', 'template_i5spdsn', form.current, {
           publicKey: 'a1u_zKxDNiJ_YgFY0',
   
         })
@@ -40,6 +40,8 @@ const Project = () => {
           },
         );
     };
+
+    
   return (
     <section className="projectContent  py-[30px] lg:py-[80px] bg-white">
       <div className="container mx-auto">
@@ -68,7 +70,9 @@ const Project = () => {
                 onClick={sendEmail} 
                 btnStyle="absolute top-[5px] md:top-[8px] right-[10px]"
               />
+              {errorMessage && <p className="text-red-600 font-monsterratB text-fs12">This field is required</p>}
             </div>
+            
             </form>
           </div>
         </div>

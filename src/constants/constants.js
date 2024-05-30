@@ -1,82 +1,116 @@
-import IconFb from "../assets/img/iconfb.svg";
-import IconYt from "../assets/img/iconyt.svg";
-import IconWa from "../assets/img/iconwa.svg";
-import IconIn from "../assets/img/iconin.svg";
-import IconPhone from "../assets/img/iconphone.svg";
-import IconSite from "../assets/img/iconsite.svg";
-import IconAddress from "../assets/img/iconmap.svg";
-import IconLight from "../assets/img/iconlight.svg";
-import IconRepair from "../assets/img/iconrepair.svg";
-import IconSupport from "../assets/img/iconsupport.svg";
-import IconFurniture from "../assets/img/iconfurniture.svg";
+import IconFb from "../assets/img/icons/iconfb.svg";
+import IconYt from "../assets/img/icons/iconyt.svg";
+import IconWa from "../assets/img/icons/iconwa.svg";
+import IconIn from "../assets/img/icons/iconin.svg";
+import IconPhone from "../assets/img/icons/iconphone.svg";
+import IconSite from "../assets/img/icons/iconsite.svg";
+import IconAddress from "../assets/img/icons/iconmap.svg";
+import IconLight from "../assets/img/icons/iconlight.svg";
+import IconRepair from "../assets/img/icons/iconrepair.svg";
+import IconSupport from "../assets/img/icons/iconsupport.svg";
+import IconFurniture from "../assets/img/icons/iconfurniture.svg";
+import IconExpertise from "../assets/img/icons/icon-expertise.svg";
+import IconAttention from "../assets/img/icons/icon-attention.svg";
+import IconCustomer from "../assets/img/icons/icon-customer.svg";
 
-import Experience1 from "../assets/img/experience1.png";
-import Experience2 from "../assets/img/experience2.png";
-import Experience3 from "../assets/img/experience3.png";
-
+// EXPERIENCE
+import Experience1 from "../assets/img/home/experience1.png";
+import Experience2 from "../assets/img/home/experience2.png";
+import Experience3 from "../assets/img/home/experience3.png";
+// ABOUT FEATURE
 import Story from "../assets/img/about/ourstory.png";
 import Approach from "../assets/img/about/ourapproach.png";
 import Philosophy from "../assets/img/about/ourphiliosphy.png";
 
-import IconExpertise from "../assets/img/about/icon-expertise.svg";
-import IconAttention from "../assets/img/about/icon-attention.svg";
-import IconCustomer from "../assets/img/about/icon-customer.svg";
-
-import IconPrashant from "../assets/img/review/icon-prashant.png"; // 1
-import IconAkshay from "../assets/img/review/icon-akshay.png"; // 2 
-import IconRuchika from "../assets/img/review/icon-ruchika.png"; // 3 
-import IconHazique from "../assets/img/review/icon-hazique.png"; // 4
-import IconNishad from "../assets/img/review/icon-nishad.png"; // 5
-import IconMangal from "../assets/img/review/icon-mangal.png"; // 6
-import IconHeena from "../assets/img/review/icon-heena.png"; // 7
-import IconSuryakant from "../assets/img/review/icon-suryakant.png"; // 8
-import IconArshad from "../assets/img/review/icon-arshad.png"; // 9
-import IconSabera from "../assets/img/review/icon-sabera.png"; // 10
-import IconPrachi from "../assets/img/review/icon-prachi.png"; // 11
-import IconFaisal from "../assets/img/review/icon-faisal.png"; // 12
-import IconBharat from "../assets/img/review/icon-bharat.png"; // 13
-
+// REVIEW
+import IconPrashant from "../assets/img/home/review/icon-prashant.png"; // 1
+import IconAkshay from "../assets/img/home/review/icon-akshay.png"; // 2 
+import IconRuchika from "../assets/img/home/review/icon-ruchika.png"; // 3 
+import IconHazique from "../assets/img/home/review/icon-hazique.png"; // 4
+import IconNishad from "../assets/img/home/review/icon-nishad.png"; // 5
+import IconMangal from "../assets/img/home/review/icon-mangal.png"; // 6
+import IconHeena from "../assets/img/home/review/icon-heena.png"; // 7
+import IconSuryakant from "../assets/img/home/review/icon-suryakant.png"; // 8
+import IconArshad from "../assets/img/home/review/icon-arshad.png"; // 9
+import IconSabera from "../assets/img/home/review/icon-sabera.png"; // 10
+import IconPrachi from "../assets/img/home/review/icon-prachi.png"; // 11
+import IconFaisal from "../assets/img/home/review/icon-faisal.png"; // 12
+import IconBharat from "../assets/img/home/review/icon-bharat.png"; // 13
 // OUR TEAM
-import MP from "../assets/img/team/mahendra.png";
-import NP from "../assets/img/team/nitesh.png";
-import MC from "../assets/img/team/madan.png";
+import MP from "../assets/img/home/team/mahendra.png";
+import NP from "../assets/img/home/team/nitesh.png";
+import MC from "../assets/img/home/team/madan.png";
 
-// PORTFOLIO GALLERY
-import ResidentalOne from "../assets/img/portfolio/categories-residental/residental-1.png";
-import ResidentalTwo from "../assets/img/portfolio/categories-residental/residental-2.png";
-import ResidentalThree from "../assets/img/portfolio/categories-residental/residental-3.png";
-import ResidentalFour from "../assets/img/portfolio/categories-residental/residental-4.png";
-import ResidentalFive from "../assets/img/portfolio/categories-residental/residental-5.png";
-import ResidentalSix from "../assets/img/portfolio/categories-residental/residental-6.png";
-import ResidentalSeven from "../assets/img/portfolio/categories-residental/residental-7.png";
-import ResidentalEight from "../assets/img/portfolio/categories-residental/residental-8.png";
-import ResidentalNine from "../assets/img/portfolio/categories-residental/residental-9.png";
-import ResidentalTen from "../assets/img/portfolio/categories-residental/residental-10.png";
-import ResidentalEleven from "../assets/img/portfolio/categories-residental/residental-11.png";
-
+// PORTFOLIO - RESIDENTIAL
+import ResidentalOne from "../assets/img/portfolio/categories-residental/residental-1.jpg";
+import ResidentalTwo from "../assets/img/portfolio/categories-residental/residental-2.jpg";
+import ResidentalThree from "../assets/img/portfolio/categories-residental/residental-3.jpg";
+import ResidentalFour from "../assets/img/portfolio/categories-residental/residental-4.jpg";
+import ResidentalFive from "../assets/img/portfolio/categories-residental/residental-5.jpg";
+import ResidentalSix from "../assets/img/portfolio/categories-residental/residental-6.jpg";
+import ResidentalSeven from "../assets/img/portfolio/categories-residental/residental-7.jpg";
+import ResidentalEight from "../assets/img/portfolio/categories-residental/residental-8.jpg";
+import ResidentalNine from "../assets/img/portfolio/categories-residental/residental-9.jpg";
+import ResidentalTen from "../assets/img/portfolio/categories-residental/residental-10.jpg";
+import ResidentalEleven from "../assets/img/portfolio/categories-residental/residental-11.jpg";
+import ResidentalTwelve from "../assets/img/portfolio/categories-residental/residental-12.jpg";
+import ResidentalThirteen from "../assets/img/portfolio/categories-residental/residental-13.jpg";
+import ResidentalFourteen from "../assets/img/portfolio/categories-residental/residental-14.jpg";
+import ResidentalFifteen from "../assets/img/portfolio/categories-residental/residental-15.jpg";
+import ResidentalSixteen from "../assets/img/portfolio/categories-residental/residental-16.jpg";
+import ResidentalSeventeen from "../assets/img/portfolio/categories-residental/residental-17.jpg";
+import ResidentalEighteen from "../assets/img/portfolio/categories-residental/residental-18.jpg";
+import ResidentalNineteen from "../assets/img/portfolio/categories-residental/residental-19.jpg";
+import ResidentalTwenty from "../assets/img/portfolio/categories-residental/residental-20.jpg";
+import ResidentalTwentyOne from "../assets/img/portfolio/categories-residental/residental-21.jpg";
+import ResidentalTwentyTwo from "../assets/img/portfolio/categories-residental/residental-22.jpg";
+import ResidentalTwentyThree from "../assets/img/portfolio/categories-residental/residental-23.jpg";
+import ResidentalTwentyFour from "../assets/img/portfolio/categories-residental/residental-24.jpg";
+import ResidentalTwentyFive from "../assets/img/portfolio/categories-residental/residental-25.jpg";
+import ResidentalTwentySix from "../assets/img/portfolio/categories-residental/residental-26.jpg";
+import ResidentalTwentySeven from "../assets/img/portfolio/categories-residental/residental-27.jpg";
+import ResidentalTwentyEight from "../assets/img/portfolio/categories-residental/residental-28.jpg";
+import ResidentalTwentyNine from "../assets/img/portfolio/categories-residental/residental-29.jpg";
+import ResidentalThirty from "../assets/img/portfolio/categories-residental/residental-30.jpg";
+import ResidentalThirtyOne from "../assets/img/portfolio/categories-residental/residental-31.jpg";
+import ResidentalThirtyTwo from "../assets/img/portfolio/categories-residental/residental-32.jpg";
+import ResidentalThirtyThree from "../assets/img/portfolio/categories-residental/residental-33.jpg";
+// PORTFOLIO > OFFICE
 import OfficeOne from "../assets/img/portfolio/categories-office/office-1.jpg";
 import OfficeTwo from "../assets/img/portfolio/categories-office/office-2.jpg";
+import OfficeThree from "../assets/img/portfolio/categories-office/office-3.jpg";
+import OfficeFour from "../assets/img/portfolio/categories-office/office-4.jpg";
+// PORTFOLIO > COMMERCIAL
 import CommercialOne from "../assets/img/portfolio/categories-commercial/commercial-1.jpg";
 import CommercialTwo from "../assets/img/portfolio/categories-commercial/commercial-2.jpg";
+import CommercialThree from "../assets/img/portfolio/categories-commercial/commercial-3.jpg";
+import CommercialFour from "../assets/img/portfolio/categories-commercial/commercial-4.jpg";
+import CommercialFive from "../assets/img/portfolio/categories-commercial/commercial-5.jpg";
+import CommercialSix from "../assets/img/portfolio/categories-commercial/commercial-6.jpg";
+import CommercialSeven from "../assets/img/portfolio/categories-commercial/commercial-7.jpg";
+import CommercialEight from "../assets/img/portfolio/categories-commercial/commercial-8.jpg";
+import CommercialNine from "../assets/img/portfolio/categories-commercial/commercial-9.jpg";
+import CommercialTen from "../assets/img/portfolio/categories-commercial/commercial-10.jpg";
+import CommercialEleven from "../assets/img/portfolio/categories-commercial/commercial-11.jpg";
+import CommercialTwelve from "../assets/img/portfolio/categories-commercial/commercial-12.jpg";
+import CommercialThirteen from "../assets/img/portfolio/categories-commercial/commercial-13.jpg";
+import CommercialFourteen from "../assets/img/portfolio/categories-commercial/commercial-14.jpg";
 
 export const portfoliolist = [
   {
     id: 1,
-    number: "1",
     category: "Residential design",
-    images: [ResidentalOne, ResidentalTwo, ResidentalThree, ResidentalFour, ResidentalFive, ResidentalSix, ResidentalSeven, ResidentalEight, ResidentalNine, ResidentalTen, ResidentalEleven]
+    images: [ResidentalOne, ResidentalTwo, ResidentalThree, ResidentalFour, ResidentalFive, ResidentalSix, ResidentalSeven, ResidentalEight, ResidentalNine, ResidentalTen, ResidentalEleven,ResidentalTwelve,ResidentalThirteen,ResidentalFourteen,ResidentalFifteen,ResidentalSixteen,ResidentalSeventeen,ResidentalEighteen,ResidentalNineteen,ResidentalTwenty,ResidentalTwentyOne,ResidentalTwentyTwo,ResidentalTwentyThree,ResidentalTwentyFour,ResidentalTwentyFive,ResidentalTwentySix,ResidentalTwentySeven,ResidentalTwentyEight,ResidentalTwentyNine,ResidentalThirty,ResidentalThirtyOne,ResidentalThirtyTwo,ResidentalThirtyThree]
   },
   {
     id: 2,
-    number: "2",
     category: "Office design",
-    images: [OfficeOne,OfficeTwo,OfficeTwo,OfficeTwo]
+    images: [OfficeOne,OfficeTwo,OfficeThree,OfficeFour]
   },
   {
     id: 3,
-    number: "3",
     category: "Commercial design",
-    images: [CommercialOne,CommercialTwo,CommercialTwo,CommercialTwo,CommercialTwo]
+    images: [CommercialOne,CommercialTwo,CommercialThree,CommercialTwo,CommercialFour,CommercialFive,CommercialSix,CommercialSeven,CommercialEight,CommercialNine,CommercialTen,CommercialEleven,CommercialTwelve,CommercialThirteen,CommercialFourteen]
   },
 ];
 export const categorylist = [

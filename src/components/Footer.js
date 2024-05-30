@@ -1,6 +1,6 @@
 "use client"
 // IMAGES
-import Logo from "../assets/img/logo.svg";
+import Logo from "../assets/img/icons/logo.svg";
 // COMPONENTS
 import SocialMedia from "./SocialMedia";
 import ContactInfo from "./ContactInfo";

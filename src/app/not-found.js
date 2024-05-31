@@ -9,15 +9,15 @@ const NotFound = () => {
   const pathname = usePathname();
   console.log(pathname);
 
-
-  
   useEffect(() => {
     // Conditionally add class to body for the error page
-    document.body.classList.add('overflow-hidden','errorPage');
+      document.body.classList.add('overflow-y-hidden', 'errorPage');
+
+    // Clean up function
     return () => {
-      document.body.classList.remove('error-page');
+      document.body.classList.remove('overflow-y-hidden', 'errorPage');
     };
-  }, []);
+  }, [pathname]);
 
 
   return (

@@ -5,6 +5,7 @@ import ExploreThumb2 from "../assets/img/home/explore2.png"
 import ExploreThumb3 from "../assets/img/home/explore3.png"
 import Image from "next/image";
 import Cta from "./Cta";
+import { useRouter } from 'next/navigation'
 
 const Explore = () => {
   const [activeTab, setActiveTab] = useState(1);
@@ -16,6 +17,12 @@ const Explore = () => {
   const getActiveClass = (tabIndex, defaultClass) => {
     return activeTab === tabIndex ? defaultClass : '';
   };
+
+  const router = useRouter();
+
+  const btnNext = () => {
+    router.push('/portfolio')
+  }
   return (
     <section className="tabbedContent bg-white py-[30px] lg:py-[80px]">
         <div className="container mx-auto">
@@ -53,21 +60,21 @@ const Explore = () => {
                         <div className="sectionTitle">
                             <h2 className="mb-[10px] font-monsterratB text-fs24 lg:text-fs36 text-primaryDark">Your Home Redefined</h2>
                             <p className="mb-[20px] font-monsterratR text-fs16 lg:text-fs18 text-primaryDark">Our residential interior designs are crafted with meticulous attention to detail, reflecting a passion for creating spaces that inspire and rejuvenate.</p>
-                            <Cta text="Explore" btnStyle="px-[50px]"/>
+                            <Cta onClick={btnNext} text="Explore" btnStyle="px-[50px]"/>
                         </div>
                     </div>
                     <div className={`content ${getActiveClass(2, "active-content" )}`}>
                     <div className="sectionTitle">
                             <h2 className="mb-[10px] font-monsterratB text-fs24 lg:text-fs36 text-primaryDark">Designing the Perfect Office</h2>
                             <p className="mb-[20px] font-monsterratR text-fs16 lg:text-fs18 text-primaryDark">Office design plays a crucial role in enhancing productivity, creativity, and employee well-being. A well-designed office not only fosters a positive work environment but also reflects the company’s culture and values.</p>
-                            <Cta text="Explore" btnStyle="px-[50px]"/>
+                            <Cta onClick={btnNext} text="Explore" btnStyle="px-[50px]"/>
                         </div>
                     </div>
                     <div className={`content ${getActiveClass(3, "active-content" )}`}>
                     <div className="sectionTitle">
                             <h2 className="mb-[10px] font-monsterratB text-fs24 lg:text-fs36 text-primaryDark">Commercial Spaces Reimagined</h2>
                             <p className="mb-[20px] font-monsterratR text-fs16 lg:text-fs18 text-primaryDark">Commercial interior design is essential for creating spaces that are not only functional but also aesthetically pleasing. The design of a commercial space can significantly impact customer experience, employee productivity, and overall business success.</p>
-                            <Cta text="Explore" btnStyle="px-[50px]"/>
+                            <Cta onClick={btnNext} text="Explore" btnStyle="px-[50px]"/>
                         </div>
                     </div>
                 </div>

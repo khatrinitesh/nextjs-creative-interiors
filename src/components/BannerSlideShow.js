@@ -7,7 +7,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation"; // import required modules
 import { Navigation, EffectFade } from "swiper/modules";
-import BannerImg from "../assets/img/home/banner.png";
+import BannerImg1 from "../assets/img/home/banner1.png";
+import BannerImg2 from "../assets/img/home/banner2.png";
+import BannerImg3 from "../assets/img/home/banner3.png";
 import BannerSection from "./BannerSection";
 
 const BannerSlideShow = () => {
@@ -27,7 +29,7 @@ const BannerSlideShow = () => {
           <SwiperSlide>
             <Image
               alt="Banner"
-              src={BannerImg}
+              src={BannerImg1}
               className="aspect-w-16 aspect-h-9 w-full"
             />
             <BannerSection title="The Ultimate Guide to Home Interior Design" />
@@ -36,19 +38,19 @@ const BannerSlideShow = () => {
           <SwiperSlide>
             <Image
               alt="Banner"
-              src={BannerImg}
+              src={BannerImg2}
               className="aspect-w-16 aspect-h-9 w-full"
             />
-            <BannerSection title="The Ultimate Guide to Home Interior Design 2" />
+            <BannerSection title="Stylish Spaces for Inspired Living" />
           </SwiperSlide>
           {/* 3 */}
           <SwiperSlide>
             <Image
               alt="Banner"
-              src={BannerImg}
+              src={BannerImg3}
               className="aspect-w-16 aspect-h-9 w-full"
             />
-            <BannerSection title="The Ultimate Guide to Home Interior Design 3" />
+            <BannerSection title="Crafting Your Ideal Space with Delight" />
           </SwiperSlide>
         </Swiper>
       </div>

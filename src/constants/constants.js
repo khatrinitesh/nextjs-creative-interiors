@@ -83,7 +83,6 @@ import Residental39 from "../assets/img/portfolio/categories-residental/resident
 import Residental40 from "../assets/img/portfolio/categories-residental/residental-40.jpg";
 import Residental41 from "../assets/img/portfolio/categories-residental/residental-41.jpg";
 import Residental42 from "../assets/img/portfolio/categories-residental/residental-42.jpg";
-import Residental43 from "../assets/img/portfolio/categories-residental/residental-43.jpg";
 // PORTFOLIO > OFFICE
 import OfficeOne from "../assets/img/portfolio/categories-office/office-1.jpg";
 import OfficeTwo from "../assets/img/portfolio/categories-office/office-2.jpg";
@@ -181,7 +180,6 @@ export const portfoliolist = [
       Residental40,
       Residental41,
       Residental42,
-      Residental43
     ]  
   },
   {

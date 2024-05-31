@@ -27,7 +27,7 @@ const Project = () => {
         return;
       }
       emailjs
-        .sendForm('service_60pxdoy', 'template_i5spdsn', form.current, {
+        .sendForm('service_6osxwlg', 'template_q9fj8ci', form.current, {
           publicKey: 'a1u_zKxDNiJ_YgFY0',
   
         })

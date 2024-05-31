@@ -148,6 +148,14 @@ import Commercial39 from "../assets/img/portfolio/categories-commercial/commerci
 import Commercial40 from "../assets/img/portfolio/categories-commercial/commercial-40.jpg";
 import Commercial41 from "../assets/img/portfolio/categories-commercial/commercial-41.jpg";
 import Commercial42 from "../assets/img/portfolio/categories-commercial/commercial-42.jpg";
+import Commercial43 from "../assets/img/portfolio/categories-commercial/commercial-43.jpeg";
+import Commercial44 from "../assets/img/portfolio/categories-commercial/commercial-44.jpeg";
+import Commercial45 from "../assets/img/portfolio/categories-commercial/commercial-45.jpeg";
+import Commercial46 from "../assets/img/portfolio/categories-commercial/commercial-46.jpeg";
+import Commercial47 from "../assets/img/portfolio/categories-commercial/commercial-47.jpeg";
+import Commercial48 from "../assets/img/portfolio/categories-commercial/commercial-48.jpeg";
+import Commercial49 from "../assets/img/portfolio/categories-commercial/commercial-49.jpeg";
+import Commercial50 from "../assets/img/portfolio/categories-commercial/commercial-50.jpeg";
 
 
 export const portfoliolist = [
@@ -249,7 +257,16 @@ Commercial38,
 Commercial39,
 Commercial40,
 Commercial41,
-Commercial42
+Commercial42,
+Commercial43,
+Commercial44,
+Commercial45,
+Commercial46,
+Commercial47,
+Commercial48,
+Commercial49,
+Commercial50,
+
     ]
   },
 ];

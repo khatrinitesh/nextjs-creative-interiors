@@ -82,50 +82,50 @@ const Contact = () => {
         <div className="grid lg:grid-cols-2 gap-2 lg:mb-[80px]">
           <div>
           <form onSubmit={sendEmail} className="max-w-full lg:max-w-[600px] bg-lightgray p-6 rounded-[10px] shadow">
-          <div>
-          <label htmlFor="name">Name:</label>
+          <div className="mb-4">
+          <label className="font-monsterratM text-fs14 lg:text-fs16" htmlFor="name">Name:</label>
           <input
             type="text"
             id="name"
             name="name"
             value={formData.name}
             onChange={handleChange}
-            className="w-full shadow-black px-3 py-2 border rounded-md text-gray-700 focus:outline-none focus:border-blue-500"
+            className="w-full shadow-black font-monsterratM text-fs14 lg:text-fs16 px-3 py-2 border rounded-md text-gray-700 focus:outline-none focus:border-blue-500"
             required
           />
         </div>
-        <div>
-          <label htmlFor="email">Email:</label>
+        <div className="mb-4">
+          <label className="font-monsterratM text-fs14 lg:text-fs16" htmlFor="email">Email:</label>
           <input
             type="email"
             id="email"
             name="email"
             value={formData.email}
             onChange={handleChange}
-            className="w-full shadow-black px-3 py-2 border rounded-md text-gray-700 focus:outline-none focus:border-blue-500"
+            className="w-full shadow-black font-monsterratM text-fs14 lg:text-fs16 px-3 py-2 border rounded-md text-gray-700 focus:outline-none focus:border-blue-500"
             required
           />
         </div>
-        <div>
-          <label htmlFor="phone">Phone Number:</label>
+        <div className="mb-4">
+          <label className="font-monsterratM text-fs14 lg:text-fs16" htmlFor="phone">Phone Number:</label>
           <input
             type="tel"
             id="phone"
             name="phone"
             value={formData.phone}
             onChange={handleChange}
-            className="w-full shadow-black px-3 py-2 border rounded-md text-gray-700 focus:outline-none focus:border-blue-500"
+            className="w-full shadow-black font-monsterratM text-fs14 lg:text-fs16 px-3 py-2 border rounded-md text-gray-700 focus:outline-none focus:border-blue-500"
             required
           />
         </div>
-        <div>
-          <label htmlFor="message">Message:</label>
+        <div className="mb-4">
+          <label className="font-monsterratM text-fs14 lg:text-fs16" htmlFor="message">Message:</label>
           <textarea
             id="message"
             name="message"
             value={formData.message}
             onChange={handleChange}
-            className="w-full shadow-black px-3 py-2 border rounded-md text-gray-700 focus:outline-none focus:border-blue-500"
+            className="w-full shadow-black font-monsterratM text-fs14 lg:text-fs16 px-3 py-2 border rounded-md text-gray-700 focus:outline-none focus:border-blue-500"
             required
           />
         </div>

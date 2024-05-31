@@ -84,10 +84,27 @@ import Residental40 from "../assets/img/portfolio/categories-residental/resident
 import Residental41 from "../assets/img/portfolio/categories-residental/residental-41.jpg";
 import Residental42 from "../assets/img/portfolio/categories-residental/residental-42.jpg";
 // PORTFOLIO > OFFICE
-import OfficeOne from "../assets/img/portfolio/categories-office/office-1.jpg";
-import OfficeTwo from "../assets/img/portfolio/categories-office/office-2.jpg";
-import OfficeThree from "../assets/img/portfolio/categories-office/office-3.jpg";
-import OfficeFour from "../assets/img/portfolio/categories-office/office-4.jpg";
+import Office1 from "../assets/img/portfolio/categories-office/office-1.jpg";
+import Office2 from "../assets/img/portfolio/categories-office/office-2.jpg";
+import Office3 from "../assets/img/portfolio/categories-office/office-3.jpg";
+import Office4 from "../assets/img/portfolio/categories-office/office-4.jpg";
+import Office5 from "../assets/img/portfolio/categories-office/office-5.jpeg";
+import Office6 from "../assets/img/portfolio/categories-office/office-6.jpeg";
+import Office7 from "../assets/img/portfolio/categories-office/office-7.jpeg";
+import Office8 from "../assets/img/portfolio/categories-office/office-8.jpeg";
+import Office9 from "../assets/img/portfolio/categories-office/office-9.jpeg";
+import Office10 from "../assets/img/portfolio/categories-office/office-10.jpeg";
+import Office11 from "../assets/img/portfolio/categories-office/office-11.jpeg";
+import Office12 from "../assets/img/portfolio/categories-office/office-12.jpeg";
+import Office13 from "../assets/img/portfolio/categories-office/office-13.jpeg";
+import Office14 from "../assets/img/portfolio/categories-office/office-14.jpeg";
+import Office15 from "../assets/img/portfolio/categories-office/office-15.jpeg";
+import Office16 from "../assets/img/portfolio/categories-office/office-16.jpeg";
+import Office17 from "../assets/img/portfolio/categories-office/office-17.jpeg";
+import Office18 from "../assets/img/portfolio/categories-office/office-18.jpeg";
+import Office19 from "../assets/img/portfolio/categories-office/office-19.jpeg";
+import Office20 from "../assets/img/portfolio/categories-office/office-20.jpeg";
+import Office21 from "../assets/img/portfolio/categories-office/office-21.jpeg";
 // PORTFOLIO > COMMERCIAL
 import Commercial1 from "../assets/img/portfolio/categories-commercial/commercial-1.jpg";
 import Commercial2 from "../assets/img/portfolio/categories-commercial/commercial-2.jpg";
@@ -185,7 +202,7 @@ export const portfoliolist = [
   {
     id: 2,
     category: "Office design",
-    images: [OfficeOne,OfficeTwo,OfficeThree,OfficeFour]
+    images: [Office1,Office2,Office3,Office4,Office5,Office6,Office7,Office8,Office9,Office10,Office11,Office12,Office13,Office14,Office15,Office16,Office17,Office18,Office19,Office20,Office21]
   },
   {
     id: 3,

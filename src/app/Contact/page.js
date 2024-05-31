@@ -23,7 +23,7 @@ const Contact = () => {
       return;
     }
 
-    emailjs.send('service_60pxdoy', 'template_i5spdsn', formData, 'a1u_zKxDNiJ_YgFY0')
+    emailjs.send('service_6osxwlg', 'template_q9fj8ci', formData, 'a1u_zKxDNiJ_YgFY0')
       .then((response) => {
         console.log('SUCCESS!', response.status, response.text);
         toast.success('Email sent successfully!');

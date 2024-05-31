@@ -31,76 +31,158 @@ import IconNishad from "../assets/img/home/review/icon-nishad.png"; // 5
 import IconMangal from "../assets/img/home/review/icon-mangal.png"; // 6
 import IconHeena from "../assets/img/home/review/icon-heena.png"; // 7
 import IconSuryakant from "../assets/img/home/review/icon-suryakant.png"; // 8
-import IconArshad from "../assets/img/home/review/icon-arshad.png"; // 9
-import IconSabera from "../assets/img/home/review/icon-sabera.png"; // 10
-import IconPrachi from "../assets/img/home/review/icon-prachi.png"; // 11
-import IconFaisal from "../assets/img/home/review/icon-faisal.png"; // 12
-import IconBharat from "../assets/img/home/review/icon-bharat.png"; // 13
+import IconSabera from "../assets/img/home/review/icon-sabera.png"; // 9
+import IconPrachi from "../assets/img/home/review/icon-prachi.png"; // 10
+import IconFaisal from "../assets/img/home/review/icon-faisal.png"; // 11
+import IconBharat from "../assets/img/home/review/icon-bharat.png"; // 12
 // OUR TEAM
 import MP from "../assets/img/home/team/mahendra.png";
 import NP from "../assets/img/home/team/nitesh.png";
 import MC from "../assets/img/home/team/madan.png";
 
 // PORTFOLIO - RESIDENTIAL
-import ResidentalOne from "../assets/img/portfolio/categories-residental/residental-1.jpg";
-import ResidentalTwo from "../assets/img/portfolio/categories-residental/residental-2.jpg";
-import ResidentalThree from "../assets/img/portfolio/categories-residental/residental-3.jpg";
-import ResidentalFour from "../assets/img/portfolio/categories-residental/residental-4.jpg";
-import ResidentalFive from "../assets/img/portfolio/categories-residental/residental-5.jpg";
-import ResidentalSix from "../assets/img/portfolio/categories-residental/residental-6.jpg";
-import ResidentalSeven from "../assets/img/portfolio/categories-residental/residental-7.jpg";
-import ResidentalEight from "../assets/img/portfolio/categories-residental/residental-8.jpg";
-import ResidentalNine from "../assets/img/portfolio/categories-residental/residental-9.jpg";
-import ResidentalTen from "../assets/img/portfolio/categories-residental/residental-10.jpg";
-import ResidentalEleven from "../assets/img/portfolio/categories-residental/residental-11.jpg";
-import ResidentalTwelve from "../assets/img/portfolio/categories-residental/residental-12.jpg";
-import ResidentalThirteen from "../assets/img/portfolio/categories-residental/residental-13.jpg";
-import ResidentalFourteen from "../assets/img/portfolio/categories-residental/residental-14.jpg";
-import ResidentalFifteen from "../assets/img/portfolio/categories-residental/residental-15.jpg";
-import ResidentalSixteen from "../assets/img/portfolio/categories-residental/residental-16.jpg";
-import ResidentalSeventeen from "../assets/img/portfolio/categories-residental/residental-17.jpg";
-import ResidentalEighteen from "../assets/img/portfolio/categories-residental/residental-18.jpg";
-import ResidentalNineteen from "../assets/img/portfolio/categories-residental/residental-19.jpg";
-import ResidentalTwenty from "../assets/img/portfolio/categories-residental/residental-20.jpg";
-import ResidentalTwentyOne from "../assets/img/portfolio/categories-residental/residental-21.jpg";
-import ResidentalTwentyTwo from "../assets/img/portfolio/categories-residental/residental-22.jpg";
-import ResidentalTwentyThree from "../assets/img/portfolio/categories-residental/residental-23.jpg";
-import ResidentalTwentyFour from "../assets/img/portfolio/categories-residental/residental-24.jpg";
-import ResidentalTwentyFive from "../assets/img/portfolio/categories-residental/residental-25.jpg";
-import ResidentalTwentySix from "../assets/img/portfolio/categories-residental/residental-26.jpg";
-import ResidentalTwentySeven from "../assets/img/portfolio/categories-residental/residental-27.jpg";
-import ResidentalTwentyEight from "../assets/img/portfolio/categories-residental/residental-28.jpg";
-import ResidentalTwentyNine from "../assets/img/portfolio/categories-residental/residental-29.jpg";
-import ResidentalThirty from "../assets/img/portfolio/categories-residental/residental-30.jpg";
-import ResidentalThirtyOne from "../assets/img/portfolio/categories-residental/residental-31.jpg";
-import ResidentalThirtyTwo from "../assets/img/portfolio/categories-residental/residental-32.jpg";
-import ResidentalThirtyThree from "../assets/img/portfolio/categories-residental/residental-33.jpg";
+import Residental1 from "../assets/img/portfolio/categories-residental/residental-1.jpg";
+import Residental2 from "../assets/img/portfolio/categories-residental/residental-2.jpg";
+import Residental3 from "../assets/img/portfolio/categories-residental/residental-3.jpg";
+import Residental4 from "../assets/img/portfolio/categories-residental/residental-4.jpg";
+import Residental5 from "../assets/img/portfolio/categories-residental/residental-5.jpg";
+import Residental6 from "../assets/img/portfolio/categories-residental/residental-6.jpg";
+import Residental7 from "../assets/img/portfolio/categories-residental/residental-7.jpg";
+import Residental8 from "../assets/img/portfolio/categories-residental/residental-8.jpg";
+import Residental9 from "../assets/img/portfolio/categories-residental/residental-9.jpg";
+import Residental10 from "../assets/img/portfolio/categories-residental/residental-10.jpg";
+import Residental11 from "../assets/img/portfolio/categories-residental/residental-11.jpg";
+import Residental12 from "../assets/img/portfolio/categories-residental/residental-12.jpg";
+import Residental13 from "../assets/img/portfolio/categories-residental/residental-13.jpg";
+import Residental14 from "../assets/img/portfolio/categories-residental/residental-14.jpg";
+import Residental15 from "../assets/img/portfolio/categories-residental/residental-15.jpg";
+import Residental16 from "../assets/img/portfolio/categories-residental/residental-16.jpg";
+import Residental17 from "../assets/img/portfolio/categories-residental/residental-17.jpg";
+import Residental18 from "../assets/img/portfolio/categories-residental/residental-18.jpg";
+import Residental19 from "../assets/img/portfolio/categories-residental/residental-19.jpg";
+import Residental20 from "../assets/img/portfolio/categories-residental/residental-20.jpg";
+import Residental21 from "../assets/img/portfolio/categories-residental/residental-21.jpg";
+import Residental22 from "../assets/img/portfolio/categories-residental/residental-22.jpg";
+import Residental23 from "../assets/img/portfolio/categories-residental/residental-23.jpg";
+import Residental24 from "../assets/img/portfolio/categories-residental/residental-24.jpg";
+import Residental25 from "../assets/img/portfolio/categories-residental/residental-25.jpg";
+import Residental26 from "../assets/img/portfolio/categories-residental/residental-26.jpg";
+import Residental27 from "../assets/img/portfolio/categories-residental/residental-27.jpg";
+import Residental28 from "../assets/img/portfolio/categories-residental/residental-28.jpg";
+import Residental29 from "../assets/img/portfolio/categories-residental/residental-29.jpg";
+import Residental30 from "../assets/img/portfolio/categories-residental/residental-30.jpg";
+import Residental31 from "../assets/img/portfolio/categories-residental/residental-31.jpg";
+import Residental32 from "../assets/img/portfolio/categories-residental/residental-32.jpg";
+import Residental33 from "../assets/img/portfolio/categories-residental/residental-33.jpg";
+import Residental34 from "../assets/img/portfolio/categories-residental/residental-34.jpg";
+import Residental35 from "../assets/img/portfolio/categories-residental/residental-35.jpg";
+import Residental36 from "../assets/img/portfolio/categories-residental/residental-36.jpg";
+import Residental37 from "../assets/img/portfolio/categories-residental/residental-37.jpg";
+import Residental38 from "../assets/img/portfolio/categories-residental/residental-38.jpg";
+import Residental39 from "../assets/img/portfolio/categories-residental/residental-39.jpg";
+import Residental40 from "../assets/img/portfolio/categories-residental/residental-40.jpg";
+import Residental41 from "../assets/img/portfolio/categories-residental/residental-41.jpg";
+import Residental42 from "../assets/img/portfolio/categories-residental/residental-42.jpg";
+import Residental43 from "../assets/img/portfolio/categories-residental/residental-43.jpg";
 // PORTFOLIO > OFFICE
 import OfficeOne from "../assets/img/portfolio/categories-office/office-1.jpg";
 import OfficeTwo from "../assets/img/portfolio/categories-office/office-2.jpg";
 import OfficeThree from "../assets/img/portfolio/categories-office/office-3.jpg";
 import OfficeFour from "../assets/img/portfolio/categories-office/office-4.jpg";
 // PORTFOLIO > COMMERCIAL
-import CommercialOne from "../assets/img/portfolio/categories-commercial/commercial-1.jpg";
-import CommercialTwo from "../assets/img/portfolio/categories-commercial/commercial-2.jpg";
-import CommercialThree from "../assets/img/portfolio/categories-commercial/commercial-3.jpg";
-import CommercialFour from "../assets/img/portfolio/categories-commercial/commercial-4.jpg";
-import CommercialFive from "../assets/img/portfolio/categories-commercial/commercial-5.jpg";
-import CommercialSix from "../assets/img/portfolio/categories-commercial/commercial-6.jpg";
-import CommercialSeven from "../assets/img/portfolio/categories-commercial/commercial-7.jpg";
-import CommercialEight from "../assets/img/portfolio/categories-commercial/commercial-8.jpg";
-import CommercialNine from "../assets/img/portfolio/categories-commercial/commercial-9.jpg";
-import CommercialTen from "../assets/img/portfolio/categories-commercial/commercial-10.jpg";
-import CommercialEleven from "../assets/img/portfolio/categories-commercial/commercial-11.jpg";
-import CommercialTwelve from "../assets/img/portfolio/categories-commercial/commercial-12.jpg";
-import CommercialThirteen from "../assets/img/portfolio/categories-commercial/commercial-13.jpg";
-import CommercialFourteen from "../assets/img/portfolio/categories-commercial/commercial-14.jpg";
+import Commercial1 from "../assets/img/portfolio/categories-commercial/commercial-1.jpg";
+import Commercial2 from "../assets/img/portfolio/categories-commercial/commercial-2.jpg";
+import Commercial3 from "../assets/img/portfolio/categories-commercial/commercial-3.jpg";
+import Commercial4 from "../assets/img/portfolio/categories-commercial/commercial-4.jpg";
+import Commercial5 from "../assets/img/portfolio/categories-commercial/commercial-5.jpg";
+import Commercial6 from "../assets/img/portfolio/categories-commercial/commercial-6.jpg";
+import Commercial7 from "../assets/img/portfolio/categories-commercial/commercial-7.jpg";
+import Commercial8 from "../assets/img/portfolio/categories-commercial/commercial-8.jpg";
+import Commercial9 from "../assets/img/portfolio/categories-commercial/commercial-9.jpg";
+import Commercial10 from "../assets/img/portfolio/categories-commercial/commercial-10.jpg";
+import Commercial11 from "../assets/img/portfolio/categories-commercial/commercial-11.jpg";
+import Commercial12 from "../assets/img/portfolio/categories-commercial/commercial-12.jpg";
+import Commercial13 from "../assets/img/portfolio/categories-commercial/commercial-13.jpg";
+import Commercial14 from "../assets/img/portfolio/categories-commercial/commercial-14.jpg";
+import Commercial15 from "../assets/img/portfolio/categories-commercial/commercial-15.jpg";
+import Commercial16 from "../assets/img/portfolio/categories-commercial/commercial-16.jpg";
+import Commercial17 from "../assets/img/portfolio/categories-commercial/commercial-17.jpg";
+import Commercial18 from "../assets/img/portfolio/categories-commercial/commercial-18.jpg";
+import Commercial19 from "../assets/img/portfolio/categories-commercial/commercial-19.jpg";
+import Commercial20 from "../assets/img/portfolio/categories-commercial/commercial-20.jpg";
+import Commercial21 from "../assets/img/portfolio/categories-commercial/commercial-21.jpg";
+import Commercial22 from "../assets/img/portfolio/categories-commercial/commercial-22.jpg";
+import Commercial23 from "../assets/img/portfolio/categories-commercial/commercial-23.jpg";
+import Commercial24 from "../assets/img/portfolio/categories-commercial/commercial-24.jpg";
+import Commercial25 from "../assets/img/portfolio/categories-commercial/commercial-25.jpg";
+import Commercial26 from "../assets/img/portfolio/categories-commercial/commercial-26.jpg";
+import Commercial27 from "../assets/img/portfolio/categories-commercial/commercial-27.jpg";
+import Commercial28 from "../assets/img/portfolio/categories-commercial/commercial-28.jpg";
+import Commercial29 from "../assets/img/portfolio/categories-commercial/commercial-29.jpg";
+import Commercial30 from "../assets/img/portfolio/categories-commercial/commercial-30.jpg";
+import Commercial31 from "../assets/img/portfolio/categories-commercial/commercial-31.jpg";
+import Commercial32 from "../assets/img/portfolio/categories-commercial/commercial-32.jpg";
+import Commercial33 from "../assets/img/portfolio/categories-commercial/commercial-33.jpg";
+import Commercial34 from "../assets/img/portfolio/categories-commercial/commercial-34.jpg";
+import Commercial35 from "../assets/img/portfolio/categories-commercial/commercial-35.jpg";
+import Commercial36 from "../assets/img/portfolio/categories-commercial/commercial-36.jpg";
+import Commercial37 from "../assets/img/portfolio/categories-commercial/commercial-37.jpg";
+import Commercial38 from "../assets/img/portfolio/categories-commercial/commercial-38.jpg";
+import Commercial39 from "../assets/img/portfolio/categories-commercial/commercial-39.jpg";
+import Commercial40 from "../assets/img/portfolio/categories-commercial/commercial-40.jpg";
+import Commercial41 from "../assets/img/portfolio/categories-commercial/commercial-41.jpg";
+import Commercial42 from "../assets/img/portfolio/categories-commercial/commercial-42.jpg";
+
 
 export const portfoliolist = [
   {
     id: 1,
     category: "Residential design",
-    images: [ResidentalOne, ResidentalTwo, ResidentalThree, ResidentalFour, ResidentalFive, ResidentalSix, ResidentalSeven, ResidentalEight, ResidentalNine, ResidentalTen, ResidentalEleven,ResidentalTwelve,ResidentalThirteen,ResidentalFourteen,ResidentalFifteen,ResidentalSixteen,ResidentalSeventeen,ResidentalEighteen,ResidentalNineteen,ResidentalTwenty,ResidentalTwentyOne,ResidentalTwentyTwo,ResidentalTwentyThree,ResidentalTwentyFour,ResidentalTwentyFive,ResidentalTwentySix,ResidentalTwentySeven,ResidentalTwentyEight,ResidentalTwentyNine,ResidentalThirty,ResidentalThirtyOne,ResidentalThirtyTwo,ResidentalThirtyThree]
+    images: [
+      Residental1,
+      Residental2,
+      Residental3,
+      Residental4,
+      Residental5,
+      Residental6,
+      Residental7,
+      Residental8,
+      Residental9,
+      Residental10,
+      Residental11,
+      Residental12,
+      Residental13,
+      Residental14,
+      Residental15,
+      Residental16,
+      Residental17,
+      Residental18,
+      Residental19,
+      Residental20,
+      Residental21,
+      Residental22,
+      Residental23,
+      Residental24,
+      Residental25,
+      Residental26,
+      Residental27,
+      Residental28,
+      Residental29,
+      Residental30,
+      Residental31,
+      Residental32,
+      Residental33,
+      Residental34,
+      Residental35,
+      Residental36,
+      Residental37,
+      Residental38,
+      Residental39,
+      Residental40,
+      Residental41,
+      Residental42,
+      Residental43
+    ]  
   },
   {
     id: 2,
@@ -110,7 +192,50 @@ export const portfoliolist = [
   {
     id: 3,
     category: "Commercial design",
-    images: [CommercialOne,CommercialTwo,CommercialThree,CommercialTwo,CommercialFour,CommercialFive,CommercialSix,CommercialSeven,CommercialEight,CommercialNine,CommercialTen,CommercialEleven,CommercialTwelve,CommercialThirteen,CommercialFourteen]
+    images: [
+      Commercial1 ,
+Commercial2 ,
+Commercial3 ,
+Commercial4 ,
+Commercial5 ,
+Commercial6 ,
+Commercial7 ,
+Commercial8 ,
+Commercial9 ,
+Commercial10,
+Commercial11,
+Commercial12,
+Commercial13,
+Commercial14,
+Commercial15,
+Commercial16,
+Commercial17,
+Commercial18,
+Commercial19,
+Commercial20,
+Commercial21,
+Commercial22,
+Commercial23,
+Commercial24,
+Commercial25,
+Commercial26,
+Commercial27,
+Commercial28,
+Commercial29,
+Commercial30,
+Commercial31,
+Commercial32,
+Commercial33,
+Commercial34,
+Commercial35,
+Commercial36,
+Commercial37,
+Commercial38,
+Commercial39,
+Commercial40,
+Commercial41,
+Commercial42
+    ]
   },
 ];
 export const categorylist = [
@@ -213,20 +338,12 @@ export const testimonials = [
   // 9
   {
     title: "Highly Recommended",
-    desc: "Nitesh has been excellent throughout, I have got my entire 2BHK renovated. The best part is that he's always around to ensure that job taken is done and goes that extra mile to support without any if's and but's. Highly recommend his services.",
-    avatar: IconArshad,
-    subtitle: "Arshad Malik",
-    rating: 4,
-  },
-  // 10
-  {
-    title: "Highly Recommended",
     desc: "Had an amazing experience with creative interiors. They are an excellent solution provider.",
     avatar: IconHazique,
     subtitle: "Hazique Mandik",
     rating: 5
   },
-  // 11
+  // 10
   {
     title: "Highly Recommended",
     desc: "I have a good working experience with Mr.nitesh He is really responsive on phone, Coordination is clear upto extend. And very important he really works hard on deadlines. I got my recently single bedroom done in exact 22 days time. So 22 days I mean to say after all planning and drawing approved by me.",
@@ -234,7 +351,7 @@ export const testimonials = [
     subtitle: "Nishad Khedekar",
     rating: 5,
   },
-  // 12
+  // 11
   {
     title: "Highly Recommended",
     desc: "Customized Interior Work (Residential, Commercial), Site Inspection, Space Planning, Space Saving Furnishing Work, Customized Kitchen Design, House Painting Designs (Interior, Exterior)",
@@ -242,7 +359,7 @@ export const testimonials = [
     subtitle: "Faisal Sayed",
     rating: 5,
   },
-  // 13
+  // 12
   {
     title: "Highly Recommended",
     desc: "This company is very experienced in there works and they completed work on given committed date. They alway look how to reduced the cost and give best design and work to clients.  Very wonderful experience working with this company.  Thank you.",

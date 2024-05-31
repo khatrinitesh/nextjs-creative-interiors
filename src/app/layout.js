@@ -1,4 +1,5 @@
 "use client"
+import React,{useEffect} from 'react'
 import { usePathname } from "next/navigation";
 
 // COMPONENTS
@@ -19,11 +20,11 @@ export default function RootLayout({ children }) {
 
   // only home page
   const isHomePage = pathname === '/';
-
   return (
     <html lang="en">
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+        <link rel="icon" href="/src/app/favicon.ico"/>
       </head>
       <body className="overflow-x-hidden">
         <div className="flex flex-col min-h-screen">

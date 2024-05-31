@@ -113,9 +113,9 @@ const Contact = () => {
        <ToastContainerComponent />
       <div className="container mx-auto">
         <h2 className="text-fs24 lg:text-fs32 font-monsterratB text-primaryDark uppercase mb-[30px]">Contact</h2>
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid lg:grid-cols-2 gap-4">
         <form
-          className="max-w-[600px] bg-lightgray p-6 rounded-[10px] shadow"
+          className="max-w-full lg:max-w-[600px] bg-lightgray p-6 rounded-[10px] shadow"
         >
           <div className="mb-4">
             <label
@@ -206,7 +206,6 @@ const Contact = () => {
         </form>
         <div className="wallPaper">
           {/* <Image src="https://c1.wallpaperflare.com/preview/987/457/165/contact-us-contact-call-us-phone-email.jpg" className="aspect-w-16 aspect-h-9"/> */}
-          asdsd
         </div>
         </div>
       </div>

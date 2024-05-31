@@ -1,11 +1,27 @@
 "use client"
+
 import Link from 'next/link'
-import React from 'react'
+import React,{useEffect} from 'react'
+import {usePathname} from 'next/navigation';
 
 const NotFound = () => {
 
+  const pathname = usePathname();
+  console.log(pathname);
+
+
+  
+  useEffect(() => {
+    // Conditionally add class to body for the error page
+    document.body.classList.add('overflow-hidden','errorPage');
+    return () => {
+      document.body.classList.remove('error-page');
+    };
+  }, []);
+
+
   return (
-    <div className="errorContent h-screen overflow-hidden flex items-center flex-col justify-center gap-4">
+    <div className="errorContent text-center h-screen overflow-hidden flex items-center flex-col justify-center gap-4">
       <h1 className="error font-monsterratB text-9xl text-gray-400">404</h1>
       <div className="page mt-8 mb-4 text-2xl font-monsterratB text-gray-700">
         Ooops!!! The page you are looking for is not found

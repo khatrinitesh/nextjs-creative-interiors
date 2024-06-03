@@ -4,7 +4,7 @@ import React from 'react'
 
 const ChooseData = () => {
   return (
-    <div className="grid md:grid-cols-3 gap-[20px]">
+    <div className="grid lg:grid-cols-3 gap-[20px]">
     {dataChoose.map((val, index) => (
         <div key={index} className="bg-primaryDark p-[30px]">
           <div className="icon">

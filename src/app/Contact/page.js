@@ -135,7 +135,7 @@ const Contact = () => {
           </form>
           <ToastContainer />
           </div>
-          <div className="wallPaper h-full bg-[red]">
+          <div className="wallPaper h-full">
             <Image src={bannerContact} className="aspect-w-16 aspect-h-9 h-full object-cover" />
           </div>
         </div>

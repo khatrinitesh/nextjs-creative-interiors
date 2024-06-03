@@ -33,7 +33,7 @@ export default function RootLayout({ children }) {
           {/* E > HEADER */}
 
             {/* S > MAIN CONTENT */}
-            <div className={`mainContent grow  ${isHomePage ? '' : 'py-[50px] mt-[75px] md:mt-[114px] lg:mt-0'}`}>
+            <div className={`mainContent grow  ${isHomePage ? '' : 'md:py-[50px] mt-[75px] md:mt-[114px] lg:mt-0'}`}>
               {children}
             </div>
             {/* E > MAIN CONTENT */}

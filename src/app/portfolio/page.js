@@ -20,7 +20,7 @@ const Portfolio = () => {
 
   const filteredItems = filter === 'all' ? portfoliolist : portfoliolist.filter(item => item.category === filter);
   return (
-    <div className="customContent">
+    <div className="customContent mb-[30px] md:mb-0">
       <div className="container mx-auto">
         <motion.div
           initial={{ opacity: 0 }}
@@ -34,7 +34,7 @@ const Portfolio = () => {
             <h3 className="uppercase mb-[10px] text-fs24 lg:text-fs36 font-monsterratB text-primaryDark">
               An Idea changes everything
             </h3>
-            <p className="text-[#4f4f4f] mb-[30px] font-monsterratM">
+            <p className="text-[#4f4f4f] mb-[30px] text-fs16 lg:text-fs-18 font-monsterratM">
               Our key line of operation is full home interiors. Our leading
               interior designers take a brief and understand your requirements
               and vision for your house. Basis those requirements we work on the

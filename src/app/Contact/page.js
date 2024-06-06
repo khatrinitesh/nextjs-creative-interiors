@@ -74,14 +74,14 @@ const Contact = () => {
   };
 
   return (
-    <div className="customContent">
+    <div className="customContent mb-[30px] md:mb-0">
       <div className="container mx-auto">
         <h2 className="text-fs24 lg:text-fs32 font-monsterratB text-primaryDark uppercase mb-[30px]">
           Contact
         </h2>
-        <div className="grid lg:grid-cols-2 gap-2 lg:mb-[80px]">
-          <div>
-          <form onSubmit={sendEmail} className="max-w-full lg:max-w-[600px] bg-lightgray p-6 rounded-[10px] shadow">
+        <div className="grid lg:grid-cols-2 gap-6 lg:mb-[80px]">
+          <div className="w-full">
+          <form onSubmit={sendEmail} className="max-w-full  w-full bg-lightgray p-6 rounded-[10px] shadow">
           <div className="mb-4">
           <label className="font-monsterratM text-fs14 lg:text-fs16" htmlFor="name">Name:</label>
           <input

@@ -22,8 +22,8 @@ const BannerSlideShow = () => {
           className="mySwiper"
           spaceBetween={50}
           slidesPerView={1}
-          onSlideChange={() => console.log("slide change")}
-          onSwiper={(swiper) => console.log(swiper)}
+          onSlideChange={() => {}}
+          onSwiper={(swiper) => {}}
         >
           {/* 1 */}
           <SwiperSlide>

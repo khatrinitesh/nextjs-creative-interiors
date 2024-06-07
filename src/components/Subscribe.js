@@ -32,10 +32,8 @@ const Subscribe = () => {
         })
         .then(
           () => {
-            console.log('SUCCESS!');
           },
           (error) => {
-            console.log('FAILED...', error.text);
           },
         );
     };

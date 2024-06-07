@@ -7,7 +7,6 @@ import {usePathname} from 'next/navigation';
 const NotFound = () => {
 
   const pathname = usePathname();
-  console.log(pathname);
 
   useEffect(() => {
     // Conditionally add class to body for the error page

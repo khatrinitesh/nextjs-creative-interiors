@@ -37,13 +37,12 @@ const Footer = () => {
               </ul>
             </div>
             <div className="boxFoot relative px-[30px] justify-center items-center flex flex-col dark:text-white text-black">
-              <Subscribe/>
               <ContactInfo/>
             </div>
           </div>
         </div>
         <div className="copyRight flex items-center justify-center py-[10px] lg:py-[30px]">
-          <span className="font-monsterratR text-fs12 dark:text-white text-black">All Rights Reserved <Link className="font-bold" href="https://creativeinteriors.in/" target="_blank">CREATIVE INTERIORS</Link></span>
+          <span className="font-monsterratR text-fs12 dark:text-white text-black">All Rights Reserved <Link className="font-bold" href="http://www.increative.in/" target="_blank">CREATIVE INTERIORS</Link></span>
         </div>
       </div>
     </footer>

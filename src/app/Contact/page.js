@@ -25,12 +25,10 @@ const Contact = () => {
 
     emailjs.send('service_6osxwlg', 'template_q9fj8ci', formData, 'a1u_zKxDNiJ_YgFY0')
       .then((response) => {
-        console.log('SUCCESS!', response.status, response.text);
         toast.success('Email sent successfully!');
         setFormData({ name: '', email: '', phone: '', message: '' }); // Reset form after successful submission
       })
       .catch((error) => {
-        console.log('FAILED...', error);
         toast.error('Failed to send email. Please try again.');
       });
   };

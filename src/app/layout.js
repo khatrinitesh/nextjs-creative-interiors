@@ -13,7 +13,6 @@ import '../assets/style/globals.css';
 
 export default function RootLayout({ children }) {
   const pathname = usePathname();
-  console.log(pathname);
 
   // other pages 
   const validRoutes = ["/", "/about", "/portfolio", "/contact"];
@@ -24,7 +23,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
-        <link rel="icon" href="/src/app/favicon.ico"/>
+        <link type="image/jpeg" rel="icon" href="/public/logo.jpg"/>
       </head>
       <body className="overflow-x-hidden">
         <div className="flex flex-col min-h-screen">

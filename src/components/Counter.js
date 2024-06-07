@@ -12,8 +12,8 @@ const Counter = () => {
             speed={2000}
             refreshInterval={50}
             decimals={0}
-            onUpdate={(value) => console.log(`Current value: ${value}`)}
-            onComplete={(value) => console.log(`Completed at value: ${value}`)}/>
+            onUpdate={(value) => {}}
+            onComplete={(value) => {}}/>
             <span className="txtlbl font-monsterratB text-fs16 lg:text-fs18">Active Projects</span>
         </div>
         <div className="boxCount flex flex-col relative">
@@ -22,8 +22,8 @@ const Counter = () => {
             speed={2000}
             refreshInterval={50}
             decimals={0}
-            onUpdate={(value) => console.log(`Current value: ${value}`)}
-            onComplete={(value) => console.log(`Completed at value: ${value}`)}/>
+            onUpdate={(value) => {}}
+            onComplete={(value) => {}}/>
             <span className="txtlbl font-monsterratB text-fs16 lg:text-fs18">Expert Team</span>
         </div>
         <div className="boxCount flex flex-col relative">
@@ -33,8 +33,8 @@ const Counter = () => {
             speed={2000}
             refreshInterval={50}
             decimals={0}
-            onUpdate={(value) => console.log(`Current value: ${value}`)}
-            onComplete={(value) => console.log(`Completed at value: ${value}`)}/>
+            onUpdate={(value) => {}}
+            onComplete={(value) => {}}/>
                 <span className="font-monsterratB iconPlus absolute top-[50%] translate-y-[-50%] right-auto">
                     <FaPlus className="font-monsterratB font-bold"/>
                 </span>
@@ -48,8 +48,8 @@ const Counter = () => {
             speed={2000}
             refreshInterval={50}
             decimals={0}
-            onUpdate={(value) => console.log(`Current value: ${value}`)}
-            onComplete={(value) => console.log(`Completed at value: ${value}`)}/>
+            onUpdate={(value) => {}}
+            onComplete={(value) => {}}/>
                 <span className="font-monsterratB iconPlus absolute top-[50%] translate-y-[-50%] right-auto">
                     <FaPlus className="font-monsterratB font-bold"/>
                 </span>

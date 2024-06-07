@@ -36,7 +36,6 @@ const Header = () => {
     };
   }, []);
 
-  console.log(pathname);
 
   return (
     <>
@@ -48,7 +47,7 @@ const Header = () => {
         }`}>
         <div className="container mx-auto">
           <Link href="/"> 
-          <Image src={Logo} className={` w-[50px] md:w-[80px]  mx-auto   ${
+          <Image src={Logo} className={` w-[80px]  mx-auto   ${
                     isHomePage ? "logoDefaultWhite" : ""
                   } ${isHomePage || isSticky ? 'logoDefaultWhite' : 'logoDefaultBlack'}`}/>
                   </Link>

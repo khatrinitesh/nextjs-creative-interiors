@@ -342,7 +342,7 @@ export const teamData = [
   },
   {
     avatar:NP,
-    title:'COO & Founder',
+    title:'COO & CO-Founder',
     name:'Nitesh Parmar',
     subtitle:'Interior Designer'
   },

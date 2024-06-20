@@ -72,7 +72,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="customContent mb-[30px] md:mb-0">
+    <div className="customContent py-[70px]">
       <div className="container mx-auto">
         <h2 className="text-fs24 lg:text-fs32 font-monsterratB text-primaryDark uppercase mb-[30px]">
           Contact

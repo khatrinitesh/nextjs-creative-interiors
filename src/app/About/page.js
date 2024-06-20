@@ -8,7 +8,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="customContent">
+    <div className="customContent py-[70px]">
       <AboutBanner/>
       <AboutFeature/>
       <WhyChoose/>

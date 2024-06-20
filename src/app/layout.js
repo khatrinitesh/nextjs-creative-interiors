@@ -17,10 +17,6 @@ export const metadata = {
 
 
 export default function RootLayout({ children }) {
-
-  
-
-  
   
   return (
     <html lang="en">
@@ -41,9 +37,7 @@ export default function RootLayout({ children }) {
 
           {/* S > MAIN CONTENT */}
           <div
-            className={`mainContent grow  ${
-              true ? "" : "md:py-[50px] mt-[75px] md:mt-[114px] lg:mt-0"
-            }`}
+            className={`mainContent grow`}
           >
             {children}
           </div>

@@ -20,7 +20,7 @@ const Portfolio = () => {
 
   const filteredItems = filter === 'all' ? portfoliolist : portfoliolist.filter(item => item.category === filter);
   return (
-    <div className="customContent mb-[30px]">
+    <div className="customContent py-[70px]">
       <div className="container mx-auto">
         <motion.div
           initial={{ opacity: 0 }}

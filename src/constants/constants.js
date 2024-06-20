@@ -35,6 +35,7 @@ import IconSabera from "../assets/img/home/review/icon-sabera.png"; // 9
 import IconPrachi from "../assets/img/home/review/icon-prachi.png"; // 10
 import IconFaisal from "../assets/img/home/review/icon-faisal.png"; // 11
 import IconBharat from "../assets/img/home/review/icon-bharat.png"; // 12
+import IconSapna from "../assets/img/home/review/icon-sapna.png"; // 13
 // OUR TEAM
 import MP from "../assets/img/home/team/mahendra.png";
 import NP from "../assets/img/home/team/nitesh.png";
@@ -83,6 +84,33 @@ import Residental39 from "../assets/img/portfolio/categories-residental/resident
 import Residental40 from "../assets/img/portfolio/categories-residental/residental-40.jpg";
 import Residental41 from "../assets/img/portfolio/categories-residental/residental-41.jpg";
 import Residental42 from "../assets/img/portfolio/categories-residental/residental-42.jpg";
+import Residental43 from "../assets/img/portfolio/categories-residental/residental-43.jpeg";
+import Residental44 from "../assets/img/portfolio/categories-residental/residental-44.jpeg";
+import Residental45 from "../assets/img/portfolio/categories-residental/residental-45.jpeg";
+import Residental46 from "../assets/img/portfolio/categories-residental/residental-46.jpeg";
+import Residental47 from "../assets/img/portfolio/categories-residental/residental-47.jpeg";
+import Residental48 from "../assets/img/portfolio/categories-residental/residental-48.jpeg";
+import Residental49 from "../assets/img/portfolio/categories-residental/residental-49.jpeg";
+import Residental50 from "../assets/img/portfolio/categories-residental/residental-50.jpeg";
+import Residental51 from "../assets/img/portfolio/categories-residental/residental-51.jpeg";
+import Residental52 from "../assets/img/portfolio/categories-residental/residental-52.jpeg";
+import Residental53 from "../assets/img/portfolio/categories-residental/residental-53.jpeg";
+import Residental54 from "../assets/img/portfolio/categories-residental/residental-54.jpeg";
+import Residental55 from "../assets/img/portfolio/categories-residental/residental-55.jpeg";
+import Residental56 from "../assets/img/portfolio/categories-residental/residental-56.jpeg";
+import Residental57 from "../assets/img/portfolio/categories-residental/residental-57.jpeg";
+import Residental58 from "../assets/img/portfolio/categories-residental/residental-58.jpeg";
+import Residental59 from "../assets/img/portfolio/categories-residental/residental-59.jpeg";
+import Residental60 from "../assets/img/portfolio/categories-residental/residental-60.jpeg";
+import Residental61 from "../assets/img/portfolio/categories-residental/residental-61.jpeg";
+import Residental62 from "../assets/img/portfolio/categories-residental/residental-62.jpeg";
+import Residental63 from "../assets/img/portfolio/categories-residental/residental-63.jpeg";
+import Residental64 from "../assets/img/portfolio/categories-residental/residental-64.jpeg";
+import Residental65 from "../assets/img/portfolio/categories-residental/residental-65.jpeg";
+import Residental66 from "../assets/img/portfolio/categories-residental/residental-66.jpeg";
+import Residental67 from "../assets/img/portfolio/categories-residental/residental-67.jpeg";
+import Residental68 from "../assets/img/portfolio/categories-residental/residental-68.jpeg";
+import Residental69 from "../assets/img/portfolio/categories-residental/residental-69.jpeg";
 // PORTFOLIO > OFFICE
 import Office1 from "../assets/img/portfolio/categories-office/office-1.jpg";
 import Office2 from "../assets/img/portfolio/categories-office/office-2.jpg";
@@ -205,6 +233,34 @@ export const portfoliolist = [
       Residental40,
       Residental41,
       Residental42,
+      Residental43,
+Residental44,
+Residental45,
+Residental46,
+Residental47,
+Residental48,
+Residental49,
+Residental50,
+Residental51,
+Residental52,
+Residental53,
+Residental54,
+Residental55,
+Residental56,
+Residental57,
+Residental58,
+Residental59,
+Residental60,
+Residental61,
+Residental62,
+Residental63,
+Residental64,
+Residental65,
+Residental66,
+Residental67,
+Residental68,
+Residental69
+
     ]  
   },
   {
@@ -397,6 +453,13 @@ export const testimonials = [
     desc: "This company is very experienced in there works and they completed work on given committed date. They alway look how to reduced the cost and give best design and work to clients.  Very wonderful experience working with this company.  Thank you.",
     avatar: IconBharat,
     subtitle: "Bharat Suthar",
+    rating: 5,
+  },
+  {
+    title: "Highly Recommended",
+    desc: "Excellent service! Nitesh Parmar and Mahendra Parmar executed outstanding interior design work for our home. Their team was very cooperative and delivered results to our satisfaction.Their personal involvement and commitment to the work was note worthy. Thier humble attitude and mannerism made them feel like family throughout the process. Highly recommend!",
+    avatar: IconSapna,
+    subtitle: "Sapna Agarwal",
     rating: 5,
   },
 ]

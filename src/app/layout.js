@@ -1,6 +1,4 @@
-"use client";
-import React, { useEffect } from "react";
-import { usePathname } from "next/navigation";
+import React from "react";
 import { GoogleAnalytics } from '@next/third-parties/google'
 
 // COMPONENTS
@@ -12,14 +10,14 @@ import WhatsappIcon from "@/components/WhatsappIcon";
 // STYLE
 import "../assets/style/globals.css";
 
+export const metadata = {
+  title: "Creative Interiors - A Complete Design Solution",
+  description: "Get More out of Your Home or Office Space. Work with Our Interior Designer Now.",
+};
+
+
 export default function RootLayout({ children }) {
-  const pathname = usePathname();
 
-  // other pages
-  const validRoutes = ["/", "/about", "/portfolio", "/contact"];
-
-  // only home page
-  const isHomePage = pathname === "/";
   
 
   
@@ -38,13 +36,13 @@ export default function RootLayout({ children }) {
       <body className="overflow-x-hidden">
         <div className="flex flex-col min-h-screen">
           {/* S > HEADER */}
-          {validRoutes.includes(pathname) && <Header />}
+           <Header />
           {/* E > HEADER */}
 
           {/* S > MAIN CONTENT */}
           <div
             className={`mainContent grow  ${
-              isHomePage ? "" : "md:py-[50px] mt-[75px] md:mt-[114px] lg:mt-0"
+              true ? "" : "md:py-[50px] mt-[75px] md:mt-[114px] lg:mt-0"
             }`}
           >
             {children}
@@ -52,7 +50,7 @@ export default function RootLayout({ children }) {
           {/* E > MAIN CONTENT */}
 
           {/* S > FOOTER */}
-          {validRoutes.includes(pathname) && <Footer />}
+          {true && <Footer />}
           {/* E > FOOTER */}
           <ThemeToggle />
           <WhatsappIcon />

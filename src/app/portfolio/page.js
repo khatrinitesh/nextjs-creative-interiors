@@ -8,6 +8,7 @@ import { motion } from "framer-motion";
 import { portfoliolist } from './../../constants/constants';
 import FilterButtons from "@/components/FilterButtons";
 import PortfolioNewGrid from "@/components/PortfolioNewGrid";
+import MainLayout from "@/layout/MainLayout";
 
 const Portfolio = () => {
  
@@ -20,6 +21,7 @@ const Portfolio = () => {
 
   const filteredItems = filter === 'all' ? portfoliolist : portfoliolist.filter(item => item.category === filter);
   return (
+    <MainLayout>
     <div className="customContent py-[70px]">
       <div className="container mx-auto">
         <motion.div
@@ -54,6 +56,7 @@ const Portfolio = () => {
         </motion.div>
       </div>
     </div>
+    </MainLayout>
   );
 };
 

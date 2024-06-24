@@ -7,6 +7,7 @@ import "react-toastify/dist/ReactToastify.css";
 import Image from "next/image";
 
 import bannerContact from "../../assets/img/contact/bannercontact.jpeg";
+import MainLayout from "@/layout/MainLayout";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -72,6 +73,7 @@ const Contact = () => {
   };
 
   return (
+    <MainLayout>
     <div className="customContent py-[70px]">
       <div className="container mx-auto">
         <h2 className="text-fs24 lg:text-fs32 font-monsterratB text-primaryDark uppercase mb-[30px]">
@@ -139,6 +141,7 @@ const Contact = () => {
         </div>
       </div>
     </div>
+    </MainLayout>
   );
 };
 

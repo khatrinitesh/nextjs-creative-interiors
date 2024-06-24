@@ -1,11 +1,6 @@
 import React from "react";
 import { GoogleAnalytics } from '@next/third-parties/google'
 
-// COMPONENTS
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-import ThemeToggle from "@/components/ThemeToggle";
-import WhatsappIcon from "@/components/WhatsappIcon";
 
 // STYLE
 import "../assets/style/globals.css";
@@ -14,6 +9,7 @@ export const metadata = {
   title: "Creative Interiors - A Complete Design Solution",
   description: "Get More out of Your Home or Office Space. Work with Our Interior Designer Now.",
 };
+
 
 
 export default function RootLayout({ children }) {
@@ -30,25 +26,7 @@ export default function RootLayout({ children }) {
         <GoogleAnalytics gaId='G-Z239PYXWWK' />
       </head>
       <body className="overflow-x-hidden">
-        <div className="flex flex-col min-h-screen">
-          {/* S > HEADER */}
-           <Header />
-          {/* E > HEADER */}
-
-          {/* S > MAIN CONTENT */}
-          <div
-            className={`mainContent grow`}
-          >
-            {children}
-          </div>
-          {/* E > MAIN CONTENT */}
-
-          {/* S > FOOTER */}
-          {true && <Footer />}
-          {/* E > FOOTER */}
-          <ThemeToggle />
-          <WhatsappIcon />
-        </div>
+        {children}
       </body>
     </html>
   );

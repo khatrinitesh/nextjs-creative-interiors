@@ -11,9 +11,9 @@ import MainLayout from "@/layout/MainLayout";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
+    from_name: '',
+    from_email: '',
+    from_phone: '',
     message: ''
   });
 
@@ -27,7 +27,7 @@ const Contact = () => {
     emailjs.send('service_6osxwlg', 'template_q9fj8ci', formData, 'a1u_zKxDNiJ_YgFY0')
       .then((response) => {
         toast.success('Email sent successfully!');
-        setFormData({ name: '', email: '', phone: '', message: '' }); // Reset form after successful submission
+        setFormData({ from_name: '', from_email: '', from_phone: '', message: '' }); // Reset form after successful submission
       })
       .catch((error) => {
         toast.error('Failed to send email. Please try again.');
@@ -37,27 +37,21 @@ const Contact = () => {
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prevState) => {
-      if (name === 'phone') {
-        const numericValue = value.replace(/\D/g, ''); // Remove non-numeric characters
-        if (numericValue.length > 10) {
-          return prevState;
-        }
-        return { ...prevState, [name]: numericValue };
-      }
+      
       return { ...prevState, [name]: value };
     });
   };
 
   const validateForm = () => {
-    if (!formData.name.trim()) {
+    if (!formData.from_name.trim()) {
       toast.error('Name is required.');
       return false;
     }
-    if (!formData.email.trim()) {
+    if (!formData.from_email.trim()) {
       toast.error('Email is required.');
       return false;
     }
-    if (!formData.phone.trim()) {
+    if (!formData.from_phone.trim()) {
       toast.error('Phone number is required.');
       return false;
     }
@@ -65,7 +59,7 @@ const Contact = () => {
       toast.error('Message is required.');
       return false;
     }
-    if (!/^\d{10}$/.test(formData.phone)) {
+    if (!/^\d{10}$/.test(formData.from_phone)) {
       toast.error('Phone number must be 10 digits.');
       return false;
     }
@@ -83,36 +77,36 @@ const Contact = () => {
           <div className="w-full">
           <form onSubmit={sendEmail} className="max-w-full  w-full bg-lightgray p-6 rounded-[10px] shadow">
           <div className="mb-4">
-          <label className="font-monsterratM text-fs14 lg:text-fs16" htmlFor="name">Name:</label>
+          <label className="font-monsterratM text-fs14 lg:text-fs16" htmlFor="from_name">Name:</label>
           <input
             type="text"
-            id="name"
-            name="name"
-            value={formData.name}
+            id="from_name"
+            name="from_name"
+            value={formData.from_name}
             onChange={handleChange}
             className="w-full shadow-black font-monsterratM text-fs14 lg:text-fs16 px-3 py-2 border rounded-md text-gray-700 focus:outline-none focus:border-blue-500"
             required
           />
         </div>
         <div className="mb-4">
-          <label className="font-monsterratM text-fs14 lg:text-fs16" htmlFor="email">Email:</label>
+          <label className="font-monsterratM text-fs14 lg:text-fs16" htmlFor="from_email">Email:</label>
           <input
             type="email"
-            id="email"
-            name="email"
-            value={formData.email}
+            id='from_email'
+            name='from_email'
+            value={formData.from_email}
             onChange={handleChange}
             className="w-full shadow-black font-monsterratM text-fs14 lg:text-fs16 px-3 py-2 border rounded-md text-gray-700 focus:outline-none focus:border-blue-500"
             required
           />
         </div>
         <div className="mb-4">
-          <label className="font-monsterratM text-fs14 lg:text-fs16" htmlFor="phone">Phone Number:</label>
+          <label className="font-monsterratM text-fs14 lg:text-fs16" htmlFor="from_phone">Phone Number:</label>
           <input
             type="tel"
-            id="phone"
-            name="phone"
-            value={formData.phone}
+            id="from_phone"
+            name="from_phone"
+            value={formData.from_phone}
             onChange={handleChange}
             className="w-full shadow-black font-monsterratM text-fs14 lg:text-fs16 px-3 py-2 border rounded-md text-gray-700 focus:outline-none focus:border-blue-500"
             required

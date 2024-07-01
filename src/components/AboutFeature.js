@@ -19,7 +19,7 @@ const AboutFeature = () => {
               <h2 className="headTitle dark:text-white text-primaryDark font-monsterratB text-fs20 lg:text-fs32 mb-2">{val.title}</h2>
               <p className="headTitle dark:text-white text-primaryDark font-monsterratM text-fs16 lg:text-fs18 mb-4">{val.desc}</p>
               <div className="overflow-hidden">
-              <Image src={val.thumbnail} alt={val.title} className="flex-grow imgWallpaper h-full w-full aspect-w-16 aspect-h-9 transition-all duration-200 delay-200 hover:scale-110"/>
+              <Image priority src={val.thumbnail} alt={val.title} className="flex-grow imgWallpaper h-full w-full aspect-w-16 aspect-h-9 transition-all duration-200 delay-200 hover:scale-110"/>
               </div>
             </div>
           ))}
@@ -30,7 +30,7 @@ const AboutFeature = () => {
               <h2 className="headTitle dark:text-white text-primaryDark font-monsterratB text-fs20 lg:text-fs32 mb-2">{val.title}</h2>
               <p className="headTitle dark:text-white text-primaryDark font-monsterratM text-fs16 lg:text-fs18 mb-4">{val.desc}</p>
               <div className="overflow-hidden">
-              <Image src={val.thumbnail} alt={val.title} className="h-full w-full aspect-w-16 aspect-h-9 transition-all duration-200 delay-200 hover:scale-110"/>
+              <Image priority src={val.thumbnail} alt={val.title} className="h-full w-full aspect-w-16 aspect-h-9 transition-all duration-200 delay-200 hover:scale-110"/>
               </div>
             </div>
           ))}

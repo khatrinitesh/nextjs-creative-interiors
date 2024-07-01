@@ -49,7 +49,7 @@ const Sidebar = () => {
           <ul className="w-full flex-col flex justify-center items-center ">
             {menuSidebar.map((section) => (
               <li key={section.id} className="group pl-6">
-                <Link
+                <Link aria-label={section.href}
                   activeclassname="active"
                   className={`font-raleway text-fs16 font-semibold uppercase cursor-pointer py-[5px] block ${section.color}`}
                   href={section.href} onClick={handleNavClick}

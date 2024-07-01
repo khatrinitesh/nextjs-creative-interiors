@@ -46,8 +46,8 @@ const Header = () => {
             : ""
         }`}>
         <div className="container mx-auto">
-          <Link href="/"> 
-          <Image src={Logo} className={` w-[80px]  mx-auto   ${
+          <Link aria-label="logo" href="/"> 
+          <Image priority alt="Logo" src={Logo} className={` w-[80px]  mx-auto   ${
                     isHomePage ? "logoDefaultWhite" : ""
                   } ${isHomePage || isSticky ? 'logoDefaultWhite' : 'logoDefaultBlack'}`}/>
                   </Link>
@@ -69,7 +69,7 @@ const Header = () => {
             <div className="flex w-full items-center justify-center">
               <ul className="flex items-center justify-evenly w-full">
                 <li>
-                  <Link
+                  <Link aria-label="home"
                     href="/"
                     className={`font-monsterratR text-fs14 lg:text-fs18 ${
                       isHomePage ? "text-[#fff]" : "text-black"
@@ -81,7 +81,7 @@ const Header = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link
+                  <Link aria-label="about"
                     href="/about"
                     className={`font-monsterratR text-fs14 lg:text-fs18 ${
                       !otherPages ? "!text-white" : "text-black"
@@ -94,8 +94,8 @@ const Header = () => {
                 </li>
               </ul>
 
-              <Link href="/">
-                <Image
+              <Link href="/" aria-label="logo">
+                <Image priority
                   src={Logo}
                   alt="Logo"
                   className={` w-[200px] ${
@@ -106,7 +106,7 @@ const Header = () => {
 
               <ul className="flex items-center justify-evenly w-full">
                 <li>
-                  <Link
+                  <Link aria-label="portfolio"
                     href="/portfolio"
                     className={`font-monsterratR text-fs14 lg:text-fs18 ${
                       !otherPages ? "!text-white" : "text-black"
@@ -118,7 +118,7 @@ const Header = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link
+                  <Link aria-label="contact"
                     href="/contact"
                     className={`font-monsterratR text-fs14 lg:text-fs18 ${
                       !otherPages ? "!text-white" : "text-black"

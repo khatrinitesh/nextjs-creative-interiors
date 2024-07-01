@@ -45,7 +45,7 @@ const Portfolio = () => {
               interior designing and particular room interior for partial home
               interior designing.
             </p>
-            <Image src={Banner} alt="Banner" className="aspect-w-16 aspect-h-9" />
+            <Image priority src={Banner} alt="Banner" className="aspect-w-16 aspect-h-9" />
           </div>
         <div class="portfolioFiltering overflow-hidden relative">
         <FilterButtons categories={categories} handleFilter={handleFilter}  activeCategory={filter}/>

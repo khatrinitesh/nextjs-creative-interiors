@@ -8,7 +8,7 @@ const FilterButtons = ({categories, handleFilter,activeCategory  }) => {
       
       {categories.map(category => (
         <li key={category} className="list-none w-full">
-          <Link href="javascript:void(0)" onClick={() => handleFilter(category)} className={`overflow-hidden text-fs14 lg:text-fs16 h-[45px] lg:h-[50px] flex items-center justify-center cursor-pointer font-monsterratB rounded-[50px] px-3 transition-colors duration-300 ${
+          <Link aria-label={category} href="javascript:void(0)" onClick={() => handleFilter(category)} className={`overflow-hidden text-fs14 lg:text-fs16 h-[45px] lg:h-[50px] flex items-center justify-center cursor-pointer font-monsterratB rounded-[50px] px-3 transition-colors duration-300 ${
                 activeCategory === category
                   ? 'bg-lightgray text-primaryDark'
                   : 'text-white'

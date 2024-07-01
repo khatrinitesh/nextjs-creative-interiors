@@ -25,7 +25,7 @@ const NotFound = () => {
       <div className="page mt-8 mb-4 text-2xl font-monsterratB text-gray-700">
         Ooops!!! The page you are looking for is not found
       </div>
-      <Link href="/" className="rounded-[10px] back-home inline-block border-2 border-primaryDark text-white uppercase font-monsterratB py-3 px-4 transition-all duration-200 ease-linear bg-primaryDark hover:bg-primaryDark hover:text-gray-300">
+      <Link href="/" className="rounded-[10px] back-home inline-block border-2 border-primaryDark text-white uppercase font-monsterratB py-3 px-4 transition-all duration-200 ease-linear bg-primaryDark hover:bg-primaryDark hover:text-gray-300"  aria-label="Back to home">
           Back to home
       </Link>
     </div>

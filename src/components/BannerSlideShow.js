@@ -27,16 +27,16 @@ const BannerSlideShow = () => {
         >
           {/* 1 */}
           <SwiperSlide>
-            <Image
+            <Image priority
               alt="Banner"
               src={BannerImg1}
               className="aspect-w-16 aspect-h-9 w-full"
             />
-            <BannerSection title="The Ultimate Guide to Home Interior Design" />
+            <BannerSection  title="The Ultimate Guide to Home Interior Design" />
           </SwiperSlide>
           {/* 2 */}
           <SwiperSlide>
-            <Image
+            <Image priority
               alt="Banner"
               src={BannerImg2}
               className="aspect-w-16 aspect-h-9 w-full"
@@ -45,7 +45,7 @@ const BannerSlideShow = () => {
           </SwiperSlide>
           {/* 3 */}
           <SwiperSlide>
-            <Image
+            <Image priority
               alt="Banner"
               src={BannerImg3}
               className="aspect-w-16 aspect-h-9 w-full"

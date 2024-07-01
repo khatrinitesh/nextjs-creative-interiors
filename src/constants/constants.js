@@ -2,6 +2,7 @@ import IconFb from "../assets/img/icons/iconfb.svg";
 import IconYt from "../assets/img/icons/iconyt.svg";
 import IconWa from "../assets/img/icons/iconwa.svg";
 import IconIn from "../assets/img/icons/iconin.svg";
+import IconLi from "../assets/img/icons/iconli.svg";
 import IconPhone from "../assets/img/icons/iconphone.svg";
 import IconSite from "../assets/img/icons/iconsite.svg";
 import IconAddress from "../assets/img/icons/iconmap.svg";
@@ -589,8 +590,10 @@ export const footerNavLinks = [
 
 // SOCIAL MEDIA
 export const socialMediaLinks = [
-  {  image: IconFb, link: 'https://www.facebook.com/creativeinteriors07?mibextid=ZbWKwL' },
+  {  image: IconFb, link: 'https://www.facebook.com/people/Creative-Interiors/61561826391990/?mibextid=ZbWKwL' },
   { image: IconIn, link: 'https://www.instagram.com/creative.interiors_designs?igsh=MTloeHNqZ3BveXZtYQ==' },
   { image: IconYt, link: 'https://www.youtube.com/@Creativeinterior.06' },
+  { image: IconLi, link: 'https://www.linkedin.com/authwall?trk=bf&trkInfo=AQED1iK0nFUj-gAAAZBt0qnouF0CHmUkvsyiFTD2wiqEK-87W__OPmNp9Ad_h8IoFB0pshrNgwNJigravgbnM_YJPvYtubOipO1xUF2jwg7HhRh3PfUUc1FQfhWkzwRC3UwTcSY=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fcreative-interiors-66b1a6315%3Futm_source%3Dshare%26utm_campaign%3Dshare_via%26utm_content%3Dprofile%26utm_medium%3Dandroid_app' },
   { image: IconWa, link: 'https://api.whatsapp.com/send/?phone=9987939773&text&type=phone_number&app_absent=0' },
+  
 ];

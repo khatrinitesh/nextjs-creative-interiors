@@ -130,7 +130,7 @@ const Contact = () => {
           <ToastContainer />
           </div>
           <div className="wallPaper h-full">
-            <Image src={bannerContact} className="aspect-w-16 aspect-h-9 h-full object-cover" />
+            <Image alt="Banner" priority src={bannerContact} className="aspect-w-16 aspect-h-9 h-full object-cover" />
           </div>
         </div>
       </div>

@@ -20,7 +20,7 @@ const Project = () => {
       <div className="container mx-auto">
         <div className="grid gap-10 md:gap-20 lg:grid-cols-2 justify-center items-center">
           <div className="thumbnail flex justify-center items-center" >
-            <Image src={ProjectThumb} className="aspect-w-16 aspect-h-9" />
+            <Image priority alt="Project Thumb" src={ProjectThumb} className="aspect-w-16 aspect-h-9" />
           </div>
           <div className="projectRightContent">
             <div className="sectionTitle mb-[25px]">

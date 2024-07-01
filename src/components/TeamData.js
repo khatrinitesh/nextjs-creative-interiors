@@ -16,7 +16,7 @@ const Team = () => {
               className={`overflow-hidden md:flex  items-center cursor-pointer justify-center boxTeam transition-all duration-150 delay-150 hover:scale-110 md:hover:scale-125 nth-not-last md:!mb-0`}
             >
               <div className="thumbnail w-full md:w-[30%] me-[15px] md:me-[10px]">
-                <Image
+                <Image priority
                   src={val.avatar}
                   alt={val.name}
                   className="grayscale mx-auto block imgTeam transition-all duration-500 delay-500 imgTeam object-cover rounded-full"

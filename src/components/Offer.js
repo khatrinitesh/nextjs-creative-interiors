@@ -20,7 +20,7 @@ const Offer = () => {
                 </div>
             </div>
             <div className="thumbnail" >
-                <Image src={OfferThumb}className="mx-auto block"/>
+                <Image priority alt="Offer Thumb" src={OfferThumb}className="mx-auto block"/>
             </div>
         </div>
       </div>

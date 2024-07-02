@@ -3,9 +3,10 @@ import { GoogleAnalytics } from '@next/third-parties/google'
 
 // STYLE
 import "../assets/style/globals.css";
+import { Link } from 'next/link';
 
 export const metadata = {
-  title: "Creative Interiors - A Complete Design Solution",
+  title: "   Creative Interiors - A Complete Design Solution",
   description: "Get More out of Your Home or Office Space. Work with Our Interior Designer Now.",
   viewport:"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0",
 };
@@ -18,6 +19,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+        <link name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
         <link rel="canonical" href="https://www.increative.in/" />
 
         <GoogleAnalytics gaId='G-Z239PYXWWK' />

@@ -25,8 +25,8 @@ import Philosophy from "../assets/img/about/ourphiliosphy.png";
 
 // REVIEW
 import IconPrashant from "../assets/img/home/review/icon-prashant.png"; // 1
-import IconAkshay from "../assets/img/home/review/icon-akshay.png"; // 2 
-import IconRuchika from "../assets/img/home/review/icon-ruchika.png"; // 3 
+import IconAkshay from "../assets/img/home/review/icon-akshay.png"; // 2
+import IconRuchika from "../assets/img/home/review/icon-ruchika.png"; // 3
 import IconHazique from "../assets/img/home/review/icon-hazique.png"; // 4
 import IconNishad from "../assets/img/home/review/icon-nishad.png"; // 5
 import IconMangal from "../assets/img/home/review/icon-mangal.png"; // 6
@@ -37,6 +37,8 @@ import IconPrachi from "../assets/img/home/review/icon-prachi.png"; // 10
 import IconFaisal from "../assets/img/home/review/icon-faisal.png"; // 11
 import IconBharat from "../assets/img/home/review/icon-bharat.png"; // 12
 import IconSapna from "../assets/img/home/review/icon-sapna.png"; // 13
+import IconRosy from "../assets/img/home/review/icon-rosy.png"; // 14
+import IconSuraj from "../assets/img/home/review/icon-suraj.png"; // 15
 // OUR TEAM
 import MP from "../assets/img/home/team/mahendra.png";
 import NP from "../assets/img/home/team/nitesh.png";
@@ -186,7 +188,6 @@ import Commercial48 from "../assets/img/portfolio/categories-commercial/commerci
 import Commercial49 from "../assets/img/portfolio/categories-commercial/commercial-49.jpeg";
 import Commercial50 from "../assets/img/portfolio/categories-commercial/commercial-50.jpeg";
 
-
 export const portfoliolist = [
   {
     id: 1,
@@ -235,128 +236,147 @@ export const portfoliolist = [
       Residental41,
       Residental42,
       Residental43,
-Residental44,
-Residental45,
-Residental46,
-Residental47,
-Residental48,
-Residental49,
-Residental50,
-Residental51,
-Residental52,
-Residental53,
-Residental54,
-Residental55,
-Residental56,
-Residental57,
-Residental58,
-Residental59,
-Residental60,
-Residental61,
-Residental62,
-Residental63,
-Residental64,
-Residental65,
-Residental66,
-Residental67,
-Residental68,
-Residental69
-
-    ]  
+      Residental44,
+      Residental45,
+      Residental46,
+      Residental47,
+      Residental48,
+      Residental49,
+      Residental50,
+      Residental51,
+      Residental52,
+      Residental53,
+      Residental54,
+      Residental55,
+      Residental56,
+      Residental57,
+      Residental58,
+      Residental59,
+      Residental60,
+      Residental61,
+      Residental62,
+      Residental63,
+      Residental64,
+      Residental65,
+      Residental66,
+      Residental67,
+      Residental68,
+      Residental69,
+    ],
   },
   {
     id: 2,
     category: "Office design",
-    images: [Office1,Office2,Office3,Office4,Office5,Office6,Office7,Office8,Office9,Office10,Office11,Office12,Office13,Office14,Office15,Office16,Office17,Office18,Office19,Office20,Office21]
+    images: [
+      Office1,
+      Office2,
+      Office3,
+      Office4,
+      Office5,
+      Office6,
+      Office7,
+      Office8,
+      Office9,
+      Office10,
+      Office11,
+      Office12,
+      Office13,
+      Office14,
+      Office15,
+      Office16,
+      Office17,
+      Office18,
+      Office19,
+      Office20,
+      Office21,
+    ],
   },
   {
     id: 3,
     category: "Commercial design",
     images: [
-      Commercial1 ,
-Commercial2 ,
-Commercial3 ,
-Commercial4 ,
-Commercial5 ,
-Commercial6 ,
-Commercial7 ,
-Commercial8 ,
-Commercial9 ,
-Commercial10,
-Commercial11,
-Commercial12,
-Commercial13,
-Commercial14,
-Commercial15,
-Commercial16,
-Commercial17,
-Commercial18,
-Commercial19,
-Commercial20,
-Commercial21,
-Commercial22,
-Commercial23,
-Commercial24,
-Commercial25,
-Commercial26,
-Commercial27,
-Commercial28,
-Commercial29,
-Commercial30,
-Commercial31,
-Commercial32,
-Commercial33,
-Commercial34,
-Commercial35,
-Commercial36,
-Commercial37,
-Commercial38,
-Commercial39,
-Commercial40,
-Commercial41,
-Commercial42,
-Commercial43,
-Commercial44,
-Commercial45,
-Commercial46,
-Commercial47,
-Commercial48,
-Commercial49,
-Commercial50,
-
-    ]
+      Commercial1,
+      Commercial2,
+      Commercial3,
+      Commercial4,
+      Commercial5,
+      Commercial6,
+      Commercial7,
+      Commercial8,
+      Commercial9,
+      Commercial10,
+      Commercial11,
+      Commercial12,
+      Commercial13,
+      Commercial14,
+      Commercial15,
+      Commercial16,
+      Commercial17,
+      Commercial18,
+      Commercial19,
+      Commercial20,
+      Commercial21,
+      Commercial22,
+      Commercial23,
+      Commercial24,
+      Commercial25,
+      Commercial26,
+      Commercial27,
+      Commercial28,
+      Commercial29,
+      Commercial30,
+      Commercial31,
+      Commercial32,
+      Commercial33,
+      Commercial34,
+      Commercial35,
+      Commercial36,
+      Commercial37,
+      Commercial38,
+      Commercial39,
+      Commercial40,
+      Commercial41,
+      Commercial42,
+      Commercial43,
+      Commercial44,
+      Commercial45,
+      Commercial46,
+      Commercial47,
+      Commercial48,
+      Commercial49,
+      Commercial50,
+    ],
   },
 ];
 export const categorylist = [
-  { id: 1, category: "Residential design"},
-  { id: 2, category: "Office design"},
-  { id: 3, category: "Commercial design"},
+  { id: 1, category: "Residential design" },
+  { id: 2, category: "Office design" },
+  { id: 3, category: "Commercial design" },
 ];
 
 // OUR TEAM
 export const teamData = [
   {
-    avatar:MP,
-    title:'CEO & Founder',
-    name:'Mahendra Parmar',
-    subtitle:'Interior Designer'
+    avatar: MP,
+    title: "CEO & Founder",
+    name: "Mahendra Parmar",
+    subtitle: "Interior Designer",
   },
   {
-    avatar:NP,
-    title:'COO & CO-Founder',
-    name:'Nitesh Parmar',
-    subtitle:'Interior Designer'
+    avatar: NP,
+    title: "COO & CO-Founder",
+    name: "Nitesh Parmar",
+    subtitle: "Interior Designer",
   },
   {
-    avatar:MC,
-    title:'Project Manager',
-    name:'Madan Chouhan',
-    subtitle:'Supervisor'
+    avatar: MC,
+    title: "Project Manager",
+    name: "Madan Chouhan",
+    subtitle: "Supervisor",
   },
-]
+];
 
-
-// TESTIMONIALS DATA 
+// TESTIMONIALS DATA
 export const testimonials = [
   // 1
   {
@@ -364,7 +384,7 @@ export const testimonials = [
     desc: "I recently had Creative Interiors do some interior work in my flat, and I'm really happy with the results. They were professional, easy to communicate with, and their attention to detail was impressive. They transformed my space into exactly what I had envisioned, and I couldn't be happier with the outcome. I highly recommend them for any interior design or renovation projects.",
     avatar: IconPrashant,
     subtitle: "Prashant Dhanawade",
-    rating: 4
+    rating: 4,
   },
   // 2
   {
@@ -372,7 +392,7 @@ export const testimonials = [
     desc: "I am absolutely THRILLED with the work and would recommend to anybody. I would highly recommend this company as they are all about putting the client first and their goals before presenting ideas. Easy to work with, plus great taste with ability to stay on budget. I had never worked with a designer before and was unsure of what to expect. I also wasn't sure I would get the results I needed since it was only a consultation. We now have a clear picture of how to proceed with our renovation. Thank you, Nitesh! He is professional, attentive and very sweet. He listened to our ideas, concerns and needs and came up with an exceptional plan. After speaking with him and creating the plan for our renovation, the excitement and love for my house returned.I absolutely recommend him to anyone who is planning a renovation. He is easy to work with and my family and I all agree it was the best money we spent.",
     avatar: IconAkshay,
     subtitle: "Akshay Solanki",
-    rating: 5
+    rating: 5,
   },
   // 3
   {
@@ -380,7 +400,7 @@ export const testimonials = [
     desc: "Overall experience with creative interiors was very good ..They are a team of professionals.The final outcome of work done is really good!!!",
     avatar: IconRuchika,
     subtitle: "Ruchika Kapoor",
-    rating: 5
+    rating: 5,
   },
   // 4
   {
@@ -430,7 +450,7 @@ export const testimonials = [
     desc: "Had an amazing experience with creative interiors. They are an excellent solution provider.",
     avatar: IconHazique,
     subtitle: "Hazique Mandik",
-    rating: 5
+    rating: 5,
   },
   // 10
   {
@@ -456,6 +476,7 @@ export const testimonials = [
     subtitle: "Bharat Suthar",
     rating: 5,
   },
+  // 13
   {
     title: "Highly Recommended",
     desc: "Excellent service! Nitesh Parmar and Mahendra Parmar executed outstanding interior design work for our home. Their team was very cooperative and delivered results to our satisfaction.Their personal involvement and commitment to the work was note worthy. Thier humble attitude and mannerism made them feel like family throughout the process. Highly recommend!",
@@ -463,55 +484,70 @@ export const testimonials = [
     subtitle: "Sapna Agarwal",
     rating: 5,
   },
-]
+  // 14
+  {
+    title: "Highly Recommended",
+    desc: "I got the interiors of my flat renovated by Creative Interiors. I have had a very good experience with them right from the start till the end which involved useful suggestions, all time availability of labour and timely completion. I would 100% recommend them to anyone who wants their flat/home interiors done.",
+    avatar: IconRosy,
+    subtitle: "Rosy Marwah Bhasin",
+    rating: 5,
+  },
+  // 15
+  {
+    title: "Highly Recommended",
+    desc: "We had an amazing experience with Creative Interiors for designing our medical center. They efficiently managed to utilize the small space with utmost care and precision, ensuring that every corner was functional and aesthetically appealing. Their innovative designs made the place look spacious, modern, and professional, truly reflecting their name—Creative Interiors. Highly recommended for anyone looking for smart and space-efficient interior solutions!",
+    avatar: IconSuraj,
+    subtitle: "Suraj Chiraniya",
+    rating: 5,
+  },
+];
 
 export const dataChoose = [
   {
-    icon:IconExpertise,
-    title:"EXPERTISE",
-    desc:"With years of experience in the industry, our team of skilled designers possesses the expertise and knowledge to bring your vision to life."
+    icon: IconExpertise,
+    title: "EXPERTISE",
+    desc: "With years of experience in the industry, our team of skilled designers possesses the expertise and knowledge to bring your vision to life.",
   },
   {
-    icon:IconAttention,
-    title:"ATTENTION TO DETAIL",
-    desc:"We believe that it's the little details that make a big difference. From handpicked fabrics to custom-made furniture, we pay meticulous attention to every aspect of the design process."
+    icon: IconAttention,
+    title: "ATTENTION TO DETAIL",
+    desc: "We believe that it's the little details that make a big difference. From handpicked fabrics to custom-made furniture, we pay meticulous attention to every aspect of the design process.",
   },
   {
-    icon:IconCustomer,
-    title:"CUSTOMER SATISFACTION",
-    desc:"Our commitment to customer satisfaction is unwavering. We strive to exceed expectations with every project, ensuring a seamless and enjoyable experience for our clients."
+    icon: IconCustomer,
+    title: "CUSTOMER SATISFACTION",
+    desc: "Our commitment to customer satisfaction is unwavering. We strive to exceed expectations with every project, ensuring a seamless and enjoyable experience for our clients.",
   },
-]
+];
 
-// ABOUT FEATURE 
+// ABOUT FEATURE
 export const aboutStoryApproach = [
   {
     title: "Our Story",
     desc: "Founded with a vision to redefine interior design through the lens of Indian heritage. What began as a humble endeavor to celebrate the beauty of Indian craftsmanship has blossomed into a trusted name synonymous with creativity, quality, and unparalleled design expertise.",
-    thumbnail: Story
+    thumbnail: Story,
   },
   {
     title: "Our Approach",
     desc: "Every project we undertake at CREATIVE INTERIORS is a testament to our dedication to excellence. Our collaborative approach ensures that each design is tailor-made to reflect the unique personality and lifestyle of our clients.",
-    thumbnail: Approach
+    thumbnail: Approach,
   },
 ];
 
 export const aboutPilosophy = [
   {
-  title: "Our Philosophy",
-  desc: "At the heart of our philosophy lies a deep reverence for tradition, coupled with an unwavering commitment to innovation. We believe in honoring the heritage of Indian design while embracing the possibilities of modernity, resulting in spaces that are both timeless and contemporary.",
-  thumbnail: Philosophy
-}
-]
-
+    title: "Our Philosophy",
+    desc: "At the heart of our philosophy lies a deep reverence for tradition, coupled with an unwavering commitment to innovation. We believe in honoring the heritage of Indian design while embracing the possibilities of modernity, resulting in spaces that are both timeless and contemporary.",
+    thumbnail: Philosophy,
+  },
+];
 
 // MENU Sidebar
 export const menuSidebar = [
-  { id: 1, href: '/',color:'text-white', text: 'Home' },
-  { id: 2, href: '/about',color:'text-white', text: 'About' },
-  { id: 3, href: '/portfolio',color:'text-white', text: 'Portfolio' },
-  { id: 4, href: '/contact',color:'text-white', text: 'Contact' }
+  { id: 1, href: "/", color: "text-white", text: "Home" },
+  { id: 2, href: "/about", color: "text-white", text: "About" },
+  { id: 3, href: "/portfolio", color: "text-white", text: "Portfolio" },
+  { id: 4, href: "/contact", color: "text-white", text: "Contact" },
 ];
 
 // EXPERIENCE DATA
@@ -530,56 +566,77 @@ export const experienceData = [
   },
 ];
 
-// OFFER DATA 
+// OFFER DATA
 export const offerData = [
   {
     icon: IconLight,
     title: "Consultation & Concept Development",
-    description: "Our designers work closely with you to develop a concept that aligns with your vision, lifestyle, and budget.",
+    description:
+      "Our designers work closely with you to develop a concept that aligns with your vision, lifestyle, and budget.",
   },
   {
     icon: IconRepair,
     title: "Customized Design Solutions",
-    description: "From custom furniture and fixtures to unique decor pieces, we ensure every element reflects your style and enhances the overall ambiance.",
+    description:
+      "From custom furniture and fixtures to unique decor pieces, we ensure every element reflects your style and enhances the overall ambiance.",
   },
   {
     icon: IconFurniture,
     title: "Furniture & Lighting Selection",
-    description: "We source from reputable suppliers and artisans to provide you with options that combine style, comfort, and functionality.",
+    description:
+      "We source from reputable suppliers and artisans to provide you with options that combine style, comfort, and functionality.",
   },
   {
     icon: IconSupport,
     title: "Post-Installation Support",
-    description: "We offer post-installation support and guidance to ensure that your newly designed space continues to inspire and delight.",
+    description:
+      "We offer post-installation support and guidance to ensure that your newly designed space continues to inspire and delight.",
   },
 ];
 
 // BLOGS DATA
 export const blogsData = {
   title: '"Transforming Spaces : The Art of Interior Design"',
-  description: "Welcome to the world of interior design, where creativity meets functionality to transform ordinary spaces into extraordinary ones. In this blog, we'll delve into the essential aspects of interior design and explore how it can elevate your living environment.",
-}
+  description:
+    "Welcome to the world of interior design, where creativity meets functionality to transform ordinary spaces into extraordinary ones. In this blog, we'll delve into the essential aspects of interior design and explore how it can elevate your living environment.",
+};
 
-// GET IN TOUCH DATA 
+// GET IN TOUCH DATA
 export const getTouchData = {
   title: "GET IN TOUCH",
-  description: "Whether you're looking to revitalize your home, office, or commercial space, we're here to help.",
-}
+  description:
+    "Whether you're looking to revitalize your home, office, or commercial space, we're here to help.",
+};
 
-// PROJECT DATA 
+// PROJECT DATA
 export const projectData = {
   title: "LET'S TALK ABOUT YOUR PROJECT? ",
-  description: "Whether you're looking to revitalize your home, office, or commercial space, we're here to help.",
-}
+  description:
+    "Whether you're looking to revitalize your home, office, or commercial space, we're here to help.",
+};
 
 // FOOTER CONTACT INFORMATION DATA
 export const contactInfo = [
-  { link:'tel:+919967408087',value: "9967408087", icon: IconPhone,slash:"/",privateCall:"8655275378" },
-  { link:'mailto:creativeinteriors.06@gmail.com',value: "creativeinteriors.06@gmail.com", icon: IconSite },
-  { link:'https://maps.app.goo.gl/9yhQbrcufZGGrkb49',value: "Unit.406, Cello Triumph, B wing, IB Patel road, Goregaon, Mumbai", icon: IconAddress },
+  {
+    link: "tel:+919967408087",
+    value: "9967408087",
+    icon: IconPhone,
+    slash: "/",
+    privateCall: "8655275378",
+  },
+  {
+    link: "mailto:creativeinteriors.06@gmail.com",
+    value: "creativeinteriors.06@gmail.com",
+    icon: IconSite,
+  },
+  {
+    link: "https://maps.app.goo.gl/9yhQbrcufZGGrkb49",
+    value: "Unit.406, Cello Triumph, B wing, IB Patel road, Goregaon, Mumbai",
+    icon: IconAddress,
+  },
 ];
 
-// FOOTER NAV LINKS 
+// FOOTER NAV LINKS
 export const footerNavLinks = [
   { text: "Home", url: "/" },
   { text: "About", url: "/about" },
@@ -590,10 +647,21 @@ export const footerNavLinks = [
 
 // SOCIAL MEDIA
 export const socialMediaLinks = [
-  {  image: IconFb, link: 'https://www.facebook.com/people/Creative-Interiors/61561826391990/?mibextid=ZbWKwL' },
-  { image: IconIn, link: 'https://www.instagram.com/creative.interiors_designs?igsh=MTloeHNqZ3BveXZtYQ==' },
-  { image: IconYt, link: 'https://www.youtube.com/@Creativeinterior.06' },
-  { image: IconLi, link: 'https://www.linkedin.com/authwall?trk=bf&trkInfo=AQED1iK0nFUj-gAAAZBt0qnouF0CHmUkvsyiFTD2wiqEK-87W__OPmNp9Ad_h8IoFB0pshrNgwNJigravgbnM_YJPvYtubOipO1xUF2jwg7HhRh3PfUUc1FQfhWkzwRC3UwTcSY=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fcreative-interiors-66b1a6315%3Futm_source%3Dshare%26utm_campaign%3Dshare_via%26utm_content%3Dprofile%26utm_medium%3Dandroid_app' },
-  { image: IconWa, link: 'https://api.whatsapp.com/send/?phone=9987939773&text&type=phone_number&app_absent=0' },
-  
+  {
+    image: IconFb,
+    link: "https://www.facebook.com/people/Creative-Interiors/61561826391990/?mibextid=ZbWKwL",
+  },
+  {
+    image: IconIn,
+    link: "https://www.instagram.com/creative.interiors_designs?igsh=MTloeHNqZ3BveXZtYQ==",
+  },
+  { image: IconYt, link: "https://www.youtube.com/@Creativeinterior.06" },
+  {
+    image: IconLi,
+    link: "https://www.linkedin.com/authwall?trk=bf&trkInfo=AQED1iK0nFUj-gAAAZBt0qnouF0CHmUkvsyiFTD2wiqEK-87W__OPmNp9Ad_h8IoFB0pshrNgwNJigravgbnM_YJPvYtubOipO1xUF2jwg7HhRh3PfUUc1FQfhWkzwRC3UwTcSY=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fcreative-interiors-66b1a6315%3Futm_source%3Dshare%26utm_campaign%3Dshare_via%26utm_content%3Dprofile%26utm_medium%3Dandroid_app",
+  },
+  {
+    image: IconWa,
+    link: "https://api.whatsapp.com/send/?phone=9987939773&text&type=phone_number&app_absent=0",
+  },
 ];

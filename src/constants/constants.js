@@ -39,10 +39,13 @@ import IconBharat from "../assets/img/home/review/icon-bharat.png"; // 12
 import IconSapna from "../assets/img/home/review/icon-sapna.png"; // 13
 import IconRosy from "../assets/img/home/review/icon-rosy.png"; // 14
 import IconSuraj from "../assets/img/home/review/icon-suraj.png"; // 15
+import IconSanjaySurve from "../assets/img/home/review/icon-sanjay-surve.png"; // 16
+import IconLalitGohil from "../assets/img/home/review/icon-lalit-gohil.png"; // 17
+import IconHarshadaSurve from "../assets/img/home/review/icon-harshada-surve.png"; // 18
 // OUR TEAM
 import MP from "../assets/img/home/team/mahendra.png";
 import NP from "../assets/img/home/team/nitesh.png";
-import MC from "../assets/img/home/team/madan.png";
+// import MC from "../assets/img/home/team/madan.png";
 
 // PORTFOLIO - RESIDENTIAL
 import Residental1 from "../assets/img/portfolio/categories-residental/residental-1.jpg";
@@ -114,6 +117,48 @@ import Residental66 from "../assets/img/portfolio/categories-residental/resident
 import Residental67 from "../assets/img/portfolio/categories-residental/residental-67.jpeg";
 import Residental68 from "../assets/img/portfolio/categories-residental/residental-68.jpeg";
 import Residental69 from "../assets/img/portfolio/categories-residental/residental-69.jpeg";
+import Residental70 from "../assets/img/portfolio/categories-residental/residental-70.jpeg";
+import Residental71 from "../assets/img/portfolio/categories-residental/residental-71.jpeg";
+import Residental72 from "../assets/img/portfolio/categories-residental/residental-72.jpeg";
+import Residental73 from "../assets/img/portfolio/categories-residental/residental-73.jpeg";
+import Residental74 from "../assets/img/portfolio/categories-residental/residental-74.jpeg";
+import Residental75 from "../assets/img/portfolio/categories-residental/residental-75.jpeg";
+import Residental76 from "../assets/img/portfolio/categories-residental/residental-76.jpeg";
+import Residental77 from "../assets/img/portfolio/categories-residental/residental-77.jpeg";
+import Residental78 from "../assets/img/portfolio/categories-residental/residental-78.jpeg";
+import Residental79 from "../assets/img/portfolio/categories-residental/residental-79.jpeg";
+import Residental80 from "../assets/img/portfolio/categories-residental/residental-80.jpeg";
+import Residental81 from "../assets/img/portfolio/categories-residental/residental-81.jpeg";
+import Residental82 from "../assets/img/portfolio/categories-residental/residental-82.jpeg";
+import Residental83 from "../assets/img/portfolio/categories-residental/residental-83.jpeg";
+import Residental84 from "../assets/img/portfolio/categories-residental/residental-84.jpeg";
+import Residental85 from "../assets/img/portfolio/categories-residental/residental-85.jpeg";
+import Residental86 from "../assets/img/portfolio/categories-residental/residental-86.jpeg";
+import Residental87 from "../assets/img/portfolio/categories-residental/residental-87.jpeg";
+import Residental88 from "../assets/img/portfolio/categories-residental/residental-88.jpeg";
+import Residental89 from "../assets/img/portfolio/categories-residental/residental-89.jpeg";
+import Residental90 from "../assets/img/portfolio/categories-residental/residental-90.jpeg";
+import Residental91 from "../assets/img/portfolio/categories-residental/residental-91.jpeg";
+import Residental92 from "../assets/img/portfolio/categories-residental/residental-92.jpeg";
+import Residental93 from "../assets/img/portfolio/categories-residental/residental-93.jpeg";
+import Residental94 from "../assets/img/portfolio/categories-residental/residental-94.jpeg";
+import Residental95 from "../assets/img/portfolio/categories-residental/residental-95.jpeg";
+import Residental96 from "../assets/img/portfolio/categories-residental/residental-96.jpeg";
+import Residental97 from "../assets/img/portfolio/categories-residental/residental-97.jpeg";
+import Residental98 from "../assets/img/portfolio/categories-residental/residental-98.jpeg";
+import Residental99 from "../assets/img/portfolio/categories-residental/residental-99.jpeg";
+import Residental100 from "../assets/img/portfolio/categories-residental/residental-100.jpeg";
+import Residental101 from "../assets/img/portfolio/categories-residental/residental-101.jpeg";
+import Residental102 from "../assets/img/portfolio/categories-residental/residental-102.jpeg";
+import Residental103 from "../assets/img/portfolio/categories-residental/residental-103.jpeg";
+import Residental104 from "../assets/img/portfolio/categories-residental/residental-104.jpeg";
+import Residental105 from "../assets/img/portfolio/categories-residental/residental-105.jpeg";
+import Residental106 from "../assets/img/portfolio/categories-residental/residental-106.jpeg";
+import Residental107 from "../assets/img/portfolio/categories-residental/residental-107.jpeg";
+import Residental108 from "../assets/img/portfolio/categories-residental/residental-108.jpeg";
+import Residental109 from "../assets/img/portfolio/categories-residental/residental-109.jpeg";
+import Residental110 from "../assets/img/portfolio/categories-residental/residental-110.jpeg";
+import Residental111 from "../assets/img/portfolio/categories-residental/residental-111.jpeg";
 // PORTFOLIO > OFFICE
 import Office1 from "../assets/img/portfolio/categories-office/office-1.jpg";
 import Office2 from "../assets/img/portfolio/categories-office/office-2.jpg";
@@ -187,6 +232,17 @@ import Commercial47 from "../assets/img/portfolio/categories-commercial/commerci
 import Commercial48 from "../assets/img/portfolio/categories-commercial/commercial-48.jpeg";
 import Commercial49 from "../assets/img/portfolio/categories-commercial/commercial-49.jpeg";
 import Commercial50 from "../assets/img/portfolio/categories-commercial/commercial-50.jpeg";
+import Commercial51 from "../assets/img/portfolio/categories-commercial/commercial-51.jpeg";
+import Commercial52 from "../assets/img/portfolio/categories-commercial/commercial-52.jpeg";
+import Commercial53 from "../assets/img/portfolio/categories-commercial/commercial-53.jpeg";
+import Commercial54 from "../assets/img/portfolio/categories-commercial/commercial-54.jpeg";
+import Commercial55 from "../assets/img/portfolio/categories-commercial/commercial-55.jpeg";
+import Commercial56 from "../assets/img/portfolio/categories-commercial/commercial-56.jpeg";
+import Commercial57 from "../assets/img/portfolio/categories-commercial/commercial-57.jpeg";
+import Commercial58 from "../assets/img/portfolio/categories-commercial/commercial-58.jpeg";
+import Commercial59 from "../assets/img/portfolio/categories-commercial/commercial-59.jpeg";
+import Commercial60 from "../assets/img/portfolio/categories-commercial/commercial-60.jpeg";
+import Commercial61 from "../assets/img/portfolio/categories-commercial/commercial-61.jpeg";
 
 export const portfoliolist = [
   {
@@ -262,6 +318,48 @@ export const portfoliolist = [
       Residental67,
       Residental68,
       Residental69,
+      Residental70,
+      Residental71,
+      Residental72,
+      Residental73,
+      Residental74,
+      Residental75,
+      Residental76,
+      Residental77,
+      Residental78,
+      Residental79,
+      Residental80,
+      Residental81,
+      Residental82,
+      Residental83,
+      Residental84,
+      Residental85,
+      Residental86,
+      Residental87,
+      Residental88,
+      Residental89,
+      Residental90,
+      Residental91,
+      Residental92,
+      Residental93,
+      Residental94,
+      Residental95,
+      Residental96,
+      Residental97,
+      Residental98,
+      Residental99,
+      Residental100,
+      Residental101,
+      Residental102,
+      Residental103,
+      Residental104,
+      Residental105,
+      Residental106,
+      Residental107,
+      Residental108,
+      Residental109,
+      Residental110,
+      Residental111,
     ],
   },
   {
@@ -345,6 +443,17 @@ export const portfoliolist = [
       Commercial48,
       Commercial49,
       Commercial50,
+      Commercial51,
+      Commercial52,
+      Commercial53,
+      Commercial54,
+      Commercial55,
+      Commercial56,
+      Commercial57,
+      Commercial58,
+      Commercial59,
+      Commercial60,
+      Commercial61,
     ],
   },
 ];
@@ -368,12 +477,12 @@ export const teamData = [
     name: "Nitesh Parmar",
     subtitle: "Interior Designer",
   },
-  {
-    avatar: MC,
-    title: "Project Manager",
-    name: "Madan Chouhan",
-    subtitle: "Supervisor",
-  },
+  // {
+  //   avatar: MC,
+  //   title: "Project Manager",
+  //   name: "Madan Chouhan",
+  //   subtitle: "Supervisor",
+  // },
 ];
 
 // TESTIMONIALS DATA
@@ -500,6 +609,30 @@ export const testimonials = [
     subtitle: "Suraj Chiraniya",
     rating: 5,
   },
+  // 16
+  {
+    title: "Highly Recommended",
+    desc: "I'm in love with my new space! Huge thanks to Creative Interior for turning my home into something so beautiful and unique. They have an incredible eye for design and made the entire process fun and stress-free. If you’re thinking of a home makeover — don’t think twice, call them",
+    avatar: IconSanjaySurve,
+    subtitle: "Sanjay surve",
+    rating: 5,
+  },
+  // 17
+  {
+    title: "Highly Recommended",
+    desc: "Over all job execution & coordination is good. Though it can be better with more proactiveness. We wish them success in future endeavours.",
+    avatar: IconLalitGohil,
+    subtitle: "Lalit Gohil",
+    rating: 4,
+  },
+  // 18
+  {
+    title: "Highly Recommended",
+    desc: "They have created a beautiful space that reflects our style. Every detail, from colour scheme to the furniture, is perfect. 3D presentation has really helped us to execute the design and theme very well. The designer was able to take our abstract ideas and turn them into stunning reality. We love how the final design captured our vision. They have provided creative solutions wherein each furniture has placed at right position. We are very happy with the final results. Thank you to entire Creative Interrior designer team.",
+    avatar: IconHarshadaSurve,
+    subtitle: "Harshade surve",
+    rating: 5,
+  },
 ];
 
 export const dataChoose = [
@@ -572,7 +705,7 @@ export const offerData = [
     icon: IconLight,
     title: "Consultation & Concept Development",
     description:
-      "Our designers work closely with you to develop a concept that aligns with your vision, lifestyle, and budget.",
+      "Our designers work closely with you to develop a concept that aligns with your vision,lifestyle, and budget.",
   },
   {
     icon: IconRepair,

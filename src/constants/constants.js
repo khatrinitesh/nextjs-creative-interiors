@@ -793,6 +793,6 @@ export const socialMediaLinks = [
   },
   {
     image: IconWa,
-    link: "https://api.whatsapp.com/send/?phone=+918655275378&text&type=phone_number&app_absent=0",
+    link: "https://api.whatsapp.com/send?phone=918655275378&text=Hello%20there!",
   },
 ];

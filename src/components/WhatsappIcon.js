@@ -9,7 +9,7 @@ const WhatsappIcon = () => {
       <Link
         aria-label="WhatsApp"
         target="_blank"
-        href="https://api.whatsapp.com/send/?phone=+918655275378&text&type=phone_number&app_absent=0"
+        href="https://api.whatsapp.com/send?phone=918655275378&text=Hello%20there!"
       >
         <Image
           priority

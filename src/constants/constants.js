@@ -158,7 +158,6 @@ import Residental107 from "../assets/img/portfolio/categories-residental/residen
 import Residental108 from "../assets/img/portfolio/categories-residental/residental-108.jpeg";
 import Residental109 from "../assets/img/portfolio/categories-residental/residental-109.jpeg";
 import Residental110 from "../assets/img/portfolio/categories-residental/residental-110.jpeg";
-import Residental111 from "../assets/img/portfolio/categories-residental/residental-111.jpeg";
 // PORTFOLIO > OFFICE
 import Office1 from "../assets/img/portfolio/categories-office/office-1.jpg";
 import Office2 from "../assets/img/portfolio/categories-office/office-2.jpg";
@@ -359,7 +358,6 @@ export const portfoliolist = [
       Residental108,
       Residental109,
       Residental110,
-      Residental111,
     ],
   },
   {
@@ -786,15 +784,15 @@ export const socialMediaLinks = [
   },
   {
     image: IconIn,
-    link: "https://www.instagram.com/creative.interiors_designs?igsh=MTloeHNqZ3BveXZtYQ==",
+    link: "https://www.instagram.com/creativeinteriorsin?igsh=MTloeHNqZ3BveXZtYQ==",
   },
   { image: IconYt, link: "https://www.youtube.com/@Creativeinterior.06" },
   {
     image: IconLi,
-    link: "https://www.linkedin.com/authwall?trk=bf&trkInfo=AQED1iK0nFUj-gAAAZBt0qnouF0CHmUkvsyiFTD2wiqEK-87W__OPmNp9Ad_h8IoFB0pshrNgwNJigravgbnM_YJPvYtubOipO1xUF2jwg7HhRh3PfUUc1FQfhWkzwRC3UwTcSY=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fcreative-interiors-66b1a6315%3Futm_source%3Dshare%26utm_campaign%3Dshare_via%26utm_content%3Dprofile%26utm_medium%3Dandroid_app",
+    link: "https://www.linkedin.com/in/nitesh-parmar-76b5b7189?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
   {
     image: IconWa,
-    link: "https://api.whatsapp.com/send/?phone=9987939773&text&type=phone_number&app_absent=0",
+    link: "https://api.whatsapp.com/send/?phone=+918655275378&text&type=phone_number&app_absent=0",
   },
 ];

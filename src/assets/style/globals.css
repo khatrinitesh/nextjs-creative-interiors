@@ -4,7 +4,8 @@
 @font-face {
   font-family: MontserratR;
   src: url("../fonts/montserrat-regular.eot");
-  src: url("../fonts/montserrat-regular.eot?#iefix") format("embedded-opentype"),
+  src:
+    url("../fonts/montserrat-regular.eot?#iefix") format("embedded-opentype"),
     url("../fonts/montserrat-regular.woff2") format("woff2"),
     url("../fonts/montserrat-regular.woff") format("woff"),
     url("../fonts/montserrat-regular.ttf") format("truetype"),
@@ -16,7 +17,8 @@
 @font-face {
   font-family: MontserratM;
   src: url("../fonts/montserrat-medium.eot");
-  src: url("../fonts/montserrat-medium.eot?#iefix") format("embedded-opentype"),
+  src:
+    url("../fonts/montserrat-medium.eot?#iefix") format("embedded-opentype"),
     url("../fonts/montserrat-medium.woff2") format("woff2"),
     url("../fonts/montserrat-medium.woff") format("woff"),
     url("../fonts/montserrat-medium.ttf") format("truetype"),
@@ -28,8 +30,8 @@
 @font-face {
   font-family: MontserratSB;
   src: url("../fonts/montserrat-semibold.eot");
-  src: url("../fonts/montserrat-semibold.eot?#iefix")
-      format("embedded-opentype"),
+  src:
+    url("../fonts/montserrat-semibold.eot?#iefix") format("embedded-opentype"),
     url("../fonts/montserrat-semibold.woff2") format("woff2"),
     url("../fonts/montserrat-semibold.woff") format("woff"),
     url("../fonts/montserrat-semibold.ttf") format("truetype"),
@@ -41,7 +43,8 @@
 @font-face {
   font-family: MontserratB;
   src: url("../fonts/montserrat-bold.eot");
-  src: url("../fonts/montserrat-bold.eot?#iefix") format("embedded-opentype"),
+  src:
+    url("../fonts/montserrat-bold.eot?#iefix") format("embedded-opentype"),
     url("../fonts/montserrat-bold.woff2") format("woff2"),
     url("../fonts/montserrat-bold.woff") format("woff"),
     url("../fonts/montserrat-bold.ttf") format("truetype"),
@@ -121,7 +124,6 @@ body {
   .dark .footer .boxFoot:not(:last-child):after {
     background-color: var(--whitecolor);
   }
-
 }
 .tab-list {
   height: 50px;
@@ -171,21 +173,21 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
 }
-.slideShowBlock .swiper-button-prev{
-    left: 3%;
-    @media (max-width: 1023px) {
-        left: 10%;
-        width:20px;
-        height: 20px;
-    }
+.slideShowBlock .swiper-button-prev {
+  left: 3%;
+  @media (max-width: 1023px) {
+    left: 10%;
+    width: 20px;
+    height: 20px;
+  }
 }
 .slideShowBlock .swiper-button-next {
-    right: 3%;
-    @media (max-width: 1023px) {
-        right: 10%;
-        width:20px;
-        height: 20px;
-    }
+  right: 3%;
+  @media (max-width: 1023px) {
+    right: 10%;
+    width: 20px;
+    height: 20px;
+  }
 }
 .slideShowBlock .swiper-button-next:after {
   width: 100%;
@@ -289,11 +291,23 @@ input[type="number"]::-webkit-outer-spin-button {
   margin-bottom: 30px;
 }
 .error {
-  text-shadow: 1px 1px 1px #1b1b1b, 2px 2px 1px #1b1b1b, 3px 3px 1px #1b1b1b,
-    4px 4px 1px #1b1b1b, 5px 5px 1px #1b1b1b, 6px 6px 1px #1b1b1b,
-    7px 7px 1px #1b1b1b, 8px 8px 1px #1b1b1b, 25px 25px 8px rgba(0, 0, 0, 0.2);
+  text-shadow:
+    1px 1px 1px #1b1b1b,
+    2px 2px 1px #1b1b1b,
+    3px 3px 1px #1b1b1b,
+    4px 4px 1px #1b1b1b,
+    5px 5px 1px #1b1b1b,
+    6px 6px 1px #1b1b1b,
+    7px 7px 1px #1b1b1b,
+    8px 8px 1px #1b1b1b,
+    25px 25px 8px rgba(0, 0, 0, 0.2);
 }
 .errorPage .mainContent {
   margin-top: 0;
   padding: 0;
+}
+
+.topNavigation li {
+  width: 100%;
+  flex: none;
 }

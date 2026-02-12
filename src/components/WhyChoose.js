@@ -20,7 +20,6 @@ const WhyChoose = () => {
             designing and particular room interior for partial home interior
             designing.
           </p>
-          <br />
           <p>
             We believe in transforming spaces into captivating environments that
             reflect your unique lifestyle and personality. With our passion for

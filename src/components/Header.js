@@ -1,139 +1,129 @@
 "use client";
-// image
+
+// Image
 import Image from "next/image";
 import Logo from "../assets/img/icons/logo.svg";
-// router
+
+// Router
 import Link from "next/link";
-// hooks
+
+// Hooks
 import { useState, useEffect } from "react";
-// pathname
+
+// Pathname
 import { usePathname } from "next/navigation";
 import Sidebar from "./Sidebar";
 
 const Header = () => {
-  // pathname 
   const pathname = usePathname();
 
-  const isHomePage = pathname === "/"; // home
-  const isAboutPage = pathname === "/about"; // about
-  const isPortfolioPage = pathname === "/portfolio"; // portfolio
-  const isContactPage = pathname === "/contact"; // contact
-
-  // all pages > home page | about page | portfolio page | contact page
-  const otherPages =
-    !isHomePage && (isAboutPage || isPortfolioPage || isContactPage);
+  // Detect current page
+  const isHomePage = pathname === "/";
+  const isAboutPage = pathname === "/about";
+  const isPortfolioPage = pathname === "/portfolio";
+  const isContactPage = pathname === "/contact";
 
   const [isSticky, setIsSticky] = useState(false);
 
+  // Sticky scroll effect
   useEffect(() => {
-    const handleScroll = () => {
-      setIsSticky(window.scrollY > 0);
-    };
-
+    const handleScroll = () => setIsSticky(window.scrollY > 0);
     window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  // Function to get link color
+  const getLinkColor = () =>
+    isHomePage || isSticky ? "text-white" : "text-black";
 
   return (
     <>
-    {/* MOBILE + TABLET */}
-      <header className={`fixed bannerContent block shadow lg:hidden top-0 left-0 w-full z-[999] py-[15px] transition-all duration-500 ${
-            !isHomePage ? "" : "bg-priamryDark fixed"} ${isHomePage || isSticky
-            ? "!bg-[rgba(0,0,0,0.5)] !py-[15px] shadow backdrop-blur top-0 w-full left-0"
-            : ""
-        }`}>
-        <div className="container mx-auto">
-          <Link aria-label="logo" href="/"> 
-          <Image priority alt="Logo" src={Logo} className={` w-[80px]  mx-auto   ${
-                    isHomePage ? "logoDefaultWhite" : ""
-                  } ${isHomePage || isSticky ? 'logoDefaultWhite' : 'logoDefaultBlack'}`}/>
-                  </Link>
-          <Sidebar/>
+      {/* MOBILE + TABLET */}
+      <header
+        className={`fixed block lg:hidden top-0 left-0 w-full z-[999] py-[15px] transition-all duration-500
+          ${isHomePage || isSticky ? "bg-[rgba(0,0,0,0.5)] shadow backdrop-blur" : "bg-priamryDark"}`}
+      >
+        <div className="container mx-auto flex items-center justify-between">
+          <Link aria-label="logo" href="/">
+            <Image
+              priority
+              alt="Logo"
+              src={Logo}
+              className={`w-[80px] ${isHomePage || isSticky ? "logoDefaultWhite" : "logoDefaultBlack"}`}
+            />
+          </Link>
+          <Sidebar />
         </div>
       </header>
 
       {/* DESKTOP */}
-        <header
-          className={`hidden lg:block header  top-0 left-0 w-full z-[999] py-[15px] md:py-[30px] transition-all duration-500 ${
-            !isHomePage ? "bg-white" : "bg-transparent fixed"
-          } ${
-            isHomePage && isSticky
-              ? "!bg-[rgba(0,0,0,0.5)] sticky !py-[10px] shadow backdrop-blur"
-              : ""
-          }`}
-        >
-          <div className="container mx-auto">
-            <div className="flex w-full items-center justify-center">
-              <ul className="flex items-center justify-evenly w-full">
-                <li>
-                  <Link aria-label="home"
-                    href="/"
-                    className={`font-monsterratR text-fs14 lg:text-fs18 ${
-                      isHomePage ? "text-[#fff]" : "text-black"
-                    } ${
-                      pathname === "/" ? "border-b-2 border-white-500" : ""
-                    } ${isHomePage && isSticky ? "text-white" : ""}`}
-                  >
-                    Home
-                  </Link>
-                </li>
-                <li>
-                  <Link aria-label="about"
-                    href="/about"
-                    className={`font-monsterratR text-fs14 lg:text-fs18 ${
-                      !otherPages ? "!text-white" : "text-black"
-                    } ${isAboutPage ? "border-b-2 border-black" : ""} ${
-                      isHomePage && isSticky ? "text-white border-b-white" : ""
-                    }`}
-                  >
-                    About
-                  </Link>
-                </li>
-              </ul>
-
-              <Link href="/" aria-label="logo">
-                <Image priority
-                  src={Logo}
-                  alt="Logo"
-                  className={` w-[200px] ${
-                    isHomePage ? "logoDefaultWhite" : "logoDefaultBlack"
-                  } aspect-w-16 aspect-h-9 `}
-                />
+      <header
+        className={`hidden lg:block top-0 left-0 w-full z-[999] py-[15px] md:py-[30px] transition-all duration-500
+          ${!isHomePage ? "bg-white" : "bg-transparent fixed"}
+          ${isHomePage && isSticky ? "!bg-[rgba(0,0,0,0.5)] shadow backdrop-blur !py-[10px]" : ""}`}
+      >
+        <div className="container mx-auto flex items-center justify-between">
+          {/* Left Menu */}
+          <ul className="flex items-center gap-10 topNavigation justify-center">
+            <li>
+              <Link
+                href="/"
+                className={`font-monsterratR text-fs14 lg:text-fs18 ${getLinkColor()} ${
+                  isHomePage ? "border-b-2 border-white" : ""
+                }`}
+              >
+                Home
               </Link>
+            </li>
+            <li>
+              <Link
+                href="/about"
+                className={`font-monsterratR text-fs14 lg:text-fs18 ${getLinkColor()} ${
+                  isAboutPage ? "border-b-2 border-black" : ""
+                }`}
+              >
+                About
+              </Link>
+            </li>
+          </ul>
 
-              <ul className="flex items-center justify-evenly w-full">
-                <li>
-                  <Link aria-label="portfolio"
-                    href="/portfolio"
-                    className={`font-monsterratR text-fs14 lg:text-fs18 ${
-                      !otherPages ? "!text-white" : "text-black"
-                    } ${isPortfolioPage ? "border-b-2 border-black" : ""}  ${
-                      isHomePage && isSticky ? "text-white border-b-white" : ""
-                    }`}
-                  >
-                    Portfolio
-                  </Link>
-                </li>
-                <li>
-                  <Link aria-label="contact"
-                    href="/contact"
-                    className={`font-monsterratR text-fs14 lg:text-fs18 ${
-                      !otherPages ? "!text-white" : "text-black"
-                    } ${isContactPage ? "border-b-2 border-black" : ""} ${
-                      isHomePage && isSticky ? "text-white border-b-white" : ""
-                    }`}
-                  >
-                    Contact
-                  </Link>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </header>
+          {/* Logo Center */}
+          <Link href="/" aria-label="logo">
+            <Image
+              priority
+              src={Logo}
+              alt="Logo"
+              className={`w-[200px] ${isHomePage || isSticky ? "logoDefaultWhite" : "logoDefaultBlack"} aspect-w-16 aspect-h-9`}
+            />
+          </Link>
+
+          {/* Right Menu */}
+          <ul className="flex items-center gap-10 topNavigation justify-center ">
+            <li>
+              <Link
+                href="/portfolio"
+                className={`font-monsterratR text-fs14 lg:text-fs18 ${getLinkColor()} ${
+                  isPortfolioPage ? "border-b-2 border-black" : ""
+                }`}
+              >
+                Portfolio
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/contact"
+                className={`font-monsterratR text-fs14 lg:text-fs18 ${getLinkColor()} ${
+                  isContactPage ? "border-b-2 border-black" : ""
+                }`}
+              >
+                Contact
+              </Link>
+            </li>
+          </ul>
+        </div>
+      </header>
     </>
   );
 };
+
 export default Header;
